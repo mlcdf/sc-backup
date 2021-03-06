@@ -11,7 +11,7 @@ func TestNoTabInUsage(t *testing.T) {
 	for scanner.Scan() {
 		line := scanner.Text()
 		if strings.HasPrefix(line, "\t") {
-			t.Errorf("line %s start with a tabulation caracter", line)
+			t.Errorf("line %s start with a tabulation character", line)
 		}
 	}
 	if scanner.Err() != nil {
