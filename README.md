@@ -4,7 +4,7 @@ A fast and easy way to backup a [SensCritique](https://senscritique.com) user or
 
 ## Installation
 
-- From [GitHub releases](https://github.com/mlcdf/sc-backup/releases): download and place the binary in your `$PATH`
+- From [GitHub releases](https://github.com/mlcdf/sc-backup/releases): download the binary corresponding to your OS and architecture.
 - From source (first, make sure you have `$GOROOT/bin` in your `$PATH`):
 ```sh
 go get https://github.com/mlcdf/sc-backup
