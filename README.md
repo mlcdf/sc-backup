@@ -1,6 +1,6 @@
 # sc-backup
 
-A fast and easy way to backup a [SensCritique](https://senscritique.com) user or list.
+A fast and easy way to backup a [SensCritique](https://www.senscritique.com) user or list.
 
 ## Installation
 
