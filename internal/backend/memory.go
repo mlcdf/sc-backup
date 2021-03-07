@@ -1,3 +1,4 @@
+// +build !release
 package backend
 
 // Memory is used for testing purpose
