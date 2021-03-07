@@ -38,7 +38,7 @@ Run the app
 go run main.go
 ```
 
-Lancer les tests
+Run the tests
 ```sh
 go test ./...
 ```
