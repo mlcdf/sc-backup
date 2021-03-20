@@ -88,7 +88,7 @@ func writeCSV(entries interface{}, filename string, pretty bool) error {
 		mapString := []string{
 			entry.ID,
 			entry.Title,
-			entry.FrenchTitle,
+			entry.OriginalTitle,
 			strconv.Itoa(entry.Year),
 			strings.Join(entry.Authors, ";"),
 			strconv.Itoa(entry.Rating),
