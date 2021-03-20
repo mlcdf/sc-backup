@@ -74,6 +74,10 @@ func validateUser(username string) error {
 	return nil
 }
 
+func isList(document *goquery.Document) bool {
+	return document.Find(".elme-listTitle").Length() == 1
+}
+
 func parseDocument(document *goquery.Document) ([]*sc.Entry, error) {
 	entries := make([]*sc.Entry, 0)
 	document.Find(".elco-collection-item, .elli-item").Each(func(i int, s *goquery.Selection) {
@@ -103,7 +107,12 @@ func parseDocument(document *goquery.Document) ([]*sc.Entry, error) {
 			entry.Year = year
 		}
 
-		ratingString := strings.TrimSpace(s.Find(".elco-collection-rating.user > a > div > span").Text())
+		ratingString := ""
+		if isList(document) {
+			ratingString = strings.TrimSpace(s.Find(".elrua-useraction-inner").Text())
+		} else {
+			ratingString = strings.TrimSpace(s.Find(".elco-collection-rating.user > a > div > span").Text())
+		}
 
 		if ratingString != "" {
 			rating, err := strconv.Atoi(ratingString)
@@ -112,7 +121,6 @@ func parseDocument(document *goquery.Document) ([]*sc.Entry, error) {
 			}
 			entry.Rating = rating
 		}
-
 		entries = append(entries, entry)
 	})
 
