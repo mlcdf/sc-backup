@@ -13,4 +13,5 @@ type Entry struct {
 	Year        int      `json:"year,omitempty"`
 	Authors     []string `json:"authors"`
 	Rating      int      `json:"rating,omitempty"`
+	DoneDate    string   `json:"done_date,omitempty"`
 }

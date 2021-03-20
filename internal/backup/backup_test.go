@@ -7,15 +7,15 @@ import (
 	"github.com/mlcdf/sc-backup/internal/sc"
 )
 
-func TestCheckForValidUser(t *testing.T) {
+func TestValidateUser(t *testing.T) {
 	username := "username-that-does-not-exists"
-	err := checkForValidUser(username)
+	err := validateUser(username)
 	if err == nil {
 		t.Errorf("username %s should not exist", username)
 	}
 
 	username = "mlcdf"
-	err = checkForValidUser(username)
+	err = validateUser(username)
 	if err != nil {
 		t.Errorf("username %s should exist", username)
 	}
