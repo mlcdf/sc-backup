@@ -83,11 +83,12 @@ func parseDocument(document *goquery.Document) ([]*sc.Entry, error) {
 	document.Find(".elco-collection-item, .elli-item").Each(func(i int, s *goquery.Selection) {
 		id, _ := s.Find(".elco-collection-content > .elco-collection-poster, .elli-media figure").Attr("data-sc-product-id")
 		title := strings.TrimSpace(s.Find(".elco-title a").Text())
+		originalTitle := strings.TrimSpace(s.Find(".elco-original-title").Text())
 
 		var entry = &sc.Entry{
-			ID:          id,
-			Title:       title,
-			FrenchTitle: title,
+			ID:            id,
+			Title:         title,
+			OriginalTitle: originalTitle,
 		}
 
 		entry.Authors = make([]string, 0, 5)
