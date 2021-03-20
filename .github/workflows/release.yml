@@ -1,7 +1,9 @@
+name: release
+
 on:
   release:
     types: [published]
-name: Upload Release Asset
+
 jobs:
   release:
     name: Upload Release Asset

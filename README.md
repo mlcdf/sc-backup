@@ -1,5 +1,7 @@
 # sc-backup
 
+[![Actions Status](https://github.com/mlcdf/sc-backup/workflows/test/badge.svg)](https://github.com/mlcdf/sc-backup/actions)
+
 A fast and easy way to backup a [SensCritique](https://www.senscritique.com) user or list.
 
 ## Installation
