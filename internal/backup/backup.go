@@ -19,6 +19,8 @@ import (
 	"github.com/pkg/errors"
 )
 
+type ParseFunc func(document *goquery.Document) ([]*sc.Entry, error)
+
 var client = &http.Client{
 	Timeout: time.Second * 20,
 	CheckRedirect: func(req *http.Request, via []*http.Request) error {
@@ -59,7 +61,7 @@ func makeListURL(url string, index int) string {
 	return url
 }
 
-func checkForValidUser(username string) error {
+func validateUser(username string) error {
 	res, err := request(sc.URL + "/" + username)
 
 	if err != nil {
@@ -156,7 +158,7 @@ func listTitle(document *goquery.Document) (string, error) {
 	return title, nil
 }
 
-func extractPage(url string) ([]*sc.Entry, error) {
+func extractPage(url string, parseFunc ParseFunc) ([]*sc.Entry, error) {
 	res, err := request(url)
 	if err != nil {
 		return nil, err
@@ -167,7 +169,7 @@ func extractPage(url string) ([]*sc.Entry, error) {
 		return nil, err
 	}
 
-	entries, err := parseDocument(document)
+	entries, err := parseFunc(document)
 	if err != nil {
 		return nil, err
 	}
@@ -216,7 +218,7 @@ func List(url string, back backend.Backend) error {
 		for i := 2; i <= int(nbOfPages); i++ {
 			i := i
 			tasks = append(tasks, pool.NewTask(func() (interface{}, error) {
-				entries, err := extractPage(makeListURL(url, i))
+				entries, err := extractPage(makeListURL(url, i), parseDocument)
 				if err != nil {
 					return nil, err
 				}
@@ -243,13 +245,18 @@ func List(url string, back backend.Backend) error {
 
 // Collection backs up a user collection
 func Collection(username string, back backend.Backend) error {
-	err := checkForValidUser(username)
+	err := validateUser(username)
 	if err != nil {
 		return err
 	}
 
 	logx.Info("Backing up collection for user %s", username)
 	back.Create()
+
+	dates, err := parseJournal(username)
+	if err != nil {
+		return nil
+	}
 
 	for _, category := range sc.Categories {
 		for _, filter := range sc.Filters {
@@ -282,7 +289,7 @@ func Collection(username string, back backend.Backend) error {
 				for i := 2; i <= int(nbOfPages); i++ {
 					i := i
 					tasks = append(tasks, pool.NewTask(func() (interface{}, error) {
-						entries, err := extractPage(url + strconv.Itoa(i))
+						entries, err := extractPage(url+strconv.Itoa(i), parseDocument)
 						if err != nil {
 							return nil, err
 						}
@@ -299,6 +306,16 @@ func Collection(username string, back backend.Backend) error {
 				}
 			}
 
+			if filter == "done" {
+				for _, entry := range entries {
+					for _, d := range dates {
+						if entry.ID == d.ID {
+							entry.DoneDate = d.DoneDate
+						}
+					}
+				}
+			}
+
 			err = back.SaveCollection(entries, fmt.Sprintf("%s-%s", category, filter))
 			if err != nil {
 				return err
@@ -306,5 +323,99 @@ func Collection(username string, back backend.Backend) error {
 		}
 
 	}
+
 	return nil
+}
+
+func parseJournal(username string) ([]*sc.Entry, error) {
+	url := sc.URL + "/" + username + "/journal/all/all"
+	res, err := request(url)
+	if err != nil {
+		return nil, err
+	}
+
+	document, err := goquery.NewDocumentFromResponse(res)
+	if err != nil {
+		return nil, err
+	}
+
+	size, err := journalSize(document)
+	if err != nil {
+		return nil, err
+	}
+
+	entries, err := extractDoneDate(document)
+	if err != nil {
+		return nil, err
+	}
+
+	nbOfPages := math.Ceil(float64(size) / 20)
+	if nbOfPages > 1 {
+		tasks := []*pool.Task{}
+
+		for i := 2; i <= int(nbOfPages); i++ {
+			i := i
+			tasks = append(tasks, pool.NewTask(func() (interface{}, error) {
+				entries, err := extractPage(sc.URL+"/"+username+"/journal/all/all/all/page-"+strconv.Itoa(i)+".ajax", extractDoneDate)
+				if err != nil {
+					return nil, err
+				}
+				return entries, nil
+			}))
+		}
+
+		p := pool.NewPool(tasks, 20)
+		p.Run()
+
+		entries, err = p.Merge(entries)
+		if err != nil {
+			return nil, err
+		}
+	}
+
+	return entries, nil
+}
+
+func extractDoneDate(document *goquery.Document) ([]*sc.Entry, error) {
+	entries := make([]*sc.Entry, 0)
+
+	document.Find(".eldi-list-item").Each(func(i int, s *goquery.Selection) {
+		date, exists := s.Attr("data-sc-datedone")
+		if !exists {
+			// ce n'est pas une oeuvre, mais un titre année ou mois
+			// on les ignore
+			return
+		}
+
+		s.Find(".eldi-collection-container").Each(func(i int, s *goquery.Selection) {
+			parsedId, exists := s.Find(".eldi-collection-poster").Attr("data-sc-product-id")
+			if !exists {
+				// pour les épisodes de série, on arrive ici par exemple.
+				// on les ignore
+				return
+			}
+			id := strings.TrimSpace(parsedId)
+			e := &sc.Entry{
+				ID:       id,
+				DoneDate: date,
+			}
+			entries = append(entries, e)
+		})
+	})
+	return entries, nil
+}
+
+func journalSize(document *goquery.Document) (int, error) {
+	size := 0
+	document.Find(".elco-collection-count").Each(func(i int, s *goquery.Selection) {
+		parsedValue := strings.TrimSpace(s.Text())
+		if parsedValue != "" {
+			nb, err := strconv.Atoi(parsedValue[1 : len(parsedValue)-1])
+			if err != nil {
+				log.Fatal(err)
+			}
+			size += nb
+		}
+	})
+	return size, nil
 }
