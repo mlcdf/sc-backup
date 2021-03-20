@@ -102,7 +102,11 @@ func main() {
 		log.Fatalln("error: at least one of --list or --collection is required")
 	}
 
-	if isVerboseFlag == true {
+	if formatFlag == "csv" && prettyFlag {
+		logx.Info("warning: -p/--pretty is useless with -f/--format csv. CSV won't be prettified.")
+	}
+
+	if isVerboseFlag {
 		logx.EnableVerboseOutput()
 	}
 
