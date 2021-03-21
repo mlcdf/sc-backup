@@ -66,7 +66,7 @@ func main() {
 	flag.StringVar(&listFlag, "l", listFlag, "Download list")
 
 	flag.StringVar(&collectionFlag, "collection", collectionFlag, "Download user collection")
-	flag.StringVar(&collectionFlag, "-c", collectionFlag, "Download user collection")
+	flag.StringVar(&collectionFlag, "c", collectionFlag, "Download user collection")
 
 	flag.StringVar(&outputFlag, "output", outputFlag, "Output directory")
 	flag.StringVar(&outputFlag, "o", outputFlag, "Output directory")
