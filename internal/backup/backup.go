@@ -199,7 +199,7 @@ func List(url string, back backend.Backend) error {
 
 	document, err := goquery.NewDocumentFromResponse(res)
 	if err != nil {
-		return nil
+		return err
 	}
 
 	size, err := listSize(document)
@@ -264,7 +264,7 @@ func Collection(username string, back backend.Backend) error {
 
 	dates, err := journal(username)
 	if err != nil {
-		return nil
+		return err
 	}
 
 	for _, category := range sc.Categories {
