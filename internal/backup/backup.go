@@ -19,7 +19,7 @@ import (
 	"github.com/pkg/errors"
 )
 
-type ParseFunc func(document *goquery.Document) ([]*sc.Entry, error)
+type parseFunc func(document *goquery.Document) ([]*sc.Entry, error)
 
 var client = &http.Client{
 	Timeout: time.Second * 20,
@@ -44,7 +44,7 @@ func request(url string) (*http.Response, error) {
 	return res, nil
 }
 
-func makeURL(username string, category string, filter string) string {
+func makeCollectionURL(username string, category string, filter string) string {
 	return fmt.Sprintf("%s/%s/collection/%s/%s/all/all/all/all/all/all/all/page-", sc.URL, username, filter, category)
 }
 
@@ -167,7 +167,7 @@ func listTitle(document *goquery.Document) (string, error) {
 	return title, nil
 }
 
-func extractPage(url string, parseFunc ParseFunc) ([]*sc.Entry, error) {
+func extractPage(url string, parseF parseFunc) ([]*sc.Entry, error) {
 	res, err := request(url)
 	if err != nil {
 		return nil, err
@@ -178,7 +178,7 @@ func extractPage(url string, parseFunc ParseFunc) ([]*sc.Entry, error) {
 		return nil, err
 	}
 
-	entries, err := parseFunc(document)
+	entries, err := parseF(document)
 	if err != nil {
 		return nil, err
 	}
@@ -189,7 +189,7 @@ func extractPage(url string, parseFunc ParseFunc) ([]*sc.Entry, error) {
 func List(url string, back backend.Backend) error {
 	res, err := request(url)
 	if err != nil {
-		return nil
+		return err
 	}
 
 	err = back.Create()
@@ -262,7 +262,7 @@ func Collection(username string, back backend.Backend) error {
 	logx.Info("Backing up collection for user %s", username)
 	back.Create()
 
-	dates, err := parseJournal(username)
+	dates, err := journal(username)
 	if err != nil {
 		return nil
 	}
@@ -270,7 +270,7 @@ func Collection(username string, back backend.Backend) error {
 	for _, category := range sc.Categories {
 		for _, filter := range sc.Filters {
 
-			url := makeURL(username, category, filter)
+			url := makeCollectionURL(username, category, filter)
 			res, err := request(url)
 			if err != nil {
 				return err
@@ -336,7 +336,8 @@ func Collection(username string, back backend.Backend) error {
 	return nil
 }
 
-func parseJournal(username string) ([]*sc.Entry, error) {
+// journal parse a user journal and extract done dates
+func journal(username string) ([]*sc.Entry, error) {
 	url := sc.URL + "/" + username + "/journal/all/all"
 	res, err := request(url)
 	if err != nil {
