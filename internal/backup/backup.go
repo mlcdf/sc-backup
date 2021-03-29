@@ -108,7 +108,9 @@ func parseDocument(document *goquery.Document) ([]*sc.Entry, error) {
 			entry.Year = year
 		}
 
-		ratingString := ""
+		entry.Comment = strings.TrimSpace(s.Find(".elli-annotation-content").Text())
+
+		var ratingString string
 		if isList(document) {
 			ratingString = strings.TrimSpace(s.Find(".elrua-useraction-inner").Text())
 		} else {
@@ -242,6 +244,10 @@ func List(url string, back backend.Backend) error {
 		if err != nil {
 			return err
 		}
+	}
+
+	if nbEntries := len(entries); nbEntries != size {
+		return fmt.Errorf("the list '%s' has %d entries, but only %d were found", title, size, nbEntries)
 	}
 
 	err = back.SaveList(entries, slugify.Marshal(title, true))
