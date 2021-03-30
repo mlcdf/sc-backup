@@ -4,7 +4,7 @@
 
 A fast and easy way to backup a [SensCritique](https://www.senscritique.com) user or list.
 
-## Installation
+## Install
 
 - From [GitHub releases](https://github.com/mlcdf/sc-backup/releases): download the binary corresponding to your OS and architecture.
 - From source (make sure `$GOPATH/bin` is in your `$PATH`):
@@ -32,6 +32,8 @@ Examples:
     sc-backup --collection mlcdf
     sc-backup --list https://www.senscritique.com/liste/Vu_au_cinema/363578
 ```
+
+Check out the examples to see what the output looks like.
 
 ## Development
 
