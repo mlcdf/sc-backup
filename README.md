@@ -33,7 +33,7 @@ Examples:
     sc-backup --list https://www.senscritique.com/liste/Vu_au_cinema/363578
 ```
 
-Check out the examples to see what the output looks like.
+Check out the [examples](examples) to see what the output looks like.
 
 ## Development
 
