@@ -28,5 +28,5 @@ curl -L "${LOCATION}" -o sc-backup
 
 chmod +x sc-backup
 
-./sc-backup --collection mlcdf -o example-output
-./sc-backup --list https://www.senscritique.com/liste/Vu_au_cinema/363578 -o example-output
+./sc-backup --collection mlcdf -o example-output --pretty
+./sc-backup --list https://www.senscritique.com/liste/Vu_au_cinema/363578 -o example-output --pretty
