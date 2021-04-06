@@ -12,7 +12,7 @@ jobs:
       - name: Install Go
         uses: actions/setup-go@v2
         with:
-          go-version: 1.x
+          go-version: 1.16
       - name: Checkout repository
         uses: actions/checkout@v2
       - name: Build binaries
@@ -43,4 +43,4 @@ jobs:
                 name: file,
                 data: await fs.readFile(file),
               });
-            }  
+            }
