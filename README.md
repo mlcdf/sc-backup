@@ -1,6 +1,6 @@
 # sc-backup
 
-[![test](https://go.mlcdf.fr/sc-backup/actions/workflows/test.yml/badge.svg?branch=main)](https://go.mlcdf.fr/sc-backup/actions/workflows/test.yml)
+[![test](https://github.com/mlcdf/sc-backup/actions/workflows/test.yml/badge.svg?branch=main)](https://github.com/mlcdf/sc-backup/actions/workflows/test.yml)
 
 A fast and easy way to backup a [SensCritique](https://www.senscritique.com) user or list.
 
