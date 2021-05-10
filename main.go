@@ -9,9 +9,9 @@ import (
 	"runtime/debug"
 	"time"
 
-	"github.com/mlcdf/sc-backup/internal/backend"
-	"github.com/mlcdf/sc-backup/internal/backup"
-	"github.com/mlcdf/sc-backup/internal/logx"
+	"go.mlcdf.fr/sc-backup/internal/backend"
+	"go.mlcdf.fr/sc-backup/internal/backup"
+	"go.mlcdf.fr/sc-backup/internal/logx"
 )
 
 const usage = `Usage:

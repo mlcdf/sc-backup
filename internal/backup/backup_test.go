@@ -3,8 +3,8 @@ package backup
 import (
 	"testing"
 
-	"github.com/mlcdf/sc-backup/internal/backend"
-	"github.com/mlcdf/sc-backup/internal/sc"
+	"go.mlcdf.fr/sc-backup/internal/backend"
+	"go.mlcdf.fr/sc-backup/internal/sc"
 )
 
 func TestValidateUser(t *testing.T) {

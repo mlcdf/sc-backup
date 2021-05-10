@@ -1,15 +1,15 @@
 # sc-backup
 
-[![test](https://github.com/mlcdf/sc-backup/actions/workflows/test.yml/badge.svg?branch=main)](https://github.com/mlcdf/sc-backup/actions/workflows/test.yml)
+[![test](https://go.mlcdf.fr/sc-backup/actions/workflows/test.yml/badge.svg?branch=main)](https://go.mlcdf.fr/sc-backup/actions/workflows/test.yml)
 
 A fast and easy way to backup a [SensCritique](https://www.senscritique.com) user or list.
 
 ## Install
 
-- From [GitHub releases](https://github.com/mlcdf/sc-backup/releases): download the binary corresponding to your OS and architecture.
+- From [GitHub releases](https://go.mlcdf.fr/sc-backup/releases): download the binary corresponding to your OS and architecture.
 - From source (make sure `$GOPATH/bin` is in your `$PATH`):
 ```sh
-go get https://github.com/mlcdf/sc-backup
+go get https://go.mlcdf.fr/sc-backup
 ```
 
 ## Usage

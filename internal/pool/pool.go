@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/mlcdf/sc-backup/internal/sc"
+	"go.mlcdf.fr/sc-backup/internal/sc"
 )
 
 type RunFunc func() (interface{}, error)
@@ -87,7 +87,7 @@ func (p *Pool) Merge(entries []*sc.Entry) ([]*sc.Entry, error) {
 
 		_out, ok := task.Out.([]*sc.Entry)
 		if !ok {
-			return nil, fmt.Errorf("critical: failed to cast to []*Entry. Please open a bug report at https://github.com/mlcdf/sc-backup")
+			return nil, fmt.Errorf("critical: failed to cast to []*Entry. Please open a bug report at https://go.mlcdf.fr/sc-backup")
 		}
 		entries = append(entries, _out...)
 	}
