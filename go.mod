@@ -1,4 +1,4 @@
-module github.com/mlcdf/sc-backup
+module go.mlcdf.fr/sc-backup
 
 go 1.16
 

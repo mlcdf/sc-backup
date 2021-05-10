@@ -12,11 +12,11 @@ import (
 
 	"github.com/PuerkitoBio/goquery"
 	"github.com/metal3d/go-slugify"
-	"github.com/mlcdf/sc-backup/internal/backend"
-	"github.com/mlcdf/sc-backup/internal/logx"
-	"github.com/mlcdf/sc-backup/internal/pool"
-	"github.com/mlcdf/sc-backup/internal/sc"
 	"github.com/pkg/errors"
+	"go.mlcdf.fr/sc-backup/internal/backend"
+	"go.mlcdf.fr/sc-backup/internal/logx"
+	"go.mlcdf.fr/sc-backup/internal/pool"
+	"go.mlcdf.fr/sc-backup/internal/sc"
 )
 
 type parseFunc func(document *goquery.Document) ([]*sc.Entry, error)

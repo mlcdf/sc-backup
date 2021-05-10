@@ -10,7 +10,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/mlcdf/sc-backup/internal/sc"
+	"go.mlcdf.fr/sc-backup/internal/sc"
 )
 
 type fs struct {
