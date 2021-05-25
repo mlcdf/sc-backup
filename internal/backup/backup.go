@@ -11,15 +11,18 @@ import (
 	"time"
 
 	"github.com/PuerkitoBio/goquery"
-	"github.com/metal3d/go-slugify"
 	"github.com/pkg/errors"
-	"go.mlcdf.fr/sc-backup/internal/backend"
+	"go.mlcdf.fr/sc-backup/internal/domain"
 	"go.mlcdf.fr/sc-backup/internal/logx"
 	"go.mlcdf.fr/sc-backup/internal/pool"
-	"go.mlcdf.fr/sc-backup/internal/sc"
 )
 
-type parseFunc func(document *goquery.Document) ([]*sc.Entry, error)
+const URL = "https://www.senscritique.com"
+
+var Categories = []string{"films", "series", "bd", "livres", "albums", "morceaux"}
+var Filters = []string{"done", "wish"}
+
+type parseFunc func(document *goquery.Document) ([]*domain.Entry, error)
 
 var client = &http.Client{
 	Timeout: time.Second * 20,
@@ -45,7 +48,7 @@ func request(url string) (*http.Response, error) {
 }
 
 func makeCollectionURL(username string, category string, filter string) string {
-	return fmt.Sprintf("%s/%s/collection/%s/%s/all/all/all/all/all/all/all/page-", sc.URL, username, filter, category)
+	return fmt.Sprintf("%s/%s/collection/%s/%s/all/all/all/all/all/all/all/page-", URL, username, filter, category)
 }
 
 func makeListURL(url string, index int) string {
@@ -62,7 +65,7 @@ func makeListURL(url string, index int) string {
 }
 
 func validateUser(username string) error {
-	res, err := request(sc.URL + "/" + username)
+	res, err := request(URL + "/" + username)
 
 	if err != nil {
 		return errors.Wrap(err, "failed to validate user")
@@ -78,14 +81,14 @@ func isList(document *goquery.Document) bool {
 	return document.Find(".elme-listTitle").Length() == 1
 }
 
-func parseDocument(document *goquery.Document) ([]*sc.Entry, error) {
-	entries := make([]*sc.Entry, 0)
+func parseDocument(document *goquery.Document) ([]*domain.Entry, error) {
+	entries := make([]*domain.Entry, 0)
 	document.Find(".elco-collection-item, .elli-item").Each(func(i int, s *goquery.Selection) {
 		id, _ := s.Find(".elco-collection-content > .elco-collection-poster, .elli-media figure").Attr("data-sc-product-id")
 		title := strings.TrimSpace(s.Find(".elco-title a").Text())
 		originalTitle := strings.TrimSpace(s.Find(".elco-original-title").Text())
 
-		var entry = &sc.Entry{
+		var entry = &domain.Entry{
 			ID:            id,
 			Title:         title,
 			OriginalTitle: originalTitle,
@@ -169,7 +172,11 @@ func listTitle(document *goquery.Document) (string, error) {
 	return title, nil
 }
 
-func extractPage(url string, parseF parseFunc) ([]*sc.Entry, error) {
+func listDescription(document *goquery.Document) string {
+	return strings.TrimSpace(document.Find(`div[data-rel="list-description"`).Text())
+}
+
+func extractPage(url string, parseF parseFunc) ([]*domain.Entry, error) {
 	res, err := request(url)
 	if err != nil {
 		return nil, err
@@ -188,7 +195,7 @@ func extractPage(url string, parseF parseFunc) ([]*sc.Entry, error) {
 }
 
 // List backs up a list
-func List(url string, back backend.Backend) error {
+func List(url string, back domain.Backend) error {
 	res, err := request(url)
 	if err != nil {
 		return err
@@ -219,7 +226,7 @@ func List(url string, back backend.Backend) error {
 		return err
 	}
 
-	// extract list comments too
+	list := domain.NewList(entries, title, listDescription(document))
 
 	nbOfPages := math.Ceil(float64(size) / 30)
 
@@ -240,17 +247,17 @@ func List(url string, back backend.Backend) error {
 		p := pool.NewPool(tasks, 20)
 		p.Run()
 
-		entries, err = p.Merge(entries)
+		list.Entries, err = p.Merge(list.Entries)
 		if err != nil {
 			return err
 		}
 	}
 
-	if nbEntries := len(entries); nbEntries != size {
+	if nbEntries := len(list.Entries); nbEntries != size {
 		return fmt.Errorf("the list '%s' has %d entries, but only %d were found", title, size, nbEntries)
 	}
 
-	err = back.SaveList(entries, slugify.Marshal(title, true))
+	err = back.Save(list)
 	if err != nil {
 		return err
 	}
@@ -259,7 +266,7 @@ func List(url string, back backend.Backend) error {
 }
 
 // Collection backs up a user collection
-func Collection(username string, back backend.Backend) error {
+func Collection(username string, back domain.Backend) error {
 	err := validateUser(username)
 	if err != nil {
 		return err
@@ -273,8 +280,8 @@ func Collection(username string, back backend.Backend) error {
 		return err
 	}
 
-	for _, category := range sc.Categories {
-		for _, filter := range sc.Filters {
+	for _, category := range Categories {
+		for _, filter := range Filters {
 
 			url := makeCollectionURL(username, category, filter)
 			res, err := request(url)
@@ -297,6 +304,8 @@ func Collection(username string, back backend.Backend) error {
 				return err
 			}
 
+			collection := domain.NewCollection(entries, category, filter, username)
+
 			nbOfPages := math.Ceil(float64(size) / 18)
 			if nbOfPages > 1 {
 				tasks := []*pool.Task{}
@@ -315,14 +324,14 @@ func Collection(username string, back backend.Backend) error {
 				p := pool.NewPool(tasks, 20)
 				p.Run()
 
-				entries, err = p.Merge(entries)
+				collection.Entries, err = p.Merge(collection.Entries)
 				if err != nil {
 					return err
 				}
 			}
 
 			if filter == "done" {
-				for _, entry := range entries {
+				for _, entry := range collection.Entries {
 					for _, d := range dates {
 						if entry.ID == d.ID {
 							entry.DoneDate = d.DoneDate
@@ -331,7 +340,7 @@ func Collection(username string, back backend.Backend) error {
 				}
 			}
 
-			err = back.SaveCollection(entries, fmt.Sprintf("%s-%s", category, filter))
+			err = back.Save(collection)
 			if err != nil {
 				return err
 			}
@@ -343,8 +352,8 @@ func Collection(username string, back backend.Backend) error {
 }
 
 // journal parse a user journal and extract done dates
-func journal(username string) ([]*sc.Entry, error) {
-	url := sc.URL + "/" + username + "/journal/all/all"
+func journal(username string) ([]*domain.Entry, error) {
+	url := URL + "/" + username + "/journal/all/all"
 	res, err := request(url)
 	if err != nil {
 		return nil, err
@@ -372,7 +381,7 @@ func journal(username string) ([]*sc.Entry, error) {
 		for i := 2; i <= int(nbOfPages); i++ {
 			i := i
 			tasks = append(tasks, pool.NewTask(func() (interface{}, error) {
-				entries, err := extractPage(sc.URL+"/"+username+"/journal/all/all/all/page-"+strconv.Itoa(i)+".ajax", extractDoneDate)
+				entries, err := extractPage(URL+"/"+username+"/journal/all/all/all/page-"+strconv.Itoa(i)+".ajax", extractDoneDate)
 				if err != nil {
 					return nil, err
 				}
@@ -392,8 +401,8 @@ func journal(username string) ([]*sc.Entry, error) {
 	return entries, nil
 }
 
-func extractDoneDate(document *goquery.Document) ([]*sc.Entry, error) {
-	entries := make([]*sc.Entry, 0)
+func extractDoneDate(document *goquery.Document) ([]*domain.Entry, error) {
+	entries := make([]*domain.Entry, 0)
 
 	document.Find(".eldi-list-item").Each(func(i int, s *goquery.Selection) {
 		date, exists := s.Attr("data-sc-datedone")
@@ -411,7 +420,7 @@ func extractDoneDate(document *goquery.Document) ([]*sc.Entry, error) {
 				return
 			}
 			id := strings.TrimSpace(parsedId)
-			e := &sc.Entry{
+			e := &domain.Entry{
 				ID:       id,
 				DoneDate: date,
 			}

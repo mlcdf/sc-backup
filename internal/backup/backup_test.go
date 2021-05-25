@@ -4,7 +4,7 @@ import (
 	"testing"
 
 	"go.mlcdf.fr/sc-backup/internal/backend"
-	"go.mlcdf.fr/sc-backup/internal/sc"
+	"go.mlcdf.fr/sc-backup/internal/domain"
 )
 
 func TestValidateUser(t *testing.T) {
@@ -65,16 +65,13 @@ func TestMakeListURL(t *testing.T) {
 func TestBackupList(t *testing.T) {
 	back := backend.NewMemory()
 	List("https://www.senscritique.com/liste/Vu_au_cinema/363578", back)
-	if back.Slug != "vu-au-cinema" {
-		t.Errorf("expected %s, got %s", "vu-au-cinema", back.Slug)
-	}
 
-	entries := back.Stuff.([]*sc.Entry)
-	if l := len(entries); l < 100 {
+	list := back.Stuff.(*domain.List)
+	if l := len(list.Entries); l < 100 {
 		t.Errorf("too few entries: %d", l)
 	}
 
-	entry := entries[0]
+	entry := list.Entries[0]
 	if entry.ID == "" {
 		t.Errorf("entry.ID cannot be empty %v", entry)
 	}

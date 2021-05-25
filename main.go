@@ -11,6 +11,8 @@ import (
 
 	"go.mlcdf.fr/sc-backup/internal/backend"
 	"go.mlcdf.fr/sc-backup/internal/backup"
+	"go.mlcdf.fr/sc-backup/internal/domain"
+	"go.mlcdf.fr/sc-backup/internal/format"
 	"go.mlcdf.fr/sc-backup/internal/logx"
 )
 
@@ -110,30 +112,32 @@ func main() {
 		logx.EnableVerboseOutput()
 	}
 
-	var back backend.Backend
+	var back domain.Backend
 	var err error
 
-	if collectionFlag != "" {
-		back, err = backend.NewFS(filepath.Join(outputFlag, collectionFlag), prettyFlag, formatFlag)
-		if err != nil {
-			log.Fatalf("error: %s", err)
-		}
+	var formatter domain.Formatter
 
+	switch formatFlag {
+	case "json":
+		formatter = format.NewJSON(prettyFlag)
+	case "csv":
+		formatter = &format.CSV{}
+	default:
+		log.Fatalf("invalid format %s: it should be json|csv|html", formatFlag)
+	}
+
+	if collectionFlag != "" {
+		back = backend.NewFS(filepath.Join(outputFlag, collectionFlag), formatter)
 		err = backup.Collection(collectionFlag, back)
-		if err != nil {
-			log.Fatalf("error: %s", err)
-		}
 	}
 
 	if listFlag != "" {
-		back, err = backend.NewFS(outputFlag, prettyFlag, formatFlag)
-		if err != nil {
-			log.Fatalf("error: %s", err)
-		}
+		back = backend.NewFS(outputFlag, formatter)
 		err = backup.List(listFlag, back)
-		if err != nil {
-			log.Fatalf("error: %s", err)
-		}
+	}
+
+	if err != nil {
+		log.Fatalf("error: %s", err)
 	}
 
 	to, err := filepath.Abs(back.Location())
