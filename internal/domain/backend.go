@@ -1,4 +1,10 @@
-package backend
+package domain
+
+type Serializable interface {
+	Slug() string
+	CSV() []*Entry
+	JSON() interface{}
+}
 
 type Backend interface {
 	// Location returns this backend's location (the directory name).
@@ -7,6 +13,5 @@ type Backend interface {
 	// Create the backend resources
 	Create() error
 
-	SaveCollection(stuff interface{}, slug string) error
-	SaveList(stuff interface{}, slug string) error
+	Save(Serializable) error
 }
