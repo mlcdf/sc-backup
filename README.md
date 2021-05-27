@@ -6,7 +6,7 @@ A fast and easy way to backup a [SensCritique](https://www.senscritique.com) use
 
 ## Install
 
-- From [GitHub releases](https://go.mlcdf.fr/sc-backup/releases): download the binary corresponding to your OS and architecture.
+- From [GitHub releases](https://github.com/mlcdf/sc-backup/releases): download the binary corresponding to your OS and architecture.
 - From source (make sure `$GOPATH/bin` is in your `$PATH`):
 ```sh
 go get go.mlcdf.fr/sc-backup
