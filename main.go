@@ -13,7 +13,7 @@ import (
 	"go.mlcdf.fr/sc-backup/internal/backup"
 	"go.mlcdf.fr/sc-backup/internal/domain"
 	"go.mlcdf.fr/sc-backup/internal/format"
-	"go.mlcdf.fr/sc-backup/internal/logx"
+	"go.mlcdf.fr/sc-backup/internal/logging"
 )
 
 const usage = `Usage:
@@ -105,11 +105,11 @@ func main() {
 	}
 
 	if formatFlag == "csv" && prettyFlag {
-		logx.Info("warning: -p/--pretty is useless with -f/--format csv. CSV won't be prettified.")
+		logging.Info("warning: -p/--pretty is useless with -f/--format csv. CSV won't be prettified.")
 	}
 
 	if isVerboseFlag {
-		logx.EnableVerboseOutput()
+		logging.EnableVerboseOutput()
 	}
 
 	var back domain.Backend
@@ -144,5 +144,5 @@ func main() {
 	if err != nil {
 		to = back.Location()
 	}
-	logx.Info("Saved to %s in %s", to, time.Since(start).Round(time.Millisecond).String())
+	logging.Info("Saved to %s in %s", to, time.Since(start).Round(time.Millisecond).String())
 }

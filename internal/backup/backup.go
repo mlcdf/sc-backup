@@ -13,7 +13,7 @@ import (
 	"github.com/PuerkitoBio/goquery"
 	"github.com/pkg/errors"
 	"go.mlcdf.fr/sc-backup/internal/domain"
-	"go.mlcdf.fr/sc-backup/internal/logx"
+	"go.mlcdf.fr/sc-backup/internal/logging"
 	"go.mlcdf.fr/sc-backup/internal/pool"
 )
 
@@ -32,7 +32,7 @@ var client = &http.Client{
 }
 
 func request(url string) (*http.Response, error) {
-	logx.Debug("GET %s", url)
+	logging.Debug("GET %s", url)
 	res, err := client.Get(url)
 
 	// check for response error
@@ -272,7 +272,7 @@ func Collection(username string, back domain.Backend) error {
 		return err
 	}
 
-	logx.Info("Backing up collection for user %s", username)
+	logging.Info("Backing up collection for user %s", username)
 	back.Create()
 
 	dates, err := journal(username)
