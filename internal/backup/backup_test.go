@@ -66,13 +66,14 @@ func TestBackupList(t *testing.T) {
 	back := backend.NewMemory()
 	List("https://www.senscritique.com/liste/Vu_au_cinema/363578", back)
 
-	list, ok := back.Data.(*domain.List)
-	if ok == false {
-		t.Errorf("cast back.Data into domain.List")
+	stuff := back.Data["vu-au-cinema"]
+	if stuff == nil {
+		t.Errorf("slug vu-au-cinema not found")
 	}
 
-	if expectedSlug := "vu-au-cinema"; list.Slug() != expectedSlug {
-		t.Errorf("expected slug '%s', got '%s'", expectedSlug, list.Slug())
+	list, ok := stuff.(*domain.List)
+	if ok == false {
+		t.Errorf("cast back.Data into domain.List")
 	}
 
 	if expectedDescription := "Depuis le 1er janvier 2014."; list.Description != expectedDescription {
@@ -84,6 +85,41 @@ func TestBackupList(t *testing.T) {
 	}
 
 	entry := list.Entries[0]
+	if entry.ID == "" {
+		t.Errorf("entry.ID cannot be empty %v", entry)
+	}
+
+	if len(entry.Authors) == 0 {
+		t.Errorf("entry.Authors cannot be empty %v", entry)
+	}
+}
+
+func TestBackupCollection(t *testing.T) {
+	back := backend.NewMemory()
+	Collection("mlcdf", back)
+
+	stuff := back.Data["films-done"]
+	if stuff == nil {
+		t.Errorf("slug films-done not found")
+	}
+	collection, ok := stuff.(*domain.Collection)
+	if ok == false {
+		t.Errorf("cast back.Data into domain.Collection")
+	}
+
+	if expectedFilter := "done"; collection.Filter != expectedFilter {
+		t.Errorf("expected filter '%s', got '%s'", expectedFilter, collection.Filter)
+	}
+
+	if expectedCategory := "films"; collection.Category != expectedCategory {
+		t.Errorf("expected category '%s', got '%s'", expectedCategory, collection.Category)
+	}
+
+	if l := len(collection.Entries); l < 800 {
+		t.Errorf("too few entries: %d", l)
+	}
+
+	entry := collection.Entries[0]
 	if entry.ID == "" {
 		t.Errorf("entry.ID cannot be empty %v", entry)
 	}

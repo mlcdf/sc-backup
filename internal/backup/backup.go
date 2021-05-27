@@ -345,7 +345,6 @@ func Collection(username string, back domain.Backend) error {
 				return err
 			}
 		}
-
 	}
 
 	return nil
