@@ -173,7 +173,7 @@ func listTitle(document *goquery.Document) (string, error) {
 }
 
 func listDescription(document *goquery.Document) string {
-	return strings.TrimSpace(document.Find(`div[data-rel="list-description"`).Text())
+	return strings.TrimSpace(document.Find("[data-rel=list-description]").Text())
 }
 
 func extractPage(url string, parseF parseFunc) ([]*domain.Entry, error) {

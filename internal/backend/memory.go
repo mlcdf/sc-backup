@@ -8,7 +8,7 @@ var _ domain.Backend = (*Memory)(nil)
 
 // Memory is used for testing purpose
 type Memory struct {
-	Stuff interface{}
+	Data interface{}
 }
 
 func NewMemory() *Memory {
@@ -24,6 +24,6 @@ func (m *Memory) Location() string {
 }
 
 func (m *Memory) Save(data domain.Serializable) error {
-	m.Stuff = data
+	m.Data = data
 	return nil
 }

@@ -66,7 +66,19 @@ func TestBackupList(t *testing.T) {
 	back := backend.NewMemory()
 	List("https://www.senscritique.com/liste/Vu_au_cinema/363578", back)
 
-	list := back.Stuff.(*domain.List)
+	list, ok := back.Data.(*domain.List)
+	if ok == false {
+		t.Errorf("cast back.Data into domain.List")
+	}
+
+	if expectedSlug := "vu-au-cinema"; list.Slug() != expectedSlug {
+		t.Errorf("expected slug '%s', got '%s'", expectedSlug, list.Slug())
+	}
+
+	if expectedDescription := "Depuis le 1er janvier 2014."; list.Description != expectedDescription {
+		t.Errorf("expected description '%s', got '%s'", expectedDescription, list.Description)
+	}
+
 	if l := len(list.Entries); l < 100 {
 		t.Errorf("too few entries: %d", l)
 	}
