@@ -3,7 +3,7 @@ package backup
 import (
 	"testing"
 
-	"go.mlcdf.fr/sc-backup/internal/backend"
+	"go.mlcdf.fr/sc-backup/internal/backend/mock"
 	"go.mlcdf.fr/sc-backup/internal/domain"
 )
 
@@ -63,7 +63,7 @@ func TestMakeListURL(t *testing.T) {
 }
 
 func TestBackupList(t *testing.T) {
-	back := backend.NewMemory()
+	back := mock.NewBackend()
 	List("https://www.senscritique.com/liste/Vu_au_cinema/363578", back)
 
 	stuff := back.Data["vu-au-cinema"]
@@ -95,7 +95,7 @@ func TestBackupList(t *testing.T) {
 }
 
 func TestBackupCollection(t *testing.T) {
-	back := backend.NewMemory()
+	back := mock.NewBackend()
 	Collection("mlcdf", back)
 
 	stuff := back.Data["films-done"]

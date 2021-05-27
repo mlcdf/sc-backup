@@ -18,7 +18,9 @@ jobs:
           go-version: 1.16
 
       - name: Test
-        run: go test -v -race -coverpkg=./... -coverprofile=profile.cov ./...
+        run: |
+          pkg=$(go list ./... | grep -v /logx | grep -v /mock | tr '\n' ',' )
+          go test -v -race -coverpkg=$pkg -coverprofile=profile.cov ./...
 
       - name: Coverage
         run: go tool cover -html profile.cov -o report.html
