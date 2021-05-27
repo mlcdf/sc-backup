@@ -18,6 +18,8 @@ type Entry struct {
 	Comment       string   `json:"comment,omitempty"`
 }
 
+var _ Serializable = (*Collection)(nil)
+
 type Collection struct {
 	Entries  []*Entry `json:"entries"`
 	Category string   `json:"category"`
@@ -45,6 +47,8 @@ func (c *Collection) CSV() []*Entry {
 func (c *Collection) JSON() interface{} {
 	return c
 }
+
+var _ Serializable = (*List)(nil)
 
 type List struct {
 	Entries     []*Entry `json:"entries"`
