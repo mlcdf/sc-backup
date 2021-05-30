@@ -113,6 +113,8 @@ func parseDocument(document *goquery.Document) ([]*domain.Entry, error) {
 
 		entry.Comment = strings.TrimSpace(s.Find(".elli-annotation-content").Text())
 
+		entry.Favorite = s.Find(".eins-user-recommend").Length() != 0
+
 		var ratingString string
 		if isList(document) {
 			ratingString = strings.TrimSpace(s.Find(".elrua-useraction-inner").Text())

@@ -89,8 +89,16 @@ func TestBackupList(t *testing.T) {
 		t.Errorf("entry.ID cannot be empty %v", entry)
 	}
 
+	if expected := true; entry.Favorite != expected {
+		t.Errorf("expected: %t, got: %t for %s", expected, entry.Favorite, entry.Title)
+	}
+
 	if len(entry.Authors) == 0 {
 		t.Errorf("entry.Authors cannot be empty %v", entry)
+	}
+
+	if expected := false; list.Entries[1].Favorite != expected {
+		t.Errorf("expected: %t, got: %t for %s", expected, list.Entries[1].Favorite, list.Entries[1].Title)
 	}
 }
 

@@ -16,6 +16,7 @@ type Entry struct {
 	Rating        int      `json:"rating,omitempty"`
 	DoneDate      string   `json:"done_date,omitempty"`
 	Comment       string   `json:"comment,omitempty"`
+	Favorite      bool     `json:"favorite"`
 }
 
 var _ Serializable = (*Collection)(nil)
