@@ -98,24 +98,32 @@ func TestBackupList(t *testing.T) {
 		t.Errorf("entry.Authors cannot be empty %v", entry)
 	}
 
-	if len(entry.Genre) > 4 {
-		t.Errorf("entry.Genre is too long %v", entry.Genre)
+	if len(entry.Genres) > 4 {
+		t.Errorf("entry.Genre is too long %v", entry.Genres)
 	}
 
-	if entry.Genre[0] != "Aventure" {
-		t.Errorf("entry.Genre[0] is not Aventure %v", entry.Genre)
+	if entry.Genres[0] != "Aventure" {
+		t.Errorf("entry.Genre[0] is not Aventure %v", entry.Genres)
 	}
 
-	if entry.Genre[1] != "Comédie" {
-		t.Errorf("entry.Genre[1] is not Comédie %v", entry.Genre)
+	if entry.Genres[1] != "Comédie" {
+		t.Errorf("entry.Genre[1] is not Comédie %v", entry.Genres)
 	}
 
-	if strings.Contains(entry.Genre[len(entry.Genre)-1], ".") {
-		t.Errorf("last item in entry.Genre contains a dot %v", entry.Genre)
+	if strings.Contains(entry.Genres[len(entry.Genres)-1], ".") {
+		t.Errorf("last item in entry.Genre contains a dot %v", entry.Genres)
 	}
 
 	if expected := false; list.Entries[1].Favorite != expected {
 		t.Errorf("expected: %t, got: %t for %s", expected, list.Entries[1].Favorite, list.Entries[1].Title)
+	}
+
+	for _, e := range list.Entries {
+		for _, genre := range e.Genres {
+			if genre == "Noir" || genre == "Dramatique" {
+				t.Errorf("genre should not be 'Noir' nor 'Dramatique': %v", genre)
+			}
+		}
 	}
 }
 

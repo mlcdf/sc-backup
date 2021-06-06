@@ -87,12 +87,6 @@ func parseGenre(s *goquery.Selection) ([]string, error) {
 		return nil, err
 	}
 
-	splitWord := func(word string) []string {
-		word = strings.Trim(strings.TrimSpace(word), ".")
-		array := regexp.MustCompile(`[\,\s]*et[\s]*|[\,\s]+`).Split(word, -1)
-		return array
-	}
-
 	filterWeirdGenre := func(genres []string) []string {
 		out := make([]string, 0)
 		for _, genre := range genres {
@@ -105,11 +99,20 @@ func parseGenre(s *goquery.Selection) ([]string, error) {
 
 	result := strings.Split(strings.TrimSpace(parsedGenre), "</time>.")
 
+	splitWord := func(word string) []string {
+		word = strings.Trim(strings.TrimSpace(word), ".")
+		array := regexp.MustCompile(`[\,\s]*et[\s]*|\,[\s]+|\s{2,}`).Split(word, -1)
+		return array
+	}
+
 	if len(result) > 1 {
 		return filterWeirdGenre(splitWord(result[1])), nil
 	}
-	return filterWeirdGenre(splitWord(result[0])), nil
 
+	matches := regexp.MustCompile(`[.*\s]*Sortie : .*\.[\s]*(.*)[.\s]*`).FindStringSubmatch(result[0])
+	genres := matches[1]
+
+	return filterWeirdGenre(splitWord(genres)), nil
 }
 
 func parseDocument(document *goquery.Document) ([]*domain.Entry, error) {
@@ -143,7 +146,7 @@ func parseDocument(document *goquery.Document) ([]*domain.Entry, error) {
 		}
 
 		var err error
-		entry.Genre, err = parseGenre(s)
+		entry.Genres, err = parseGenre(s)
 		if err != nil {
 			log.Fatal(err)
 		}
