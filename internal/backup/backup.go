@@ -90,7 +90,7 @@ func parseGenre(s *goquery.Selection) ([]string, error) {
 	filterWeirdGenre := func(genres []string) []string {
 		out := make([]string, 0)
 		for _, genre := range genres {
-			if genre != "sketches" {
+			if genre != "sketches" && genre != "" {
 				out = append(out, strings.Title(genre))
 			}
 		}
@@ -110,8 +110,11 @@ func parseGenre(s *goquery.Selection) ([]string, error) {
 	}
 
 	matches := regexp.MustCompile(`[.*\s]*Sortie : .*\.[\s]*(.*)[.\s]*`).FindStringSubmatch(result[0])
-	genres := matches[1]
+	if len(matches) != 2 {
+		return nil, nil
+	}
 
+	genres := matches[1]
 	return filterWeirdGenre(splitWord(genres)), nil
 }
 
