@@ -81,6 +81,37 @@ func isList(document *goquery.Document) bool {
 	return document.Find(".elme-listTitle").Length() == 1
 }
 
+func parseGenre(s *goquery.Selection) ([]string, error) {
+	parsedGenre, err := s.Find("p.elco-baseline.elco-options").Html()
+	if err != nil {
+		return nil, err
+	}
+
+	splitWord := func(word string) []string {
+		word = strings.Trim(strings.TrimSpace(word), ".")
+		array := regexp.MustCompile(`[\,\s]*et[\s]*|[\,\s]+`).Split(word, -1)
+		return array
+	}
+
+	filterWeirdGenre := func(genres []string) []string {
+		out := make([]string, 0)
+		for _, genre := range genres {
+			if genre != "sketches" {
+				out = append(out, strings.Title(genre))
+			}
+		}
+		return out
+	}
+
+	result := strings.Split(strings.TrimSpace(parsedGenre), "</time>.")
+
+	if len(result) > 1 {
+		return filterWeirdGenre(splitWord(result[1])), nil
+	}
+	return filterWeirdGenre(splitWord(result[0])), nil
+
+}
+
 func parseDocument(document *goquery.Document) ([]*domain.Entry, error) {
 	entries := make([]*domain.Entry, 0)
 	document.Find(".elco-collection-item, .elli-item").Each(func(i int, s *goquery.Selection) {
@@ -109,6 +140,12 @@ func parseDocument(document *goquery.Document) ([]*domain.Entry, error) {
 				log.Fatal(err)
 			}
 			entry.Year = year
+		}
+
+		var err error
+		entry.Genre, err = parseGenre(s)
+		if err != nil {
+			log.Fatal(err)
 		}
 
 		entry.Comment = strings.TrimSpace(s.Find(".elli-annotation-content").Text())
