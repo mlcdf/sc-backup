@@ -101,7 +101,7 @@ func parseGenre(s *goquery.Selection) ([]string, error) {
 
 	splitWord := func(word string) []string {
 		word = strings.Trim(strings.TrimSpace(word), ".")
-		array := regexp.MustCompile(`[\,\s]*et[\s]*|\,[\s]+|\s{2,}`).Split(word, -1)
+		array := regexp.MustCompile(`[\,\s]+et[\s]+|\,[\s]+|\s{2,}`).Split(word, -1)
 		return array
 	}
 
