@@ -1,0 +1,497 @@
+{
+    "entries": [
+        {
+            "id": "97412",
+            "title": "Le Petit Prince",
+            "year": 1943,
+            "authors": [
+                "Antoine de Saint-Exupéry"
+            ],
+            "rating": 7,
+            "favorite": false,
+            "genres": [
+                "Roman Et"
+            ]
+        },
+        {
+            "id": "224307",
+            "title": "Ubik",
+            "year": 1969,
+            "authors": [
+                "Philip K. Dick"
+            ],
+            "rating": 9,
+            "done_date": "2019-12-04",
+            "favorite": false,
+            "genres": [
+                "Roman Et"
+            ]
+        },
+        {
+            "id": "40300166",
+            "title": "Mémoires vives",
+            "original_title": "Permanent Record",
+            "year": 2019,
+            "authors": [
+                "Edward Snowden"
+            ],
+            "rating": 8,
+            "done_date": "2019-10-00",
+            "favorite": false,
+            "genres": [
+                "Biographie"
+            ]
+        },
+        {
+            "id": "83099",
+            "title": "L'Héritier de l'Empire - Star Wars : La Croisade noire du Jedi fou, tome 1",
+            "original_title": "Star Wars : The Thrawn Trilogy - Heir of the Empire",
+            "authors": [
+                "Timothy Zahn"
+            ],
+            "rating": 8,
+            "favorite": false,
+            "genres": [
+                "Roman"
+            ]
+        },
+        {
+            "id": "451392",
+            "title": "La Bataille des Jedi - Star Wars : La Croisade noire du Jedi fou, tome 2",
+            "original_title": "Star Wars : The Thrawn Trilogy - Dark Force Rising",
+            "authors": [
+                "Timothy Zahn"
+            ],
+            "rating": 8,
+            "favorite": false,
+            "genres": [
+                "Roman"
+            ]
+        },
+        {
+            "id": "39142208",
+            "title": "Le Français est à nous !",
+            "year": 2019,
+            "authors": [
+                "Maria Candea",
+                "Laélia Véron"
+            ],
+            "rating": 8,
+            "done_date": "2019-07-24",
+            "favorite": false,
+            "genres": [
+                "Essai"
+            ]
+        },
+        {
+            "id": "201891",
+            "title": "Seconde Fondation - Le Cycle de Fondation, tome 3",
+            "original_title": "Second Foundation",
+            "authors": [
+                "Isaac Asimov"
+            ],
+            "rating": 8,
+            "done_date": "2018-08-18",
+            "favorite": false,
+            "genres": [
+                "Science-Fiction Et"
+            ]
+        },
+        {
+            "id": "18153832",
+            "title": "Le livre qu'il vous faut pour réussir vos portraits",
+            "authors": [
+                "Henry Carroll"
+            ],
+            "rating": 8,
+            "done_date": "2018-05-30",
+            "favorite": false,
+            "genres": [
+                "Vie Pratique"
+            ]
+        },
+        {
+            "id": "87832",
+            "title": "Harry Potter et le Prince de Sang-Mêlé",
+            "original_title": "Harry Potter and the Half-Blood Prince",
+            "year": 2005,
+            "authors": [
+                "J. K. Rowling"
+            ],
+            "rating": 8,
+            "favorite": false,
+            "genres": [
+                "Roman",
+                "Jeunesse",
+                "Fantastique"
+            ]
+        },
+        {
+            "id": "236491",
+            "title": "Fondation et Empire - Le Cycle de Fondation, tome 2",
+            "original_title": "Foundation and Empire",
+            "authors": [
+                "Isaac Asimov"
+            ],
+            "rating": 8,
+            "done_date": "2017-10-20",
+            "favorite": false,
+            "genres": [
+                "Science-Fiction Et"
+            ]
+        },
+        {
+            "id": "80782",
+            "title": "Fondation - Le Cycle de Fondation, tome 1",
+            "original_title": "Foundation",
+            "year": 1951,
+            "authors": [
+                "Isaac Asimov"
+            ],
+            "rating": 9,
+            "done_date": "2017-08-25",
+            "favorite": false,
+            "genres": [
+                "Science-Fiction Et"
+            ]
+        },
+        {
+            "id": "96936",
+            "title": "Fahrenheit 451",
+            "authors": [
+                "Ray Bradbury"
+            ],
+            "rating": 8,
+            "done_date": "2017-08-00",
+            "favorite": false,
+            "genres": [
+                "Roman Et"
+            ]
+        },
+        {
+            "id": "390944",
+            "title": "Le Meilleur des mondes",
+            "original_title": "Brave New World",
+            "year": 1931,
+            "authors": [
+                "Aldous Huxley"
+            ],
+            "rating": 8,
+            "done_date": "2016-01-05",
+            "favorite": false,
+            "genres": [
+                "Science-Fiction Et"
+            ]
+        },
+        {
+            "id": "245854",
+            "title": "1984",
+            "original_title": "Nineteen Eighty-Four",
+            "year": 1949,
+            "authors": [
+                "George Orwell"
+            ],
+            "rating": 10,
+            "done_date": "2015-08-15",
+            "favorite": false,
+            "genres": [
+                "Roman",
+                "Science-Fiction"
+            ]
+        },
+        {
+            "id": "272045",
+            "title": "Lettres de mon moulin",
+            "year": 1869,
+            "authors": [
+                "Alphonse Daudet"
+            ],
+            "rating": 5,
+            "favorite": false,
+            "genres": [
+                "Recueil De Nouvelles"
+            ]
+        },
+        {
+            "id": "233260",
+            "title": "Œdipe Roi",
+            "original_title": "Οἰδίπoυς τύραννoς (Oidípous týrannos)",
+            "year": -430,
+            "authors": [
+                "Sophocle"
+            ],
+            "rating": 8,
+            "favorite": false
+        },
+        {
+            "id": "212111",
+            "title": "L'Avare",
+            "year": 1668,
+            "authors": [
+                "Molière"
+            ],
+            "rating": 7,
+            "favorite": false,
+            "genres": [
+                "Théâtre"
+            ]
+        },
+        {
+            "id": "236294",
+            "title": "La vallée des dinosaures - La cabane magique, tome 1",
+            "authors": [
+                "Mary Pope Osborne"
+            ],
+            "rating": 6,
+            "favorite": false
+        },
+        {
+            "id": "2397",
+            "title": "Le Messager d'Athènes",
+            "year": 1985,
+            "authors": [
+                "Odile Weulersse"
+            ],
+            "rating": 8,
+            "favorite": false
+        },
+        {
+            "id": "219395",
+            "title": "Caïus et le Gladiateur",
+            "original_title": "Caïus Geht Ein Licht Auf",
+            "year": 1969,
+            "authors": [
+                "Henry Winterfeld"
+            ],
+            "rating": 7,
+            "favorite": false,
+            "genres": [
+                "Jeunesse Et"
+            ]
+        },
+        {
+            "id": "160208",
+            "title": "L'Affaire Caïus",
+            "original_title": "Caïus ist ein Dummkopf",
+            "authors": [
+                "Henry Winterfeld"
+            ],
+            "rating": 7,
+            "favorite": false
+        },
+        {
+            "id": "145405",
+            "title": "Voyage au centre de la Terre",
+            "year": 1864,
+            "authors": [
+                "Jules Verne"
+            ],
+            "rating": 9,
+            "favorite": false,
+            "genres": [
+                "Roman Et"
+            ]
+        },
+        {
+            "id": "138288",
+            "title": "Arc-en-ciel",
+            "authors": [
+                "Marcus Pfister"
+            ],
+            "rating": 7,
+            "favorite": false,
+            "genres": [
+                "Jeunesse"
+            ]
+        },
+        {
+            "id": "160193",
+            "title": "Le Bon Gros Géant",
+            "original_title": "The BFG",
+            "year": 1982,
+            "authors": [
+                "Roald Dahl"
+            ],
+            "rating": 6,
+            "favorite": false,
+            "genres": [
+                "Jeunesse Et"
+            ]
+        },
+        {
+            "id": "258896",
+            "title": "L'Odyssée du Passeur d'Aurore - Le Monde de Narnia, tome 5",
+            "original_title": "The Chronicles of Narnia : The Voyage of the Dawn Treader",
+            "year": 1952,
+            "authors": [
+                "C. S. Lewis"
+            ],
+            "rating": 7,
+            "favorite": false
+        },
+        {
+            "id": "159653",
+            "title": "Le Lion, la Sorcière blanche et l'Armoire magique - Le Monde de Narnia, tome 2",
+            "original_title": "The Chronicles of Narnia : The Lion, the Witch and the Wardrobe",
+            "year": 1950,
+            "authors": [
+                "C. S. Lewis"
+            ],
+            "rating": 7,
+            "favorite": false,
+            "genres": [
+                "Roman"
+            ]
+        },
+        {
+            "id": "8908",
+            "title": "La Dernière Bataille - Le Monde de Narnia, tome 7",
+            "original_title": "The Chronicles of Narnia : The Last Battle",
+            "year": 1956,
+            "authors": [
+                "C. S. Lewis"
+            ],
+            "rating": 7,
+            "favorite": false,
+            "genres": [
+                "Roman"
+            ]
+        },
+        {
+            "id": "97846",
+            "title": "Le Fauteuil d'argent - Le Monde de Narnia, tome 6",
+            "original_title": "The Chronicles of Narnia : The Silver Chair",
+            "year": 1953,
+            "authors": [
+                "C. S. Lewis"
+            ],
+            "rating": 7,
+            "favorite": false
+        },
+        {
+            "id": "204083",
+            "title": "Le Cheval et son écuyer - Le Monde de Narnia, tome 3",
+            "original_title": "The Chronicles of Narnia : The Horse and His Boy",
+            "year": 1954,
+            "authors": [
+                "C. S. Lewis"
+            ],
+            "rating": 7,
+            "favorite": false
+        },
+        {
+            "id": "29949",
+            "title": "Le Prince Caspian - Le Monde de Narnia, tome 4",
+            "original_title": "The Chronicles of Narnia : Prince Caspian",
+            "year": 1951,
+            "authors": [
+                "C. S. Lewis"
+            ],
+            "rating": 7,
+            "favorite": false,
+            "genres": [
+                "Roman"
+            ]
+        },
+        {
+            "id": "24702",
+            "title": "Le Neveu du magicien - Le Monde de Narnia, tome 1",
+            "original_title": "The Chronicles of Narnia : The Magician's Nephew",
+            "year": 1955,
+            "authors": [
+                "C. S. Lewis"
+            ],
+            "rating": 7,
+            "favorite": false
+        },
+        {
+            "id": "100453",
+            "title": "Fables",
+            "authors": [
+                "Jean de La Fontaine"
+            ],
+            "rating": 7,
+            "favorite": false,
+            "genres": [
+                "Poésie"
+            ]
+        },
+        {
+            "id": "264381",
+            "title": "Rhinocéros",
+            "year": 1959,
+            "authors": [
+                "Eugène Ionesco"
+            ],
+            "rating": 3,
+            "favorite": false,
+            "genres": [
+                "Théâtre"
+            ]
+        },
+        {
+            "id": "12739",
+            "title": "Colère",
+            "authors": [
+                "Denis Marquet"
+            ],
+            "rating": 8,
+            "favorite": false,
+            "genres": [
+                "Roman"
+            ]
+        },
+        {
+            "id": "120587",
+            "title": "Harry Potter et les Reliques de la Mort",
+            "original_title": "Harry Potter and the Deathly Hallows",
+            "year": 2007,
+            "authors": [
+                "J. K. Rowling"
+            ],
+            "rating": 8,
+            "favorite": false,
+            "genres": [
+                "Roman",
+                "Jeunesse",
+                "Fantastique"
+            ]
+        },
+        {
+            "id": "149392",
+            "title": "Le visage de l'ombre - Le Livre des Etoiles, tome 3",
+            "year": 2003,
+            "authors": [
+                "Erik L'Homme"
+            ],
+            "rating": 8,
+            "favorite": false
+        },
+        {
+            "id": "434292",
+            "title": "Le seigneur Sha - Le livre des étoiles, tome 2",
+            "year": 2002,
+            "authors": [
+                "Erik L'Homme"
+            ],
+            "rating": 8,
+            "favorite": false,
+            "genres": [
+                "Jeunesse Et"
+            ]
+        },
+        {
+            "id": "81830",
+            "title": "Qadehar le sorcier - Le livre des étoiles, tome 1",
+            "year": 2001,
+            "authors": [
+                "Erik L'Homme"
+            ],
+            "rating": 8,
+            "favorite": false
+        }
+    ],
+    "category": "livres",
+    "filter": "done",
+    "username": "mlcdf"
+}

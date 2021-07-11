@@ -1,0 +1,5697 @@
+{
+    "entries": [
+        {
+            "id": "40252959",
+            "title": "Titane",
+            "year": 2021,
+            "authors": [
+                "Julia Ducournau"
+            ],
+            "favorite": false,
+            "genres": [
+                "Drame",
+                "Épouvante-Horreur"
+            ]
+        },
+        {
+            "id": "19460156",
+            "title": "Sound of Metal",
+            "year": 2020,
+            "authors": [
+                "Darius Marder"
+            ],
+            "favorite": false,
+            "genres": [
+                "Drame",
+                "Musique"
+            ]
+        },
+        {
+            "id": "35980413",
+            "title": "Swallow",
+            "year": 2019,
+            "authors": [
+                "Carlo Mirabella-Davis"
+            ],
+            "favorite": false,
+            "genres": [
+                "Drame",
+                "Thriller"
+            ]
+        },
+        {
+            "id": "415674",
+            "title": "Les Promesses de l'ombre",
+            "original_title": "Eastern Promises",
+            "year": 2007,
+            "authors": [
+                "David Cronenberg"
+            ],
+            "favorite": false,
+            "genres": [
+                "Policier",
+                "Thriller"
+            ]
+        },
+        {
+            "id": "434094",
+            "title": "Spider-Man 2",
+            "year": 2004,
+            "authors": [
+                "Sam Raimi"
+            ],
+            "rating": 6,
+            "favorite": false,
+            "genres": [
+                "Action",
+                "Fantastique"
+            ]
+        },
+        {
+            "id": "407774",
+            "title": "À bout de course",
+            "original_title": "Running on Empty",
+            "year": 1988,
+            "authors": [
+                "Sidney Lumet"
+            ],
+            "favorite": false,
+            "genres": [
+                "Drame"
+            ]
+        },
+        {
+            "id": "37783625",
+            "title": "Un espion ordinaire",
+            "original_title": "The Courier",
+            "year": 2020,
+            "authors": [
+                "Dominic Cooke"
+            ],
+            "favorite": false,
+            "genres": [
+                "Drame",
+                "Thriller",
+                "Biopic",
+                "Historique"
+            ]
+        },
+        {
+            "id": "40485619",
+            "title": "Antigone",
+            "year": 2019,
+            "authors": [
+                "Sophie Deraspe"
+            ],
+            "favorite": false,
+            "genres": [
+                "Policier",
+                "Drame"
+            ]
+        },
+        {
+            "id": "43808471",
+            "title": "Moxie",
+            "year": 2021,
+            "authors": [
+                "Amy Poehler"
+            ],
+            "favorite": false,
+            "genres": [
+                "Comédie",
+                "Drame",
+                "Comédie Musicale"
+            ]
+        },
+        {
+            "id": "42372324",
+            "title": "Un pays qui se tient sage",
+            "year": 2020,
+            "authors": [
+                "David Dufresne"
+            ],
+            "favorite": false
+        },
+        {
+            "id": "1307664",
+            "title": "Le Déclin de l'empire américain",
+            "year": 1986,
+            "authors": [
+                "Denys Arcand"
+            ],
+            "favorite": false,
+            "genres": [
+                "Comédie Dramatique"
+            ]
+        },
+        {
+            "id": "464555",
+            "title": "La Femme Scorpion",
+            "original_title": "Joshû 701-gô: Sasori",
+            "year": 1972,
+            "authors": [
+                "Shun'ya Itô"
+            ],
+            "favorite": false,
+            "genres": [
+                "Policier",
+                "Drame",
+                "Thriller"
+            ]
+        },
+        {
+            "id": "484437",
+            "title": "Chantons sous la pluie",
+            "original_title": "Singin' in the Rain",
+            "year": 1952,
+            "authors": [
+                "Stanley Donen",
+                "Gene Kelly"
+            ],
+            "favorite": false,
+            "genres": [
+                "Comédie",
+                "Comédie Musicale",
+                "Romance"
+            ]
+        },
+        {
+            "id": "379213",
+            "title": "Les Mille et Une Nuits",
+            "original_title": "Il fiore delle mille e una notte",
+            "year": 1974,
+            "authors": [
+                "Pier Paolo Pasolini"
+            ],
+            "favorite": false,
+            "genres": [
+                "Romance",
+                "Érotique"
+            ]
+        },
+        {
+            "id": "460624",
+            "title": "Certains l'aiment chaud !",
+            "original_title": "Some Like It Hot",
+            "year": 1959,
+            "authors": [
+                "Billy Wilder"
+            ],
+            "favorite": false,
+            "genres": [
+                "Comédie",
+                "Romance",
+                "Gangster"
+            ]
+        },
+        {
+            "id": "36112578",
+            "title": "#Female Pleasure",
+            "year": 2018,
+            "authors": [
+                "Barbara Miller"
+            ],
+            "favorite": false
+        },
+        {
+            "id": "8459470",
+            "title": "White Bird",
+            "original_title": "White Bird in a Blizzard",
+            "year": 2014,
+            "authors": [
+                "Gregg Araki"
+            ],
+            "favorite": false,
+            "genres": [
+                "Drame",
+                "Thriller"
+            ]
+        },
+        {
+            "id": "384610",
+            "title": "Le Tableau",
+            "year": 2011,
+            "authors": [
+                "Jean-François Laguionie"
+            ],
+            "favorite": false,
+            "genres": [
+                "Animation",
+                "Fantastique"
+            ]
+        },
+        {
+            "id": "404478",
+            "title": "La Prophétie des grenouilles",
+            "year": 2003,
+            "authors": [
+                "Jacques-Rémy Girerd"
+            ],
+            "favorite": false,
+            "genres": [
+                "Animation"
+            ]
+        },
+        {
+            "id": "383743",
+            "title": "Departures",
+            "original_title": "Okuribito",
+            "year": 2008,
+            "authors": [
+                "Yôjirô Takita"
+            ],
+            "favorite": false,
+            "genres": [
+                "Comédie Dramatique"
+            ]
+        },
+        {
+            "id": "475405",
+            "title": "Festen",
+            "year": 1998,
+            "authors": [
+                "Thomas Vinterberg"
+            ],
+            "favorite": false,
+            "genres": [
+                "Drame"
+            ]
+        },
+        {
+            "id": "449966",
+            "title": "Dogville",
+            "year": 2003,
+            "authors": [
+                "Lars von Trier"
+            ],
+            "favorite": false,
+            "genres": [
+                "Drame",
+                "Thriller"
+            ]
+        },
+        {
+            "id": "487746",
+            "title": "Breaking the Waves",
+            "year": 1996,
+            "authors": [
+                "Lars von Trier"
+            ],
+            "favorite": false,
+            "genres": [
+                "Drame",
+                "Romance"
+            ]
+        },
+        {
+            "id": "417366",
+            "title": "Dancer in the Dark",
+            "year": 2000,
+            "authors": [
+                "Lars von Trier"
+            ],
+            "favorite": false,
+            "genres": [
+                "Policier",
+                "Drame",
+                "Comédie Musicale"
+            ]
+        },
+        {
+            "id": "10900169",
+            "title": "La Tortue rouge",
+            "original_title": "The red turtle",
+            "year": 2016,
+            "authors": [
+                "Michael Dudok de Wit"
+            ],
+            "favorite": false,
+            "genres": [
+                "Aventure"
+            ]
+        },
+        {
+            "id": "35181734",
+            "title": "Booksmart",
+            "year": 2019,
+            "authors": [
+                "Olivia Wilde"
+            ],
+            "favorite": false,
+            "genres": [
+                "Comédie"
+            ]
+        },
+        {
+            "id": "38551049",
+            "title": "Dolemite Is My Name",
+            "year": 2019,
+            "authors": [
+                "Craig Brewer"
+            ],
+            "favorite": false,
+            "genres": [
+                "Biopic",
+                "Comédie",
+                "Drame"
+            ]
+        },
+        {
+            "id": "26672216",
+            "title": "A Taxi Driver",
+            "original_title": "Taeksi Woonjunsa",
+            "year": 2017,
+            "authors": [
+                "Jang Hun"
+            ],
+            "favorite": false,
+            "genres": [
+                "Drame"
+            ]
+        },
+        {
+            "id": "39310756",
+            "title": "Séjour dans les monts Fuchun",
+            "original_title": "Chun jiang shui nuan",
+            "year": 2020,
+            "authors": [
+                "Gu Xiaogang"
+            ],
+            "favorite": false,
+            "genres": [
+                "Drame",
+                "Romance"
+            ]
+        },
+        {
+            "id": "35647089",
+            "title": "Marriage Story",
+            "year": 2019,
+            "authors": [
+                "Noah Baumbach"
+            ],
+            "favorite": false,
+            "genres": [
+                "Drame",
+                "Romance"
+            ]
+        },
+        {
+            "id": "39231524",
+            "title": "Papicha",
+            "year": 2019,
+            "authors": [
+                "Mounia Meddour"
+            ],
+            "favorite": false,
+            "genres": [
+                "Drame"
+            ]
+        },
+        {
+            "id": "39766681",
+            "title": "A Good Woman",
+            "original_title": "A Good Woman Is Hard to Find",
+            "year": 2019,
+            "authors": [
+                "Abner Pastoll"
+            ],
+            "favorite": false,
+            "genres": [
+                "Policier",
+                "Thriller",
+                "Drame"
+            ]
+        },
+        {
+            "id": "39309816",
+            "title": "First Love, le dernier Yakuza",
+            "original_title": "Hatsukoi",
+            "year": 2019,
+            "authors": [
+                "Takashi Miike"
+            ],
+            "favorite": false,
+            "genres": [
+                "Comédie",
+                "Gangster",
+                "Romance"
+            ]
+        },
+        {
+            "id": "17544194",
+            "title": "Les Ogres",
+            "year": 2016,
+            "authors": [
+                "Léa Fehner"
+            ],
+            "favorite": false,
+            "genres": [
+                "Comédie Dramatique"
+            ]
+        },
+        {
+            "id": "28592667",
+            "title": "Les Hirondelles de Kaboul",
+            "year": 2019,
+            "authors": [
+                "Zabou Breitman",
+                "Eléa Gobbé-Mévellec"
+            ],
+            "favorite": false,
+            "genres": [
+                "Animation"
+            ]
+        },
+        {
+            "id": "21698862",
+            "title": "Une vie cachée",
+            "original_title": "A Hidden Life",
+            "year": 2019,
+            "authors": [
+                "Terrence Malick"
+            ],
+            "favorite": false,
+            "genres": [
+                "Biopic",
+                "Drame",
+                "Romance",
+                "Guerre"
+            ]
+        },
+        {
+            "id": "25242368",
+            "title": "Benedetta",
+            "year": 2020,
+            "authors": [
+                "Paul Verhoeven"
+            ],
+            "favorite": false,
+            "genres": [
+                "Biopic",
+                "Drame",
+                "Historique"
+            ]
+        },
+        {
+            "id": "439482",
+            "title": "The Wicker Man",
+            "year": 1973,
+            "authors": [
+                "Robin Hardy"
+            ],
+            "favorite": false,
+            "genres": [
+                "Drame",
+                "Thriller",
+                "Épouvante-Horreur"
+            ]
+        },
+        {
+            "id": "24763533",
+            "title": "Another Day of Life",
+            "original_title": "Jeszcze dzien zycia",
+            "year": 2019,
+            "authors": [
+                "Damian Nenow",
+                "Raul de la Fuente"
+            ],
+            "favorite": false,
+            "genres": [
+                "Animation",
+                "Drame",
+                "Guerre"
+            ]
+        },
+        {
+            "id": "22466777",
+            "title": "Woman Walks Ahead",
+            "year": 2018,
+            "authors": [
+                "Susanna White"
+            ],
+            "favorite": false,
+            "genres": [
+                "Biopic",
+                "Drame",
+                "Historique",
+                "Western"
+            ]
+        },
+        {
+            "id": "448393",
+            "title": "Hot Shots !",
+            "year": 1991,
+            "authors": [
+                "Jim Abrahams"
+            ],
+            "favorite": false,
+            "genres": [
+                "Comédie"
+            ]
+        },
+        {
+            "id": "39167368",
+            "title": "La Flor",
+            "year": 2018,
+            "authors": [
+                "Mariano Llinás"
+            ],
+            "favorite": false,
+            "genres": [
+                "Drame",
+                "Comédie Musicale",
+                "Romance",
+                "Thriller"
+            ]
+        },
+        {
+            "id": "32124328",
+            "title": "Le Chant de la forêt",
+            "original_title": "Chuva E Cantoria Na Aldeia Dos Mortos",
+            "year": 2018,
+            "authors": [
+                "João Salaviza",
+                "Renée Nader Messora"
+            ],
+            "favorite": false,
+            "genres": [
+                "Drame"
+            ]
+        },
+        {
+            "id": "38954156",
+            "title": "So Long, My Son",
+            "original_title": "Di jiu tian chang",
+            "year": 2019,
+            "authors": [
+                "Wang Xiaoshuai"
+            ],
+            "favorite": false,
+            "genres": [
+                "Drame"
+            ]
+        },
+        {
+            "id": "25356338",
+            "title": "Un grand voyage vers la nuit",
+            "original_title": "Di qiu zui hou de ye wan",
+            "year": 2018,
+            "authors": [
+                "Bi Gan"
+            ],
+            "favorite": false,
+            "genres": [
+                "Drame",
+                "Film Noir"
+            ]
+        },
+        {
+            "id": "410360",
+            "title": "Mother",
+            "original_title": "Madeo",
+            "year": 2009,
+            "authors": [
+                "Bong Joon-Ho"
+            ],
+            "favorite": false,
+            "genres": [
+                "Policier",
+                "Drame",
+                "Thriller"
+            ]
+        },
+        {
+            "id": "36300047",
+            "title": "Les Misérables",
+            "year": 2019,
+            "authors": [
+                "Ladj Ly"
+            ],
+            "favorite": false,
+            "genres": [
+                "Drame"
+            ]
+        },
+        {
+            "id": "22350553",
+            "title": "90's",
+            "original_title": "Mid90s",
+            "year": 2018,
+            "authors": [
+                "Jonah Hill"
+            ],
+            "favorite": false,
+            "genres": [
+                "Comédie Dramatique"
+            ]
+        },
+        {
+            "id": "383027",
+            "title": "La Nuit américaine",
+            "year": 1973,
+            "authors": [
+                "François Truffaut"
+            ],
+            "favorite": false,
+            "genres": [
+                "Comédie Dramatique",
+                "Romance"
+            ]
+        },
+        {
+            "id": "390872",
+            "title": "Un homme qui dort",
+            "year": 1974,
+            "authors": [
+                "Bernard Queysanne"
+            ],
+            "favorite": false,
+            "genres": [
+                "Drame",
+                "Expérimental"
+            ]
+        },
+        {
+            "id": "477039",
+            "title": "Un condamné à mort s'est échappé",
+            "year": 1956,
+            "authors": [
+                "Robert Bresson"
+            ],
+            "favorite": false,
+            "genres": [
+                "Drame",
+                "Guerre"
+            ]
+        },
+        {
+            "id": "399564",
+            "title": "La Maman et la Putain",
+            "year": 1973,
+            "authors": [
+                "Jean Eustache"
+            ],
+            "favorite": false,
+            "genres": [
+                "Drame",
+                "Romance"
+            ]
+        },
+        {
+            "id": "386669",
+            "title": "Un prophète",
+            "year": 2009,
+            "authors": [
+                "Jacques Audiard"
+            ],
+            "favorite": false,
+            "genres": [
+                "Drame",
+                "Policier",
+                "Gangster"
+            ]
+        },
+        {
+            "id": "487590",
+            "title": "The Killer",
+            "original_title": "Dip huet seung hung",
+            "year": 1989,
+            "authors": [
+                "John Woo"
+            ],
+            "favorite": false,
+            "genres": [
+                "Action",
+                "Gangster",
+                "Policier"
+            ]
+        },
+        {
+            "id": "29246694",
+            "title": "Synonymes",
+            "year": 2019,
+            "authors": [
+                "Nadav Lapid"
+            ],
+            "favorite": false,
+            "genres": [
+                "Drame"
+            ]
+        },
+        {
+            "id": "33247816",
+            "title": "Us",
+            "year": 2019,
+            "authors": [
+                "Jordan Peele"
+            ],
+            "favorite": false,
+            "genres": [
+                "Thriller",
+                "Épouvante-Horreur"
+            ]
+        },
+        {
+            "id": "33890171",
+            "title": "La Chute de l'empire américain",
+            "year": 2018,
+            "authors": [
+                "Denys Arcand"
+            ],
+            "favorite": false,
+            "genres": [
+                "Comédie",
+                "Policier",
+                "Drame"
+            ]
+        },
+        {
+            "id": "17461382",
+            "title": "La Favorite",
+            "original_title": "The Favourite",
+            "year": 2018,
+            "authors": [
+                "Yórgos Lánthimos"
+            ],
+            "favorite": false,
+            "genres": [
+                "Historique",
+                "Drame",
+                "Comédie",
+                "Biopic",
+                "Thriller"
+            ]
+        },
+        {
+            "id": "436959",
+            "title": "Good Morning, Vietnam",
+            "year": 1987,
+            "authors": [
+                "Barry Levinson"
+            ],
+            "favorite": false,
+            "genres": [
+                "Comédie",
+                "Drame",
+                "Guerre"
+            ]
+        },
+        {
+            "id": "27372801",
+            "title": "Razzia",
+            "year": 2018,
+            "authors": [
+                "Nabil Ayouch"
+            ],
+            "favorite": false,
+            "genres": [
+                "Drame"
+            ]
+        },
+        {
+            "id": "25357653",
+            "title": "Miraï, ma petite soeur",
+            "original_title": "Mirai no Mirai",
+            "year": 2018,
+            "authors": [
+                "Mamoru Hosoda"
+            ],
+            "favorite": false,
+            "genres": [
+                "Animation",
+                "Drame",
+                "Fantastique"
+            ]
+        },
+        {
+            "id": "451911",
+            "title": "Stoker",
+            "year": 2013,
+            "authors": [
+                "Park Chan-wook"
+            ],
+            "favorite": false,
+            "genres": [
+                "Drame",
+                "Thriller"
+            ]
+        },
+        {
+            "id": "446549",
+            "title": "Mysterious Skin",
+            "year": 2004,
+            "authors": [
+                "Gregg Araki"
+            ],
+            "favorite": false,
+            "genres": [
+                "Drame"
+            ]
+        },
+        {
+            "id": "25287846",
+            "title": "1985",
+            "year": 2018,
+            "authors": [
+                "Yen Tan"
+            ],
+            "favorite": false,
+            "genres": [
+                "Drame"
+            ]
+        },
+        {
+            "id": "439319",
+            "title": "Hiroshima mon amour",
+            "year": 1959,
+            "authors": [
+                "Alain Resnais"
+            ],
+            "favorite": false,
+            "genres": [
+                "Drame",
+                "Romance"
+            ]
+        },
+        {
+            "id": "19533099",
+            "title": "The House That Jack Built",
+            "year": 2018,
+            "authors": [
+                "Lars von Trier"
+            ],
+            "favorite": false,
+            "genres": [
+                "Drame",
+                "Thriller",
+                "Épouvante-Horreur"
+            ]
+        },
+        {
+            "id": "29315959",
+            "title": "Burning",
+            "original_title": "Beoning",
+            "year": 2018,
+            "authors": [
+                "Lee Chang-dong"
+            ],
+            "favorite": false,
+            "genres": [
+                "Drame",
+                "Thriller",
+                "Film Noir"
+            ]
+        },
+        {
+            "id": "417726",
+            "title": "De battre mon cœur s'est arrêté",
+            "year": 2005,
+            "authors": [
+                "Jacques Audiard"
+            ],
+            "favorite": false,
+            "genres": [
+                "Action",
+                "Policier",
+                "Drame",
+                "Romance",
+                "Thriller"
+            ]
+        },
+        {
+            "id": "393317",
+            "title": "Detachment",
+            "year": 2011,
+            "authors": [
+                "Tony Kaye"
+            ],
+            "favorite": false,
+            "genres": [
+                "Drame"
+            ]
+        },
+        {
+            "id": "21235082",
+            "title": "High Life",
+            "year": 2018,
+            "authors": [
+                "Claire Denis"
+            ],
+            "favorite": false,
+            "genres": [
+                "Aventure",
+                "Drame",
+                "Science-Fiction"
+            ]
+        },
+        {
+            "id": "32911381",
+            "title": "Searching - Portée disparue",
+            "original_title": "Searching",
+            "year": 2018,
+            "authors": [
+                "Aneesh Chaganty"
+            ],
+            "favorite": false,
+            "genres": [
+                "Thriller",
+                "Drame"
+            ]
+        },
+        {
+            "id": "367274",
+            "title": "De rouille et d'os",
+            "year": 2012,
+            "authors": [
+                "Jacques Audiard"
+            ],
+            "favorite": false,
+            "genres": [
+                "Drame",
+                "Romance"
+            ]
+        },
+        {
+            "id": "418188",
+            "title": "A Bittersweet Life",
+            "original_title": "Dalkomhan Insaeng",
+            "year": 2005,
+            "authors": [
+                "Kim Jee-woon"
+            ],
+            "favorite": false,
+            "genres": [
+                "Action",
+                "Drame",
+                "Gangster"
+            ]
+        },
+        {
+            "id": "431819",
+            "title": "J'ai rencontré le diable",
+            "original_title": "Akmareul Boattda",
+            "year": 2010,
+            "authors": [
+                "Kim Jee-woon"
+            ],
+            "favorite": false,
+            "genres": [
+                "Policier",
+                "Drame",
+                "Thriller",
+                "Épouvante-Horreur"
+            ]
+        },
+        {
+            "id": "25336120",
+            "title": "The Guilty",
+            "original_title": "Den Skyldige",
+            "year": 2018,
+            "authors": [
+                "Gustav Möller"
+            ],
+            "favorite": false,
+            "genres": [
+                "Thriller"
+            ]
+        },
+        {
+            "id": "374983",
+            "title": "Zabriskie Point",
+            "year": 1970,
+            "authors": [
+                "Michelangelo Antonioni"
+            ],
+            "favorite": false,
+            "genres": [
+                "Drame",
+                "Road Movie"
+            ]
+        },
+        {
+            "id": "25081220",
+            "title": "Ni juge, ni soumise",
+            "year": 2017,
+            "authors": [
+                "Yves Hinant",
+                "Jean Libon"
+            ],
+            "favorite": false
+        },
+        {
+            "id": "363161",
+            "title": "Le Cercle des poètes disparus",
+            "original_title": "Dead Poets Society",
+            "year": 1989,
+            "authors": [
+                "Peter Weir"
+            ],
+            "favorite": false,
+            "genres": [
+                "Drame"
+            ]
+        },
+        {
+            "id": "29706132",
+            "title": "Three Identical Strangers",
+            "year": 2018,
+            "authors": [
+                "Tim Wardle"
+            ],
+            "favorite": false,
+            "genres": [
+                "Biopic",
+                "Drame"
+            ]
+        },
+        {
+            "id": "398815",
+            "title": "Obsession",
+            "year": 1976,
+            "authors": [
+                "Brian De Palma"
+            ],
+            "favorite": false,
+            "genres": [
+                "Drame",
+                "Thriller"
+            ]
+        },
+        {
+            "id": "475277",
+            "title": "Brothers",
+            "original_title": "Brødre",
+            "year": 2004,
+            "authors": [
+                "Susanne Bier"
+            ],
+            "favorite": false,
+            "genres": [
+                "Drame",
+                "Guerre"
+            ]
+        },
+        {
+            "id": "456753",
+            "title": "Bloody Sunday",
+            "year": 2002,
+            "authors": [
+                "Paul Greengrass"
+            ],
+            "favorite": false,
+            "genres": [
+                "Drame",
+                "Historique"
+            ]
+        },
+        {
+            "id": "389621",
+            "title": "Ascenseur pour l'échafaud",
+            "year": 1958,
+            "authors": [
+                "Louis Malle"
+            ],
+            "favorite": false,
+            "genres": [
+                "Policier",
+                "Drame",
+                "Thriller"
+            ]
+        },
+        {
+            "id": "29056152",
+            "title": "The Tale",
+            "year": 2018,
+            "authors": [
+                "Jennifer Fox"
+            ],
+            "favorite": false,
+            "genres": [
+                "Drame Et"
+            ]
+        },
+        {
+            "id": "457096",
+            "title": "Appel d'urgence",
+            "original_title": "Miracle Mile",
+            "year": 1988,
+            "authors": [
+                "Steve De Jarnatt"
+            ],
+            "favorite": false,
+            "genres": [
+                "Action",
+                "Drame",
+                "Romance",
+                "Thriller"
+            ]
+        },
+        {
+            "id": "440101",
+            "title": "Le Trou",
+            "year": 1960,
+            "authors": [
+                "Jacques Becker"
+            ],
+            "favorite": false,
+            "genres": [
+                "Policier",
+                "Drame",
+                "Thriller"
+            ]
+        },
+        {
+            "id": "412809",
+            "title": "Le Voleur de bicyclette",
+            "original_title": "Ladri di biciclette",
+            "year": 1948,
+            "authors": [
+                "Vittorio De Sica"
+            ],
+            "favorite": false,
+            "genres": [
+                "Drame"
+            ]
+        },
+        {
+            "id": "30855869",
+            "title": "La Révolution silencieuse",
+            "original_title": "Das schweigende Klassenzimmer",
+            "year": 2018,
+            "authors": [
+                "Lars Kraume"
+            ],
+            "favorite": false,
+            "genres": [
+                "Drame"
+            ]
+        },
+        {
+            "id": "16633424",
+            "title": "Senses 1\u00262",
+            "original_title": "Happî Awâ",
+            "year": 2015,
+            "authors": [
+                "Ryusuke Hamaguchi"
+            ],
+            "favorite": false,
+            "genres": [
+                "Drame",
+                "Romance"
+            ]
+        },
+        {
+            "id": "24727792",
+            "title": "Sur le chemin de la rédemption",
+            "original_title": "First Reformed",
+            "year": 2017,
+            "authors": [
+                "Paul Schrader"
+            ],
+            "favorite": false,
+            "genres": [
+                "Drame",
+                "Thriller"
+            ]
+        },
+        {
+            "id": "11903090",
+            "title": "Poesía sin fin",
+            "year": 2016,
+            "authors": [
+                "Alejandro Jodorowsky"
+            ],
+            "favorite": false,
+            "genres": [
+                "Biopic",
+                "Drame",
+                "Fantastique"
+            ]
+        },
+        {
+            "id": "11172322",
+            "title": "Mektoub, My Love : Canto uno",
+            "year": 2018,
+            "authors": [
+                "Abdellatif Kechiche"
+            ],
+            "favorite": false,
+            "genres": [
+                "Drame",
+                "Romance"
+            ]
+        },
+        {
+            "id": "19988054",
+            "title": "Les Garçons sauvages",
+            "year": 2017,
+            "authors": [
+                "Bertrand Mandico"
+            ],
+            "favorite": false,
+            "genres": [
+                "Aventure",
+                "Drame",
+                "Fantastique"
+            ]
+        },
+        {
+            "id": "13330620",
+            "title": "Demain",
+            "year": 2015,
+            "authors": [
+                "Cyril Dion",
+                "Mélanie Laurent"
+            ],
+            "favorite": false,
+            "genres": [
+                "Écologie"
+            ]
+        },
+        {
+            "id": "401315",
+            "title": "Le Monde sur le fil",
+            "original_title": "Welt am Draht",
+            "year": 1973,
+            "authors": [
+                "Rainer Werner Fassbinder"
+            ],
+            "favorite": false,
+            "genres": [
+                "Policier",
+                "Science-Fiction"
+            ]
+        },
+        {
+            "id": "404331",
+            "title": "Joint Security Area",
+            "original_title": "Gongdonggyeongbiguyeok JSA",
+            "year": 2000,
+            "authors": [
+                "Park Chan-wook"
+            ],
+            "favorite": false,
+            "genres": [
+                "Drame",
+                "Thriller"
+            ]
+        },
+        {
+            "id": "19781450",
+            "title": "Lady Bird",
+            "year": 2017,
+            "authors": [
+                "Greta Gerwig"
+            ],
+            "favorite": false,
+            "genres": [
+                "Comédie Dramatique"
+            ]
+        },
+        {
+            "id": "497832",
+            "title": "The Barber : L'Homme qui n'était pas là",
+            "original_title": "The Man Who Wasn't There",
+            "year": 2001,
+            "authors": [
+                "Joel Coen",
+                "Ethan Coen"
+            ],
+            "favorite": false,
+            "genres": [
+                "Film Noir",
+                "Drame"
+            ]
+        },
+        {
+            "id": "21151863",
+            "title": "Moi, Olga",
+            "original_title": "Já, Olga Hepnarová",
+            "year": 2016,
+            "authors": [
+                "Petr Kazda",
+                "Tomáš Weinreb"
+            ],
+            "favorite": false,
+            "genres": [
+                "Policier",
+                "Drame"
+            ]
+        },
+        {
+            "id": "372818",
+            "title": "Andreï Roublev",
+            "original_title": "Andrey Rublyov",
+            "year": 1966,
+            "authors": [
+                "Andreï Tarkovski"
+            ],
+            "favorite": false,
+            "genres": [
+                "Drame",
+                "Biopic",
+                "Historique",
+                "Guerre"
+            ]
+        },
+        {
+            "id": "23854223",
+            "title": "A Ghost Story",
+            "year": 2017,
+            "authors": [
+                "David Lowery"
+            ],
+            "favorite": false,
+            "genres": [
+                "Drame",
+                "Fantastique",
+                "Romance"
+            ]
+        },
+        {
+            "id": "402192",
+            "title": "Born in Flames",
+            "year": 1983,
+            "authors": [
+                "Lizzie Borden"
+            ],
+            "favorite": false,
+            "genres": [
+                "Comédie",
+                "Drame",
+                "Fantastique",
+                "Science-Fiction"
+            ]
+        },
+        {
+            "id": "449655",
+            "title": "La Colline des hommes perdus",
+            "original_title": "The Hill",
+            "year": 1965,
+            "authors": [
+                "Sidney Lumet"
+            ],
+            "favorite": false,
+            "genres": [
+                "Drame",
+                "Guerre"
+            ]
+        },
+        {
+            "id": "397314",
+            "title": "Croix de fer",
+            "original_title": "Cross of Iron",
+            "year": 1977,
+            "authors": [
+                "Sam Peckinpah"
+            ],
+            "favorite": false,
+            "genres": [
+                "Action",
+                "Drame",
+                "Guerre"
+            ]
+        },
+        {
+            "id": "408441",
+            "title": "Une balle dans la tête",
+            "original_title": "Dip huet gai tau",
+            "year": 1990,
+            "authors": [
+                "John Woo"
+            ],
+            "favorite": false,
+            "genres": [
+                "Action",
+                "Drame",
+                "Gangster",
+                "Guerre",
+                "Thriller"
+            ]
+        },
+        {
+            "id": "439501",
+            "title": "Warriors - L'Impossible mission",
+            "original_title": "Warriors",
+            "year": 1999,
+            "authors": [
+                "Peter Kosminsky"
+            ],
+            "favorite": false,
+            "genres": [
+                "Guerre"
+            ]
+        },
+        {
+            "id": "23241146",
+            "title": "The Florida Project",
+            "year": 2017,
+            "authors": [
+                "Sean Baker"
+            ],
+            "favorite": false,
+            "genres": [
+                "Drame"
+            ]
+        },
+        {
+            "id": "21561078",
+            "title": "Phantom Thread",
+            "year": 2017,
+            "authors": [
+                "Paul Thomas Anderson"
+            ],
+            "favorite": false,
+            "genres": [
+                "Drame"
+            ]
+        },
+        {
+            "id": "408496",
+            "title": "Valse avec Bachir",
+            "original_title": "Vals Im Bashir",
+            "year": 2008,
+            "authors": [
+                "Ari Folman"
+            ],
+            "favorite": false,
+            "genres": [
+                "Biopic",
+                "Drame",
+                "Guerre"
+            ]
+        },
+        {
+            "id": "394340",
+            "title": "L'Inconnu du Nord-Express",
+            "original_title": "Strangers on a Train",
+            "year": 1951,
+            "authors": [
+                "Alfred Hitchcock"
+            ],
+            "favorite": false,
+            "genres": [
+                "Film Noir"
+            ]
+        },
+        {
+            "id": "421915",
+            "title": "Meshes of the Afternoon",
+            "year": 1943,
+            "authors": [
+                "Maya Deren",
+                "Alexander Hammid"
+            ],
+            "favorite": false,
+            "genres": [
+                "Expérimental"
+            ]
+        },
+        {
+            "id": "552061",
+            "title": "Les Fraises sauvages",
+            "original_title": "Smultronstället",
+            "year": 1957,
+            "authors": [
+                "Ingmar Bergman"
+            ],
+            "favorite": false,
+            "genres": [
+                "Drame",
+                "Romance",
+                "Road Movie"
+            ]
+        },
+        {
+            "id": "380676",
+            "title": "L'Aventure de Mme Muir",
+            "original_title": "The Ghost and Mrs. Muir",
+            "year": 1947,
+            "authors": [
+                "Joseph L. Mankiewicz"
+            ],
+            "favorite": false,
+            "genres": [
+                "Drame",
+                "Fantastique",
+                "Romance"
+            ]
+        },
+        {
+            "id": "376109",
+            "title": "La Leçon de piano",
+            "original_title": "The Piano",
+            "year": 1993,
+            "authors": [
+                "Jane Campion"
+            ],
+            "favorite": false,
+            "genres": [
+                "Drame",
+                "Romance",
+                "Musique"
+            ]
+        },
+        {
+            "id": "398222",
+            "title": "In the Mood for Love",
+            "original_title": "Fa yeung nin wa",
+            "year": 2000,
+            "authors": [
+                "Wong Kar-wai"
+            ],
+            "favorite": false,
+            "genres": [
+                "Drame",
+                "Romance"
+            ]
+        },
+        {
+            "id": "368530",
+            "title": "Laura",
+            "year": 1944,
+            "authors": [
+                "Otto Preminger"
+            ],
+            "favorite": false,
+            "genres": [
+                "Film Noir"
+            ]
+        },
+        {
+            "id": "21996207",
+            "title": "Lucky",
+            "year": 2017,
+            "authors": [
+                "John Carroll Lynch"
+            ],
+            "favorite": false,
+            "genres": [
+                "Drame"
+            ]
+        },
+        {
+            "id": "431296",
+            "title": "La Horde sauvage",
+            "original_title": "The Wild Bunch",
+            "year": 1969,
+            "authors": [
+                "Sam Peckinpah"
+            ],
+            "favorite": false,
+            "genres": [
+                "Western"
+            ]
+        },
+        {
+            "id": "363490",
+            "title": "Un monde parfait",
+            "original_title": "A Perfect World",
+            "year": 1993,
+            "authors": [
+                "Clint Eastwood"
+            ],
+            "favorite": false,
+            "genres": [
+                "Policier",
+                "Drame",
+                "Thriller",
+                "Road Movie"
+            ]
+        },
+        {
+            "id": "22956624",
+            "title": "La Belle et la meute",
+            "original_title": "Aala Kaf Ifrit",
+            "year": 2017,
+            "authors": [
+                "Kaouther Ben Hania"
+            ],
+            "favorite": false,
+            "genres": [
+                "Drame"
+            ]
+        },
+        {
+            "id": "436302",
+            "title": "Macadam Cowboy",
+            "original_title": "Midnight Cowboy",
+            "year": 1969,
+            "authors": [
+                "John Schlesinger"
+            ],
+            "favorite": false,
+            "genres": [
+                "Drame"
+            ]
+        },
+        {
+            "id": "461364",
+            "title": "La Porte du paradis",
+            "original_title": "Heaven's Gate",
+            "year": 1980,
+            "authors": [
+                "Michael Cimino"
+            ],
+            "favorite": false,
+            "genres": [
+                "Drame",
+                "Western"
+            ]
+        },
+        {
+            "id": "24890691",
+            "title": "The Square",
+            "year": 2017,
+            "authors": [
+                "Ruben Östlund"
+            ],
+            "favorite": false,
+            "genres": [
+                "Comédie",
+                "Drame"
+            ]
+        },
+        {
+            "id": "13196730",
+            "title": "La Passion Van Gogh",
+            "original_title": "Loving Vincent",
+            "year": 2017,
+            "authors": [
+                "Dorota Kobiela",
+                "Hugh Welchman"
+            ],
+            "favorite": false,
+            "genres": [
+                "Policier",
+                "Drame",
+                "Biopic",
+                "Historique"
+            ]
+        },
+        {
+            "id": "465553",
+            "title": "Thelma et Louise",
+            "original_title": "Thelma and Louise",
+            "year": 1991,
+            "authors": [
+                "Ridley Scott"
+            ],
+            "favorite": false,
+            "genres": [
+                "Road Movie",
+                "Drame",
+                "Aventure"
+            ]
+        },
+        {
+            "id": "23725044",
+            "title": "Thelma",
+            "year": 2017,
+            "authors": [
+                "Joachim Trier"
+            ],
+            "favorite": false,
+            "genres": [
+                "Romance",
+                "Science-Fiction",
+                "Thriller"
+            ]
+        },
+        {
+            "id": "23559752",
+            "title": "A voix haute - La force de la parole",
+            "year": 2017,
+            "authors": [
+                "Stéphane de Freitas",
+                "Ladj Ly"
+            ],
+            "favorite": false
+        },
+        {
+            "id": "18944477",
+            "title": "Psiconautas",
+            "original_title": "Psiconautas, los niños olvidados",
+            "year": 2017,
+            "authors": [
+                "Alberto Vázquez",
+                "Pedro Rivero"
+            ],
+            "favorite": false,
+            "genres": [
+                "Animation",
+                "Drame",
+                "Science-Fiction"
+            ]
+        },
+        {
+            "id": "21752347",
+            "title": "Mise à mort du cerf sacré",
+            "original_title": "The Killing of a Sacred Deer",
+            "year": 2017,
+            "authors": [
+                "Yórgos Lánthimos"
+            ],
+            "favorite": false,
+            "genres": [
+                "Drame",
+                "Thriller",
+                "Fantastique"
+            ]
+        },
+        {
+            "id": "486644",
+            "title": "Titicut Follies",
+            "year": 1967,
+            "authors": [
+                "Frederick Wiseman"
+            ],
+            "favorite": false
+        },
+        {
+            "id": "16740887",
+            "title": "Dans un recoin de ce monde",
+            "original_title": "Kono Sekai no Katasumi ni",
+            "year": 2016,
+            "authors": [
+                "Sunao Katabuchi"
+            ],
+            "favorite": false,
+            "genres": [
+                "Animation",
+                "Drame",
+                "Historique",
+                "Guerre"
+            ]
+        },
+        {
+            "id": "17018142",
+            "title": "Good Time",
+            "year": 2017,
+            "authors": [
+                "Benny Safdie",
+                "Joshua Safdie"
+            ],
+            "favorite": false,
+            "genres": [
+                "Policier",
+                "Drame",
+                "Thriller"
+            ]
+        },
+        {
+            "id": "22788969",
+            "title": "120 battements par minute",
+            "year": 2017,
+            "authors": [
+                "Robin Campillo"
+            ],
+            "favorite": false,
+            "genres": [
+                "Drame"
+            ]
+        },
+        {
+            "id": "468143",
+            "title": "Martha Marcy May Marlene",
+            "year": 2011,
+            "authors": [
+                "Sean Durkin"
+            ],
+            "favorite": false,
+            "genres": [
+                "Drame",
+                "Thriller"
+            ]
+        },
+        {
+            "id": "437533",
+            "title": "Je suis un évadé",
+            "original_title": "I Am a Fugitive From a Chain Gang",
+            "year": 1932,
+            "authors": [
+                "Mervyn LeRoy"
+            ],
+            "favorite": false,
+            "genres": [
+                "Drame",
+                "Film Noir"
+            ]
+        },
+        {
+            "id": "480906",
+            "title": "Batman contre le Fantôme Masqué",
+            "original_title": "Batman: Mask of the Phantasm",
+            "year": 1993,
+            "authors": [
+                "Eric Radomski",
+                "Bruce Timm"
+            ],
+            "favorite": false,
+            "genres": [
+                "Action",
+                "Animation"
+            ]
+        },
+        {
+            "id": "451032",
+            "title": "Les Incorruptibles",
+            "original_title": "The Untouchables",
+            "year": 1987,
+            "authors": [
+                "Brian De Palma"
+            ],
+            "favorite": false,
+            "genres": [
+                "Policier",
+                "Drame",
+                "Historique",
+                "Thriller"
+            ]
+        },
+        {
+            "id": "17954661",
+            "title": "Kaamelott : Premier volet",
+            "year": 2021,
+            "authors": [
+                "Alexandre Astier"
+            ],
+            "favorite": false,
+            "genres": [
+                "Comédie",
+                "Aventure",
+                "Fantastique"
+            ]
+        },
+        {
+            "id": "429116",
+            "title": "Crash",
+            "year": 1996,
+            "authors": [
+                "David Cronenberg"
+            ],
+            "favorite": false,
+            "genres": [
+                "Drame",
+                "Thriller",
+                "Érotique"
+            ]
+        },
+        {
+            "id": "19622905",
+            "title": "Kate Plays Christine",
+            "year": 2016,
+            "authors": [
+                "Robert Greene"
+            ],
+            "favorite": false
+        },
+        {
+            "id": "8351152",
+            "title": "L'Étrange couleur des larmes de ton corps",
+            "year": 2014,
+            "authors": [
+                "Hélène Cattet",
+                "Bruno Forzani"
+            ],
+            "favorite": false,
+            "genres": [
+                "Thriller"
+            ]
+        },
+        {
+            "id": "449317",
+            "title": "Twin Peaks - Les 7 derniers jours de Laura Palmer",
+            "original_title": "Twin Peaks: Fire Walk with Me",
+            "year": 1992,
+            "authors": [
+                "David Lynch"
+            ],
+            "favorite": false,
+            "genres": [
+                "Fantastique",
+                "Épouvante-Horreur",
+                "Policier"
+            ]
+        },
+        {
+            "id": "19656497",
+            "title": "Le Château de verre",
+            "original_title": "The Glass Castle",
+            "year": 2017,
+            "authors": [
+                "Destin Daniel Cretton"
+            ],
+            "favorite": false,
+            "genres": [
+                "Biopic",
+                "Drame"
+            ]
+        },
+        {
+            "id": "423641",
+            "title": "Qui veut la peau de Roger Rabbit",
+            "original_title": "Who Framed Roger Rabbit",
+            "year": 1988,
+            "authors": [
+                "Robert Zemeckis"
+            ],
+            "favorite": false,
+            "genres": [
+                "Animation",
+                "Comédie",
+                "Policier"
+            ]
+        },
+        {
+            "id": "485043",
+            "title": "Les Ailes du désir",
+            "original_title": "Der Himmel über Berlin",
+            "year": 1987,
+            "authors": [
+                "Wim Wenders"
+            ],
+            "favorite": false,
+            "genres": [
+                "Drame",
+                "Romance",
+                "Fantastique"
+            ]
+        },
+        {
+            "id": "424612",
+            "title": "L'Année du Dragon",
+            "original_title": "Year of the Dragon",
+            "year": 1985,
+            "authors": [
+                "Michael Cimino"
+            ],
+            "favorite": false,
+            "genres": [
+                "Policier",
+                "Drame"
+            ]
+        },
+        {
+            "id": "22795517",
+            "title": "Je ne suis pas votre nègre",
+            "original_title": "I Am Not Your Negro",
+            "year": 2016,
+            "authors": [
+                "Raoul Peck"
+            ],
+            "favorite": false,
+            "genres": [
+                "Historique",
+                "Société"
+            ]
+        },
+        {
+            "id": "423644",
+            "title": "Little Odessa",
+            "year": 1994,
+            "authors": [
+                "James Gray"
+            ],
+            "favorite": false,
+            "genres": [
+                "Policier",
+                "Drame"
+            ]
+        },
+        {
+            "id": "428334",
+            "title": "Une histoire vraie",
+            "original_title": "The Straight Story",
+            "year": 1999,
+            "authors": [
+                "David Lynch"
+            ],
+            "favorite": false,
+            "genres": [
+                "Road Movie",
+                "Drame"
+            ]
+        },
+        {
+            "id": "477917",
+            "title": "Ghost Dog : La Voie du samouraï",
+            "original_title": "Ghost Dog: The Way of the Samurai",
+            "year": 1999,
+            "authors": [
+                "Jim Jarmusch"
+            ],
+            "favorite": false,
+            "genres": [
+                "Drame",
+                "Thriller",
+                "Policier"
+            ]
+        },
+        {
+            "id": "487415",
+            "title": "Stardust Memories",
+            "year": 1980,
+            "authors": [
+                "Woody Allen"
+            ],
+            "favorite": false,
+            "genres": [
+                "Comédie Dramatique"
+            ]
+        },
+        {
+            "id": "429730",
+            "title": "Le Verdict",
+            "original_title": "The Verdict",
+            "year": 1982,
+            "authors": [
+                "Sidney Lumet"
+            ],
+            "favorite": false,
+            "genres": [
+                "Drame",
+                "Policier"
+            ]
+        },
+        {
+            "id": "19103469",
+            "title": "Frantz",
+            "year": 2016,
+            "authors": [
+                "François Ozon"
+            ],
+            "favorite": false,
+            "genres": [
+                "Drame"
+            ]
+        },
+        {
+            "id": "12541569",
+            "title": "Vincent n'a pas d'écailles",
+            "year": 2014,
+            "authors": [
+                "Thomas Salvador"
+            ],
+            "favorite": false,
+            "genres": [
+                "Fantastique",
+                "Comédie Dramatique"
+            ]
+        },
+        {
+            "id": "474446",
+            "title": "Los Angeles 2013",
+            "original_title": "Escape from L.A.",
+            "year": 1996,
+            "authors": [
+                "John Carpenter"
+            ],
+            "favorite": false,
+            "genres": [
+                "Action",
+                "Fantastique"
+            ]
+        },
+        {
+            "id": "489473",
+            "title": "Assaut",
+            "original_title": "Assault on Precinct 13",
+            "year": 1976,
+            "authors": [
+                "John Carpenter"
+            ],
+            "favorite": false,
+            "genres": [
+                "Action",
+                "Policier",
+                "Thriller"
+            ]
+        },
+        {
+            "id": "474989",
+            "title": "Katie Tippel",
+            "original_title": "Keetje Tippel",
+            "year": 1975,
+            "authors": [
+                "Paul Verhoeven"
+            ],
+            "favorite": false,
+            "genres": [
+                "Drame",
+                "Romance",
+                "Historique"
+            ]
+        },
+        {
+            "id": "376452",
+            "title": "La Chair et le Sang",
+            "original_title": "Flesh+Blood",
+            "year": 1985,
+            "authors": [
+                "Paul Verhoeven"
+            ],
+            "favorite": false,
+            "genres": [
+                "Aventure",
+                "Romance"
+            ]
+        },
+        {
+            "id": "496563",
+            "title": "Black Book",
+            "original_title": "Zwartboek",
+            "year": 2006,
+            "authors": [
+                "Paul Verhoeven"
+            ],
+            "favorite": false,
+            "genres": [
+                "Drame",
+                "Guerre"
+            ]
+        },
+        {
+            "id": "415297",
+            "title": "Du silence et des ombres",
+            "original_title": "To Kill a Mockingbird",
+            "year": 1962,
+            "authors": [
+                "Robert Mulligan"
+            ],
+            "favorite": false,
+            "genres": [
+                "Drame"
+            ]
+        },
+        {
+            "id": "473964",
+            "title": "Spartacus",
+            "year": 1960,
+            "authors": [
+                "Stanley Kubrick"
+            ],
+            "favorite": false,
+            "genres": [
+                "Péplum"
+            ]
+        },
+        {
+            "id": "366853",
+            "title": "Quand Harry rencontre Sally...",
+            "original_title": "When Harry Met Sally",
+            "year": 1989,
+            "authors": [
+                "Rob Reiner"
+            ],
+            "favorite": false,
+            "genres": [
+                "Comédie Romantique",
+                "Drame"
+            ]
+        },
+        {
+            "id": "463566",
+            "title": "Autant en emporte le vent",
+            "original_title": "Gone with the Wind",
+            "year": 1939,
+            "authors": [
+                "Victor Fleming"
+            ],
+            "favorite": false,
+            "genres": [
+                "Drame",
+                "Historique",
+                "Romance",
+                "Guerre"
+            ]
+        },
+        {
+            "id": "424149",
+            "title": "Tigre \u0026 Dragon",
+            "original_title": "Wo hu cang long",
+            "year": 2000,
+            "authors": [
+                "Ang Lee"
+            ],
+            "favorite": false,
+            "genres": [
+                "Arts Martiaux",
+                "Aventure",
+                "Drame"
+            ]
+        },
+        {
+            "id": "487417",
+            "title": "Autopsie d'un meurtre",
+            "original_title": "Anatomy of a Murder",
+            "year": 1959,
+            "authors": [
+                "Otto Preminger"
+            ],
+            "favorite": false,
+            "genres": [
+                "Policier",
+                "Drame",
+                "Thriller"
+            ]
+        },
+        {
+            "id": "24698928",
+            "title": "Dune",
+            "year": 2021,
+            "authors": [
+                "Denis Villeneuve"
+            ],
+            "favorite": false,
+            "genres": [
+                "Drame",
+                "Science-Fiction"
+            ]
+        },
+        {
+            "id": "369638",
+            "title": "Ran",
+            "year": 1985,
+            "authors": [
+                "Akira Kurosawa"
+            ],
+            "favorite": false,
+            "genres": [
+                "Drame",
+                "Historique"
+            ]
+        },
+        {
+            "id": "478657",
+            "title": "Le Dictateur",
+            "original_title": "The Great Dictator",
+            "year": 1940,
+            "authors": [
+                "Charlie Chaplin"
+            ],
+            "favorite": false,
+            "genres": [
+                "Comédie Dramatique",
+                "Guerre"
+            ]
+        },
+        {
+            "id": "453407",
+            "title": "The Lovers",
+            "original_title": "Leung juk",
+            "year": 1994,
+            "authors": [
+                "Tsui Hark"
+            ],
+            "favorite": false,
+            "genres": [
+                "Comédie Dramatique",
+                "Fantastique",
+                "Romance"
+            ]
+        },
+        {
+            "id": "19443512",
+            "title": "20th Century Women",
+            "year": 2016,
+            "authors": [
+                "Mike Mills"
+            ],
+            "favorite": false,
+            "genres": [
+                "Comédie Dramatique"
+            ]
+        },
+        {
+            "id": "444153",
+            "title": "L'Arme fatale",
+            "original_title": "Lethal Weapon",
+            "year": 1987,
+            "authors": [
+                "Richard Donner"
+            ],
+            "favorite": false,
+            "genres": [
+                "Action",
+                "Thriller"
+            ]
+        },
+        {
+            "id": "17004926",
+            "title": "La Loi de la jungle",
+            "year": 2016,
+            "authors": [
+                "Antonin Peretjatko"
+            ],
+            "favorite": false,
+            "genres": [
+                "Comédie"
+            ]
+        },
+        {
+            "id": "438890",
+            "title": "Deux ou trois choses que je sais d'elle",
+            "year": 1967,
+            "authors": [
+                "Jean-Luc Godard"
+            ],
+            "favorite": false,
+            "genres": [
+                "Comédie",
+                "Drame"
+            ]
+        },
+        {
+            "id": "369785",
+            "title": "Pierrot le Fou",
+            "year": 1965,
+            "authors": [
+                "Jean-Luc Godard"
+            ],
+            "favorite": false,
+            "genres": [
+                "Policier",
+                "Comédie Dramatique",
+                "Road Movie",
+                "Romance"
+            ]
+        },
+        {
+            "id": "10439851",
+            "title": "Hope",
+            "original_title": "Sowon",
+            "year": 2013,
+            "authors": [
+                "Lee Joon-Ik"
+            ],
+            "favorite": false,
+            "genres": [
+                "Drame"
+            ]
+        },
+        {
+            "id": "481959",
+            "title": "Edward aux mains d'argent",
+            "original_title": "Edward Scissorhands",
+            "year": 1990,
+            "authors": [
+                "Tim Burton"
+            ],
+            "favorite": false,
+            "genres": [
+                "Drame",
+                "Fantastique",
+                "Romance"
+            ]
+        },
+        {
+            "id": "387265",
+            "title": "Qui a peur de Virginia Woolf ?",
+            "original_title": "Who's Afraid of Virginia Woolf?",
+            "year": 1966,
+            "authors": [
+                "Mike Nichols"
+            ],
+            "favorite": false,
+            "genres": [
+                "Drame"
+            ]
+        },
+        {
+            "id": "497806",
+            "title": "La vie est un long fleuve tranquille",
+            "year": 1988,
+            "authors": [
+                "Étienne Chatiliez"
+            ],
+            "favorite": false,
+            "genres": [
+                "Comédie"
+            ]
+        },
+        {
+            "id": "477142",
+            "title": "Quai des Orfèvres",
+            "year": 1947,
+            "authors": [
+                "Henri-Georges Clouzot"
+            ],
+            "favorite": false,
+            "genres": [
+                "Drame",
+                "Policier"
+            ]
+        },
+        {
+            "id": "423801",
+            "title": "La Garçonnière",
+            "original_title": "The Apartment",
+            "year": 1960,
+            "authors": [
+                "Billy Wilder"
+            ],
+            "favorite": false,
+            "genres": [
+                "Comédie",
+                "Drame",
+                "Romance"
+            ]
+        },
+        {
+            "id": "17102269",
+            "title": "Réparer les vivants",
+            "year": 2016,
+            "authors": [
+                "Katell Quillévéré"
+            ],
+            "favorite": false,
+            "genres": [
+                "Drame"
+            ]
+        },
+        {
+            "id": "413424",
+            "title": "L'Homme qui tua Liberty Valance",
+            "original_title": "The Man Who Shot Liberty Valance",
+            "year": 1962,
+            "authors": [
+                "John Ford"
+            ],
+            "favorite": false,
+            "genres": [
+                "Western"
+            ]
+        },
+        {
+            "id": "496973",
+            "title": "Arsenic et vieilles dentelles",
+            "original_title": "Arsenic and Old Lace",
+            "year": 1944,
+            "authors": [
+                "Frank Capra"
+            ],
+            "favorite": false,
+            "genres": [
+                "Comédie",
+                "Policier",
+                "Thriller"
+            ]
+        },
+        {
+            "id": "390875",
+            "title": "L'Extravagant Mr Deeds",
+            "original_title": "Mr. Deeds Goes to Town",
+            "year": 1936,
+            "authors": [
+                "Frank Capra"
+            ],
+            "favorite": false,
+            "genres": [
+                "Comédie",
+                "Drame",
+                "Romance"
+            ]
+        },
+        {
+            "id": "425855",
+            "title": "Millennium Actress",
+            "original_title": "Sennen joyû",
+            "year": 2002,
+            "authors": [
+                "Satoshi Kon"
+            ],
+            "favorite": false,
+            "genres": [
+                "Animation",
+                "Drame",
+                "Fantastique",
+                "Romance"
+            ]
+        },
+        {
+            "id": "19553899",
+            "title": "Operator",
+            "year": 2016,
+            "authors": [
+                "Logan Kibens"
+            ],
+            "favorite": false,
+            "genres": [
+                "Drame",
+                "Comédie"
+            ]
+        },
+        {
+            "id": "13265095",
+            "title": "World of Tomorrow",
+            "year": 2015,
+            "authors": [
+                "Don Hertzfeldt"
+            ],
+            "favorite": false,
+            "genres": [
+                "Animation",
+                "Comédie",
+                "Drame",
+                "Science-Fiction"
+            ]
+        },
+        {
+            "id": "13400282",
+            "title": "Mushishi Zoku Shou: Suzu no Shizuku",
+            "year": 2015,
+            "authors": [
+                "Hiroshi Nagahama",
+                "Yuki Urushibara"
+            ],
+            "favorite": false
+        },
+        {
+            "id": "13331681",
+            "title": "Un jour dans la vie de Billy Lynn",
+            "original_title": "Billy Lynn's Long Halftime Walk",
+            "year": 2016,
+            "authors": [
+                "Ang Lee"
+            ],
+            "favorite": false,
+            "genres": [
+                "Drame",
+                "Guerre"
+            ]
+        },
+        {
+            "id": "20150244",
+            "title": "I, Philip",
+            "year": 2016,
+            "authors": [
+                "Pierre Zandrowicz"
+            ],
+            "favorite": false
+        },
+        {
+            "id": "11001650",
+            "title": "Alléluia",
+            "year": 2014,
+            "authors": [
+                "Fabrice Du Welz"
+            ],
+            "favorite": false,
+            "genres": [
+                "Drame",
+                "Thriller"
+            ]
+        },
+        {
+            "id": "470029",
+            "title": "Rendez-vous",
+            "original_title": "The Shop Around the Corner",
+            "year": 1940,
+            "authors": [
+                "Ernst Lubitsch"
+            ],
+            "favorite": false,
+            "genres": [
+                "Comédie Romantique"
+            ]
+        },
+        {
+            "id": "424606",
+            "title": "Le Joli Mai",
+            "year": 1963,
+            "authors": [
+                "Chris Marker",
+                "Pierre Lhomme"
+            ],
+            "favorite": false
+        },
+        {
+            "id": "472445",
+            "title": "La Vie des autres",
+            "original_title": "Das Leben der Anderen",
+            "year": 2006,
+            "authors": [
+                "Florian Henckel von Donnersmarck"
+            ],
+            "favorite": false,
+            "genres": [
+                "Drame"
+            ]
+        },
+        {
+            "id": "498132",
+            "title": "Koyaanisqatsi",
+            "year": 1983,
+            "authors": [
+                "Godfrey Reggio"
+            ],
+            "favorite": false,
+            "genres": [
+                "Expérimental"
+            ]
+        },
+        {
+            "id": "10374552",
+            "title": "The Lost City of Z",
+            "year": 2017,
+            "authors": [
+                "James Gray"
+            ],
+            "favorite": false,
+            "genres": [
+                "Aventure",
+                "Biopic",
+                "Drame",
+                "Historique"
+            ]
+        },
+        {
+            "id": "444717",
+            "title": "French Connection",
+            "original_title": "The French Connection",
+            "year": 1971,
+            "authors": [
+                "William Friedkin"
+            ],
+            "favorite": false,
+            "genres": [
+                "Policier"
+            ]
+        },
+        {
+            "id": "378769",
+            "title": "Police fédérale Los Angeles",
+            "original_title": "To Live and Die in L.A.",
+            "year": 1985,
+            "authors": [
+                "William Friedkin"
+            ],
+            "favorite": false,
+            "genres": [
+                "Action",
+                "Policier",
+                "Drame",
+                "Thriller"
+            ]
+        },
+        {
+            "id": "442502",
+            "title": "The Murderer",
+            "original_title": "Hwanghae",
+            "year": 2010,
+            "authors": [
+                "Na Hong-jin"
+            ],
+            "favorite": false,
+            "genres": [
+                "Film Noir",
+                "Thriller",
+                "Action"
+            ]
+        },
+        {
+            "id": "16494252",
+            "title": "Brimstone",
+            "year": 2016,
+            "authors": [
+                "Martin Koolhoven"
+            ],
+            "favorite": false,
+            "genres": [
+                "Thriller",
+                "Western",
+                "Drame"
+            ]
+        },
+        {
+            "id": "552133",
+            "title": "Summer Wars",
+            "original_title": "Samâ uôzu",
+            "year": 2009,
+            "authors": [
+                "Mamoru Hosoda"
+            ],
+            "favorite": false,
+            "genres": [
+                "Animation",
+                "Aventure",
+                "Comédie",
+                "Drame",
+                "Romance",
+                "Science-Fiction"
+            ]
+        },
+        {
+            "id": "18754638",
+            "title": "Sing Street",
+            "year": 2016,
+            "authors": [
+                "John Carney"
+            ],
+            "favorite": false,
+            "genres": [
+                "Drame",
+                "Comédie Musicale"
+            ]
+        },
+        {
+            "id": "430030",
+            "title": "Duel",
+            "year": 1971,
+            "authors": [
+                "Steven Spielberg"
+            ],
+            "favorite": false,
+            "genres": [
+                "Action",
+                "Thriller",
+                "Road Movie"
+            ]
+        },
+        {
+            "id": "437981",
+            "title": "Babel",
+            "year": 2006,
+            "authors": [
+                "Alejandro González Iñárritu"
+            ],
+            "favorite": false,
+            "genres": [
+                "Drame"
+            ]
+        },
+        {
+            "id": "16319070",
+            "title": "Julieta",
+            "year": 2016,
+            "authors": [
+                "Pedro Almodovar"
+            ],
+            "favorite": false,
+            "genres": [
+                "Drame"
+            ]
+        },
+        {
+            "id": "374737",
+            "title": "Les Quatre Cents Coups",
+            "year": 1959,
+            "authors": [
+                "François Truffaut"
+            ],
+            "favorite": false,
+            "genres": [
+                "Policier",
+                "Drame"
+            ]
+        },
+        {
+            "id": "385235",
+            "title": "La Nuit du chasseur",
+            "original_title": "The Night of the Hunter",
+            "year": 1955,
+            "authors": [
+                "Charles Laughton"
+            ],
+            "favorite": false,
+            "genres": [
+                "Drame",
+                "Thriller",
+                "Film Noir"
+            ]
+        },
+        {
+            "id": "17415765",
+            "title": "Merci Patron !",
+            "year": 2016,
+            "authors": [
+                "François Ruffin"
+            ],
+            "favorite": false,
+            "genres": [
+                "Société"
+            ]
+        },
+        {
+            "id": "407307",
+            "title": "The Mask",
+            "year": 1994,
+            "authors": [
+                "Chuck Russell"
+            ],
+            "favorite": false,
+            "genres": [
+                "Comédie",
+                "Fantastique"
+            ]
+        },
+        {
+            "id": "449198",
+            "title": "Man on the Moon",
+            "year": 1999,
+            "authors": [
+                "Miloš Forman"
+            ],
+            "favorite": false,
+            "genres": [
+                "Biopic",
+                "Comédie",
+                "Drame"
+            ]
+        },
+        {
+            "id": "12586534",
+            "title": "Nocturama",
+            "year": 2016,
+            "authors": [
+                "Bertrand Bonello"
+            ],
+            "favorite": false,
+            "genres": [
+                "Drame",
+                "Policier"
+            ]
+        },
+        {
+            "id": "489599",
+            "title": "Pulsions",
+            "original_title": "Dressed to Kill",
+            "year": 1980,
+            "authors": [
+                "Brian De Palma"
+            ],
+            "favorite": false,
+            "genres": [
+                "Thriller",
+                "Épouvante-Horreur",
+                "Film Noir"
+            ]
+        },
+        {
+            "id": "431884",
+            "title": "La Chasse",
+            "original_title": "Jagten",
+            "year": 2012,
+            "authors": [
+                "Thomas Vinterberg"
+            ],
+            "favorite": false,
+            "genres": [
+                "Drame"
+            ]
+        },
+        {
+            "id": "402466",
+            "title": "Persona",
+            "year": 1966,
+            "authors": [
+                "Ingmar Bergman"
+            ],
+            "favorite": false,
+            "genres": [
+                "Drame"
+            ]
+        },
+        {
+            "id": "365109",
+            "title": "Le Kid",
+            "original_title": "The Kid",
+            "year": 1921,
+            "authors": [
+                "Charlie Chaplin"
+            ],
+            "favorite": false,
+            "genres": [
+                "Muet",
+                "Comédie Dramatique"
+            ]
+        },
+        {
+            "id": "453717",
+            "title": "L'Homme de la rue",
+            "original_title": "Meet John Doe",
+            "year": 1941,
+            "authors": [
+                "Frank Capra"
+            ],
+            "favorite": false,
+            "genres": [
+                "Comédie",
+                "Drame",
+                "Romance"
+            ]
+        },
+        {
+            "id": "414148",
+            "title": "Vous ne l'emporterez pas avec vous",
+            "original_title": "You Can't Take It with You",
+            "year": 1938,
+            "authors": [
+                "Frank Capra"
+            ],
+            "favorite": false,
+            "genres": [
+                "Comédie",
+                "Drame",
+                "Romance"
+            ]
+        },
+        {
+            "id": "457179",
+            "title": "L'Homme de la plaine",
+            "original_title": "The Man from Laramie",
+            "year": 1955,
+            "authors": [
+                "Anthony Mann"
+            ],
+            "favorite": false,
+            "genres": [
+                "Drame",
+                "Western"
+            ]
+        },
+        {
+            "id": "488404",
+            "title": "Le Cid",
+            "original_title": "El Cid",
+            "year": 1961,
+            "authors": [
+                "Anthony Mann"
+            ],
+            "favorite": false,
+            "genres": [
+                "Aventure",
+                "Biopic",
+                "Drame",
+                "Historique",
+                "Romance",
+                "Guerre"
+            ]
+        },
+        {
+            "id": "364315",
+            "title": "Jin-Roh - La Brigade des loups",
+            "original_title": "Jin-Rô",
+            "year": 1999,
+            "authors": [
+                "Hiroyuki Okiura"
+            ],
+            "favorite": false,
+            "genres": [
+                "Animation",
+                "Drame",
+                "Science-Fiction",
+                "Thriller"
+            ]
+        },
+        {
+            "id": "396025",
+            "title": "Ed Wood",
+            "year": 1994,
+            "authors": [
+                "Tim Burton"
+            ],
+            "favorite": false,
+            "genres": [
+                "Biopic",
+                "Comédie",
+                "Drame"
+            ]
+        },
+        {
+            "id": "426093",
+            "title": "Bullhead",
+            "original_title": "Rundskop",
+            "year": 2011,
+            "authors": [
+                "Michael R. Roskam"
+            ],
+            "favorite": false,
+            "genres": [
+                "Policier",
+                "Drame",
+                "Film Noir"
+            ]
+        },
+        {
+            "id": "365521",
+            "title": "The Grandmaster",
+            "original_title": "Yi dai zong shi",
+            "year": 2013,
+            "authors": [
+                "Wong Kar-wai"
+            ],
+            "favorite": false,
+            "genres": [
+                "Arts Martiaux",
+                "Action",
+                "Biopic"
+            ]
+        },
+        {
+            "id": "387110",
+            "title": "Last Action Hero",
+            "year": 1993,
+            "authors": [
+                "John McTiernan"
+            ],
+            "favorite": false,
+            "genres": [
+                "Action",
+                "Aventure",
+                "Comédie",
+                "Fantastique"
+            ]
+        },
+        {
+            "id": "382893",
+            "title": "Lost in La Mancha",
+            "year": 2003,
+            "authors": [
+                "Keith Fulton",
+                "Louis Pepe"
+            ],
+            "favorite": false,
+            "genres": [
+                "Making-Of",
+                "Cinéma"
+            ]
+        },
+        {
+            "id": "389903",
+            "title": "Les Moissons du ciel",
+            "original_title": "Days of Heaven",
+            "year": 1978,
+            "authors": [
+                "Terrence Malick"
+            ],
+            "favorite": false,
+            "genres": [
+                "Drame",
+                "Romance"
+            ]
+        },
+        {
+            "id": "379590",
+            "title": "The Plague Dogs",
+            "year": 1982,
+            "authors": [
+                "Martin Rosen"
+            ],
+            "favorite": false,
+            "genres": [
+                "Aventure",
+                "Drame",
+                "Animation"
+            ]
+        },
+        {
+            "id": "436672",
+            "title": "A Scanner Darkly",
+            "year": 2006,
+            "authors": [
+                "Richard Linklater"
+            ],
+            "favorite": false,
+            "genres": [
+                "Animation",
+                "Policier",
+                "Drame",
+                "Science-Fiction"
+            ]
+        },
+        {
+            "id": "447319",
+            "title": "Fanny et Alexandre",
+            "original_title": "Fanny och Alexander",
+            "year": 1982,
+            "authors": [
+                "Ingmar Bergman"
+            ],
+            "favorite": false,
+            "genres": [
+                "Drame"
+            ]
+        },
+        {
+            "id": "403823",
+            "title": "Impitoyable",
+            "original_title": "Unforgiven",
+            "year": 1992,
+            "authors": [
+                "Clint Eastwood"
+            ],
+            "favorite": false,
+            "genres": [
+                "Western"
+            ]
+        },
+        {
+            "id": "424614",
+            "title": "Le Dernier des hommes",
+            "original_title": "Der Letzte Mann",
+            "year": 1924,
+            "authors": [
+                "Friedrich Wilhelm Murnau"
+            ],
+            "favorite": false,
+            "genres": [
+                "Muet",
+                "Drame"
+            ]
+        },
+        {
+            "id": "488065",
+            "title": "Outrages",
+            "original_title": "Casualties of War",
+            "year": 1989,
+            "authors": [
+                "Brian De Palma"
+            ],
+            "favorite": false,
+            "genres": [
+                "Drame",
+                "Historique",
+                "Guerre"
+            ]
+        },
+        {
+            "id": "460447",
+            "title": "Les Aventures de Jack Burton dans les griffes du Mandarin",
+            "original_title": "Big Trouble in Little China",
+            "year": 1986,
+            "authors": [
+                "John Carpenter"
+            ],
+            "favorite": false,
+            "genres": [
+                "Aventure",
+                "Fantastique"
+            ]
+        },
+        {
+            "id": "363333",
+            "title": "Butch Cassidy et le Kid",
+            "original_title": "Butch Cassidy and the Sundance Kid",
+            "year": 1969,
+            "authors": [
+                "George Roy Hill"
+            ],
+            "favorite": false,
+            "genres": [
+                "Biopic",
+                "Western"
+            ]
+        },
+        {
+            "id": "420341",
+            "title": "New York, New York",
+            "year": 1977,
+            "authors": [
+                "Martin Scorsese"
+            ],
+            "favorite": false,
+            "genres": [
+                "Comédie Dramatique",
+                "Musique"
+            ]
+        },
+        {
+            "id": "386154",
+            "title": "Perfect Blue",
+            "original_title": "Pâfekuto Burû",
+            "year": 1998,
+            "authors": [
+                "Satoshi Kon"
+            ],
+            "favorite": false,
+            "genres": [
+                "Animation",
+                "Épouvante-Horreur",
+                "Thriller"
+            ]
+        },
+        {
+            "id": "479344",
+            "title": "Là-haut",
+            "original_title": "Up",
+            "year": 2009,
+            "authors": [
+                "Pete Docter",
+                "Bob Peterson"
+            ],
+            "favorite": false,
+            "genres": [
+                "Animation",
+                "Aventure",
+                "Drame"
+            ]
+        },
+        {
+            "id": "368836",
+            "title": "Brisby et le Secret de NIMH",
+            "original_title": "The Secret of NIMH",
+            "year": 1982,
+            "authors": [
+                "Don Bluth"
+            ],
+            "favorite": false,
+            "genres": [
+                "Animation",
+                "Drame",
+                "Fantastique",
+                "Science-Fiction"
+            ]
+        },
+        {
+            "id": "443589",
+            "title": "In the Loop",
+            "year": 2009,
+            "authors": [
+                "Armando Iannucci"
+            ],
+            "favorite": false,
+            "genres": [
+                "Comédie"
+            ]
+        },
+        {
+            "id": "370575",
+            "title": "Les Tontons flingueurs",
+            "year": 1963,
+            "authors": [
+                "Georges Lautner"
+            ],
+            "favorite": false,
+            "genres": [
+                "Comédie",
+                "Action",
+                "Policier"
+            ]
+        },
+        {
+            "id": "1324710",
+            "title": "Juno",
+            "year": 2007,
+            "authors": [
+                "Jason Reitman"
+            ],
+            "favorite": false,
+            "genres": [
+                "Comédie Dramatique",
+                "Romance"
+            ]
+        },
+        {
+            "id": "488682",
+            "title": "Un été 42",
+            "original_title": "Summer of 42",
+            "year": 1971,
+            "authors": [
+                "Robert Mulligan"
+            ],
+            "favorite": false,
+            "genres": [
+                "Comédie",
+                "Drame",
+                "Romance"
+            ]
+        },
+        {
+            "id": "451323",
+            "title": "Stand by Me",
+            "year": 1986,
+            "authors": [
+                "Rob Reiner"
+            ],
+            "favorite": false,
+            "genres": [
+                "Aventure",
+                "Drame"
+            ]
+        },
+        {
+            "id": "397885",
+            "title": "Le Prince de New York",
+            "original_title": "Prince of the City",
+            "year": 1981,
+            "authors": [
+                "Sidney Lumet"
+            ],
+            "favorite": false,
+            "genres": [
+                "Drame",
+                "Policier"
+            ]
+        },
+        {
+            "id": "11207102",
+            "title": "Les Enquêtes du département V : Miséricorde",
+            "original_title": "Kvinden i buret",
+            "year": 2013,
+            "authors": [
+                "Mikkel Nørgaard"
+            ],
+            "favorite": false,
+            "genres": [
+                "Thriller"
+            ]
+        },
+        {
+            "id": "12950504",
+            "title": "Tangerine",
+            "year": 2015,
+            "authors": [
+                "Sean Baker"
+            ],
+            "favorite": false,
+            "genres": [
+                "Drame",
+                "Comédie"
+            ]
+        },
+        {
+            "id": "468358",
+            "title": "Showgirls",
+            "year": 1995,
+            "authors": [
+                "Paul Verhoeven"
+            ],
+            "favorite": false,
+            "genres": [
+                "Comédie Dramatique"
+            ]
+        },
+        {
+            "id": "369969",
+            "title": "Rushmore",
+            "year": 1998,
+            "authors": [
+                "Wes Anderson"
+            ],
+            "favorite": false,
+            "genres": [
+                "Comédie",
+                "Drame"
+            ]
+        },
+        {
+            "id": "411155",
+            "title": "Ponyo sur la falaise",
+            "original_title": "Gake no ue no Ponyo",
+            "year": 2008,
+            "authors": [
+                "Hayao Miyazaki"
+            ],
+            "favorite": false,
+            "genres": [
+                "Animation",
+                "Aventure",
+                "Fantastique"
+            ]
+        },
+        {
+            "id": "485221",
+            "title": "Kiki la petite sorcière",
+            "original_title": "Majo no takkyūbin",
+            "year": 1989,
+            "authors": [
+                "Hayao Miyazaki"
+            ],
+            "favorite": false,
+            "genres": [
+                "Animation",
+                "Aventure",
+                "Drame",
+                "Fantastique"
+            ]
+        },
+        {
+            "id": "468052",
+            "title": "Nausicaä de la vallée du vent",
+            "original_title": "Kaze no Tani no Nausicaä",
+            "year": 1984,
+            "authors": [
+                "Hayao Miyazaki"
+            ],
+            "favorite": false,
+            "genres": [
+                "Animation",
+                "Aventure",
+                "Fantasy",
+                "Science-Fiction",
+                "Action"
+            ]
+        },
+        {
+            "id": "436936",
+            "title": "Le Convoi de la peur",
+            "original_title": "Sorcerer",
+            "year": 1977,
+            "authors": [
+                "William Friedkin"
+            ],
+            "favorite": false,
+            "genres": [
+                "Action",
+                "Aventure",
+                "Drame"
+            ]
+        },
+        {
+            "id": "433508",
+            "title": "Hard Candy",
+            "year": 2006,
+            "authors": [
+                "David Slade"
+            ],
+            "favorite": false,
+            "genres": [
+                "Policier",
+                "Drame",
+                "Thriller"
+            ]
+        },
+        {
+            "id": "435544",
+            "title": "7h58 ce samedi-là",
+            "original_title": "Before the Devil Knows You're Dead",
+            "year": 2007,
+            "authors": [
+                "Sidney Lumet"
+            ],
+            "favorite": false,
+            "genres": [
+                "Drame",
+                "Policier",
+                "Thriller"
+            ]
+        },
+        {
+            "id": "437816",
+            "title": "Délivrance",
+            "original_title": "Deliverance",
+            "year": 1972,
+            "authors": [
+                "John Boorman"
+            ],
+            "favorite": false,
+            "genres": [
+                "Drame",
+                "Aventure",
+                "Thriller"
+            ]
+        },
+        {
+            "id": "423014",
+            "title": "Lawrence d'Arabie",
+            "original_title": "Lawrence of Arabia",
+            "year": 1962,
+            "authors": [
+                "David Lean"
+            ],
+            "favorite": false,
+            "genres": [
+                "Aventure",
+                "Biopic",
+                "Drame",
+                "Historique",
+                "Guerre"
+            ]
+        },
+        {
+            "id": "385375",
+            "title": "Vidéodrome",
+            "original_title": "Videodrome",
+            "year": 1983,
+            "authors": [
+                "David Cronenberg"
+            ],
+            "favorite": false,
+            "genres": [
+                "Épouvante-Horreur",
+                "Science-Fiction",
+                "Thriller"
+            ]
+        },
+        {
+            "id": "486344",
+            "title": "Le Vieux Fusil",
+            "year": 1975,
+            "authors": [
+                "Robert Enrico"
+            ],
+            "favorite": false,
+            "genres": [
+                "Drame",
+                "Thriller",
+                "Guerre",
+                "Action"
+            ]
+        },
+        {
+            "id": "486492",
+            "title": "Le Tombeau des lucioles",
+            "original_title": "Hotaru no Haka",
+            "year": 1988,
+            "authors": [
+                "Isao Takahata"
+            ],
+            "favorite": false,
+            "genres": [
+                "Animation",
+                "Drame",
+                "Guerre"
+            ]
+        },
+        {
+            "id": "469599",
+            "title": "2046",
+            "year": 2004,
+            "authors": [
+                "Wong Kar-wai"
+            ],
+            "favorite": false,
+            "genres": [
+                "Drame",
+                "Fantastique",
+                "Romance",
+                "Science-Fiction"
+            ]
+        },
+        {
+            "id": "364122",
+            "title": "La Vérité",
+            "year": 1960,
+            "authors": [
+                "Henri-Georges Clouzot"
+            ],
+            "favorite": false,
+            "genres": [
+                "Drame"
+            ]
+        },
+        {
+            "id": "426148",
+            "title": "Manhattan",
+            "year": 1979,
+            "authors": [
+                "Woody Allen"
+            ],
+            "favorite": false,
+            "genres": [
+                "Comédie",
+                "Drame",
+                "Romance"
+            ]
+        },
+        {
+            "id": "475860",
+            "title": "Miracle en Alabama",
+            "original_title": "The Miracle Worker",
+            "year": 1962,
+            "authors": [
+                "Arthur Penn"
+            ],
+            "favorite": false,
+            "genres": [
+                "Biopic",
+                "Drame"
+            ]
+        },
+        {
+            "id": "19438516",
+            "title": "Le Gouffre",
+            "year": 2015,
+            "authors": [
+                "Vincent Le Port"
+            ],
+            "favorite": false,
+            "genres": [
+                "Drame",
+                "Fantastique"
+            ]
+        },
+        {
+            "id": "1324790",
+            "title": "Barbara",
+            "year": 2012,
+            "authors": [
+                "Christian Petzold"
+            ],
+            "favorite": false,
+            "genres": [
+                "Drame"
+            ]
+        },
+        {
+            "id": "444025",
+            "title": "I... comme Icare",
+            "year": 1979,
+            "authors": [
+                "Henri Verneuil"
+            ],
+            "favorite": false,
+            "genres": [
+                "Thriller"
+            ]
+        },
+        {
+            "id": "360929",
+            "title": "Raging Bull",
+            "year": 1980,
+            "authors": [
+                "Martin Scorsese"
+            ],
+            "favorite": false,
+            "genres": [
+                "Biopic",
+                "Drame",
+                "Sport"
+            ]
+        },
+        {
+            "id": "468571",
+            "title": "Tetro",
+            "year": 2009,
+            "authors": [
+                "Francis Ford Coppola"
+            ],
+            "favorite": false,
+            "genres": [
+                "Drame"
+            ]
+        },
+        {
+            "id": "8193990",
+            "title": "Réalité",
+            "year": 2015,
+            "authors": [
+                "Quentin Dupieux (Mr. Oizo)"
+            ],
+            "favorite": false,
+            "genres": [
+                "Comédie Dramatique"
+            ]
+        },
+        {
+            "id": "391252",
+            "title": "Super",
+            "year": 2011,
+            "authors": [
+                "James Gunn"
+            ],
+            "favorite": false,
+            "genres": [
+                "Action",
+                "Comédie",
+                "Drame"
+            ]
+        },
+        {
+            "id": "13069788",
+            "title": "Uncanny",
+            "year": 2015,
+            "authors": [
+                "Matthew Leutwyler"
+            ],
+            "favorite": false,
+            "genres": [
+                "Drame",
+                "Thriller",
+                "Science-Fiction"
+            ]
+        },
+        {
+            "id": "442605",
+            "title": "Miller's Crossing",
+            "year": 1990,
+            "authors": [
+                "Joel Coen",
+                "Ethan Coen"
+            ],
+            "favorite": false,
+            "genres": [
+                "Comédie Dramatique",
+                "Film Noir",
+                "Gangster"
+            ]
+        },
+        {
+            "id": "405872",
+            "title": "Barton Fink",
+            "year": 1991,
+            "authors": [
+                "Joel Coen"
+            ],
+            "favorite": false,
+            "genres": [
+                "Drame"
+            ]
+        },
+        {
+            "id": "382235",
+            "title": "Dracula",
+            "original_title": "Bram Stoker's Dracula",
+            "year": 1992,
+            "authors": [
+                "Francis Ford Coppola"
+            ],
+            "favorite": false,
+            "genres": [
+                "Drame",
+                "Fantastique",
+                "Épouvante-Horreur"
+            ]
+        },
+        {
+            "id": "404021",
+            "title": "Parle avec elle",
+            "original_title": "Hable con ella",
+            "year": 2002,
+            "authors": [
+                "Pedro Almodovar"
+            ],
+            "favorite": false,
+            "genres": [
+                "Drame"
+            ]
+        },
+        {
+            "id": "10543940",
+            "title": "Final Hours",
+            "original_title": "These Final Hours",
+            "year": 2014,
+            "authors": [
+                "Zak Hilditch"
+            ],
+            "favorite": false,
+            "genres": [
+                "Drame",
+                "Thriller"
+            ]
+        },
+        {
+            "id": "425276",
+            "title": "A History of Violence",
+            "year": 2005,
+            "authors": [
+                "David Cronenberg"
+            ],
+            "favorite": false,
+            "genres": [
+                "Thriller",
+                "Film Noir"
+            ]
+        },
+        {
+            "id": "478117",
+            "title": "L'Empire des sens",
+            "original_title": "Ai no korîda",
+            "year": 1976,
+            "authors": [
+                "Nagisa Ôshima"
+            ],
+            "favorite": false,
+            "genres": [
+                "Drame",
+                "Érotique"
+            ]
+        },
+        {
+            "id": "448105",
+            "title": "Midnight Express",
+            "year": 1978,
+            "authors": [
+                "Alan Parker"
+            ],
+            "favorite": false,
+            "genres": [
+                "Biopic",
+                "Drame",
+                "Thriller"
+            ]
+        },
+        {
+            "id": "484888",
+            "title": "Papillon",
+            "year": 1973,
+            "authors": [
+                "Franklin J. Schaffner"
+            ],
+            "favorite": false,
+            "genres": [
+                "Biopic",
+                "Policier",
+                "Drame"
+            ]
+        },
+        {
+            "id": "13461812",
+            "title": "Mustang",
+            "year": 2015,
+            "authors": [
+                "Deniz Gamze Ergüven"
+            ],
+            "favorite": false,
+            "genres": [
+                "Drame"
+            ]
+        },
+        {
+            "id": "396075",
+            "title": "Paprika",
+            "original_title": "Papurika",
+            "year": 2006,
+            "authors": [
+                "Satoshi Kon"
+            ],
+            "favorite": false,
+            "genres": [
+                "Animation",
+                "Science-Fiction",
+                "Thriller"
+            ]
+        },
+        {
+            "id": "372017",
+            "title": "La vie est belle",
+            "original_title": "La vita è bella",
+            "year": 1997,
+            "authors": [
+                "Roberto Benigni"
+            ],
+            "favorite": false,
+            "genres": [
+                "Comédie",
+                "Drame",
+                "Romance",
+                "Guerre"
+            ]
+        },
+        {
+            "id": "448247",
+            "title": "La dolce vita",
+            "year": 1960,
+            "authors": [
+                "Federico Fellini"
+            ],
+            "favorite": false,
+            "genres": [
+                "Comédie Dramatique"
+            ]
+        },
+        {
+            "id": "10874045",
+            "title": "Creed : L'Héritage de Rocky Balboa",
+            "original_title": "Creed",
+            "year": 2015,
+            "authors": [
+                "Ryan Coogler"
+            ],
+            "favorite": false,
+            "genres": [
+                "Drame",
+                "Sport"
+            ]
+        },
+        {
+            "id": "13148319",
+            "title": "Le Bouton de nacre",
+            "original_title": "El botón de nácar",
+            "year": 2015,
+            "authors": [
+                "Patricio Guzmán"
+            ],
+            "favorite": false
+        },
+        {
+            "id": "10472364",
+            "title": "Cemetery of Splendour",
+            "original_title": "Rak ti Khon Kaen",
+            "year": 2015,
+            "authors": [
+                "Apichatpong Weerasethakul"
+            ],
+            "favorite": false,
+            "genres": [
+                "Drame"
+            ]
+        },
+        {
+            "id": "13325298",
+            "title": "Les Secrets des autres",
+            "original_title": "The Grief of Others",
+            "year": 2015,
+            "authors": [
+                "Patrick Wang"
+            ],
+            "favorite": false,
+            "genres": [
+                "Drame"
+            ]
+        },
+        {
+            "id": "429605",
+            "title": "Lenny",
+            "year": 1974,
+            "authors": [
+                "Bob Fosse"
+            ],
+            "favorite": false,
+            "genres": [
+                "Biopic",
+                "Comédie",
+                "Drame"
+            ]
+        },
+        {
+            "id": "461527",
+            "title": "L'Homme qui voulut être roi",
+            "original_title": "The Man Who Would Be King",
+            "year": 1975,
+            "authors": [
+                "John Huston"
+            ],
+            "favorite": false,
+            "genres": [
+                "Action",
+                "Aventure"
+            ]
+        },
+        {
+            "id": "382873",
+            "title": "Un 32 août sur Terre",
+            "year": 1998,
+            "authors": [
+                "Denis Villeneuve"
+            ],
+            "favorite": false,
+            "genres": [
+                "Drame",
+                "Romance"
+            ]
+        },
+        {
+            "id": "16871124",
+            "title": "John Von Neumann, prophète du XXIe siècle",
+            "year": 2014,
+            "authors": [
+                "Philippe Calderon"
+            ],
+            "favorite": false
+        },
+        {
+            "id": "10826940",
+            "title": "The Duke of Burgundy",
+            "year": 2015,
+            "authors": [
+                "Peter Strickland"
+            ],
+            "favorite": false,
+            "genres": [
+                "Drame"
+            ]
+        },
+        {
+            "id": "16206098",
+            "title": "Les Oubliés",
+            "original_title": "Under sandet",
+            "year": 2015,
+            "authors": [
+                "Martin Zandvliet"
+            ],
+            "favorite": false,
+            "genres": [
+                "Drame",
+                "Historique",
+                "Guerre"
+            ]
+        },
+        {
+            "id": "366885",
+            "title": "Le Gouffre aux chimères",
+            "original_title": "Ace in the Hole",
+            "year": 1951,
+            "authors": [
+                "Billy Wilder"
+            ],
+            "favorite": false,
+            "genres": [
+                "Drame",
+                "Film Noir",
+                "Comédie"
+            ]
+        },
+        {
+            "id": "423522",
+            "title": "Little Miss Sunshine",
+            "year": 2006,
+            "authors": [
+                "Jonathan Dayton",
+                "Valerie Faris"
+            ],
+            "favorite": false,
+            "genres": [
+                "Comédie Dramatique",
+                "Road Movie"
+            ]
+        },
+        {
+            "id": "13398300",
+            "title": "The Oath",
+            "year": 2010,
+            "authors": [
+                "Laura Poitras"
+            ],
+            "favorite": false
+        },
+        {
+            "id": "479117",
+            "title": "Body Double",
+            "year": 1984,
+            "authors": [
+                "Brian De Palma"
+            ],
+            "favorite": false,
+            "genres": [
+                "Thriller",
+                "Film Noir"
+            ]
+        },
+        {
+            "id": "363399",
+            "title": "A Single Man",
+            "year": 2009,
+            "authors": [
+                "Tom Ford"
+            ],
+            "favorite": false,
+            "genres": [
+                "Drame"
+            ]
+        },
+        {
+            "id": "461545",
+            "title": "L'Auberge espagnole",
+            "year": 2002,
+            "authors": [
+                "Cédric Klapisch"
+            ],
+            "favorite": false,
+            "genres": [
+                "Comédie",
+                "Romance",
+                "Drame"
+            ]
+        },
+        {
+            "id": "444876",
+            "title": "Philadelphia",
+            "year": 1993,
+            "authors": [
+                "Jonathan Demme"
+            ],
+            "favorite": false,
+            "genres": [
+                "Drame"
+            ]
+        },
+        {
+            "id": "404152",
+            "title": "Sur la route de Madison",
+            "original_title": "The Bridges of Madison County",
+            "year": 1995,
+            "authors": [
+                "Clint Eastwood"
+            ],
+            "favorite": false,
+            "genres": [
+                "Drame",
+                "Romance"
+            ]
+        },
+        {
+            "id": "451989",
+            "title": "Le Dernier Samouraï",
+            "original_title": "The Last Samurai",
+            "year": 2003,
+            "authors": [
+                "Edward Zwick"
+            ],
+            "favorite": false,
+            "genres": [
+                "Guerre",
+                "Historique",
+                "Drame"
+            ]
+        },
+        {
+            "id": "481322",
+            "title": "Amadeus",
+            "year": 1984,
+            "authors": [
+                "Miloš Forman"
+            ],
+            "favorite": false,
+            "genres": [
+                "Biopic",
+                "Drame"
+            ]
+        },
+        {
+            "id": "468258",
+            "title": "Les Noces rebelles",
+            "original_title": "Revolutionary Road",
+            "year": 2008,
+            "authors": [
+                "Sam Mendes"
+            ],
+            "favorite": false,
+            "genres": [
+                "Drame"
+            ]
+        },
+        {
+            "id": "407289",
+            "title": "Le Mariage de Maria Braun",
+            "original_title": "Die Ehe der Maria Braun",
+            "year": 1979,
+            "authors": [
+                "Rainer Werner Fassbinder"
+            ],
+            "favorite": false,
+            "genres": [
+                "Drame"
+            ]
+        },
+        {
+            "id": "431892",
+            "title": "Le Salaire de la peur",
+            "year": 1953,
+            "authors": [
+                "Henri-Georges Clouzot"
+            ],
+            "favorite": false,
+            "genres": [
+                "Aventure",
+                "Drame",
+                "Thriller"
+            ]
+        },
+        {
+            "id": "478814",
+            "title": "Virgin Suicides",
+            "original_title": "The Virgin Suicides",
+            "year": 1999,
+            "authors": [
+                "Sofia Coppola"
+            ],
+            "favorite": false,
+            "genres": [
+                "Drame",
+                "Romance"
+            ]
+        },
+        {
+            "id": "411641",
+            "title": "Two Lovers",
+            "year": 2008,
+            "authors": [
+                "James Gray"
+            ],
+            "favorite": false,
+            "genres": [
+                "Drame",
+                "Romance"
+            ]
+        },
+        {
+            "id": "13574603",
+            "title": "Le Souffle",
+            "original_title": "Ispytanie",
+            "year": 2015,
+            "authors": [
+                "Alexander Kott"
+            ],
+            "favorite": false,
+            "genres": [
+                "Drame"
+            ]
+        },
+        {
+            "id": "463364",
+            "title": "Third Star",
+            "year": 2011,
+            "authors": [
+                "Hattie Dalton"
+            ],
+            "favorite": false,
+            "genres": [
+                "Comédie Dramatique"
+            ]
+        },
+        {
+            "id": "411777",
+            "title": "Pusher",
+            "year": 1996,
+            "authors": [
+                "Nicolas Winding Refn"
+            ],
+            "favorite": false,
+            "genres": [
+                "Policier",
+                "Film Noir"
+            ]
+        },
+        {
+            "id": "424312",
+            "title": "Conan le Barbare",
+            "original_title": "Conan the Barbarian",
+            "year": 1982,
+            "authors": [
+                "John Milius"
+            ],
+            "favorite": false,
+            "genres": [
+                "Fantasy",
+                "Aventure"
+            ]
+        },
+        {
+            "id": "804212",
+            "title": "Phantom of the Paradise",
+            "year": 1974,
+            "authors": [
+                "Brian De Palma"
+            ],
+            "favorite": false,
+            "genres": [
+                "Comédie Musicale",
+                "Drame",
+                "Fantastique"
+            ]
+        },
+        {
+            "id": "426914",
+            "title": "On achève bien les chevaux",
+            "original_title": "They Shoot Horses, Don't They?",
+            "year": 1969,
+            "authors": [
+                "Sydney Pollack"
+            ],
+            "favorite": false,
+            "genres": [
+                "Drame"
+            ]
+        },
+        {
+            "id": "488457",
+            "title": "La Route",
+            "original_title": "The Road",
+            "year": 2009,
+            "authors": [
+                "John Hillcoat"
+            ],
+            "favorite": false,
+            "genres": [
+                "Drame",
+                "Road Movie"
+            ]
+        },
+        {
+            "id": "389148",
+            "title": "The Yards",
+            "year": 2000,
+            "authors": [
+                "James Gray"
+            ],
+            "favorite": false,
+            "genres": [
+                "Drame",
+                "Thriller",
+                "Policier",
+                "Film Noir"
+            ]
+        },
+        {
+            "id": "8462756",
+            "title": "Why Don't You Play in Hell?",
+            "original_title": "Jigoku de naze warui",
+            "year": 2013,
+            "authors": [
+                "Sion Sono"
+            ],
+            "favorite": false,
+            "genres": [
+                "Action",
+                "Comédie",
+                "Drame"
+            ]
+        },
+        {
+            "id": "11177756",
+            "title": "The Tribe",
+            "original_title": "Plemya",
+            "year": 2014,
+            "authors": [
+                "Miroslav Slaboshpitsky"
+            ],
+            "favorite": false,
+            "genres": [
+                "Policier",
+                "Drame"
+            ]
+        },
+        {
+            "id": "414147",
+            "title": "Paris, Texas",
+            "year": 1984,
+            "authors": [
+                "Wim Wenders"
+            ],
+            "favorite": false,
+            "genres": [
+                "Drame",
+                "Road Movie"
+            ]
+        },
+        {
+            "id": "447439",
+            "title": "Bellflower",
+            "year": 2011,
+            "authors": [
+                "Evan Glodell"
+            ],
+            "favorite": false,
+            "genres": [
+                "Drame"
+            ]
+        },
+        {
+            "id": "436782",
+            "title": "Blue",
+            "year": 1993,
+            "authors": [
+                "Derek Jarman"
+            ],
+            "favorite": false,
+            "genres": [
+                "Biopic,"
+            ]
+        },
+        {
+            "id": "493814",
+            "title": "La piel que habito",
+            "year": 2011,
+            "authors": [
+                "Pedro Almodovar"
+            ],
+            "favorite": false,
+            "genres": [
+                "Drame",
+                "Épouvante-Horreur",
+                "Thriller"
+            ]
+        },
+        {
+            "id": "433689",
+            "title": "Fish Tank",
+            "year": 2009,
+            "authors": [
+                "Andrea Arnold"
+            ],
+            "favorite": false,
+            "genres": [
+                "Drame"
+            ]
+        },
+        {
+            "id": "363401",
+            "title": "Polytechnique",
+            "year": 2009,
+            "authors": [
+                "Denis Villeneuve"
+            ],
+            "favorite": false,
+            "genres": [
+                "Drame",
+                "Historique"
+            ]
+        },
+        {
+            "id": "405555",
+            "title": "L'avventura",
+            "year": 1960,
+            "authors": [
+                "Michelangelo Antonioni"
+            ],
+            "favorite": false,
+            "genres": [
+                "Comédie Dramatique",
+                "Road Movie"
+            ]
+        },
+        {
+            "id": "481799",
+            "title": "Les Duellistes",
+            "original_title": "The Duellists",
+            "year": 1977,
+            "authors": [
+                "Ridley Scott"
+            ],
+            "favorite": false,
+            "genres": [
+                "Guerre",
+                "Historique",
+                "Drame"
+            ]
+        },
+        {
+            "id": "376994",
+            "title": "La Couleur des sentiments",
+            "original_title": "The Help",
+            "year": 2011,
+            "authors": [
+                "Tate Taylor"
+            ],
+            "favorite": false,
+            "genres": [
+                "Drame",
+                "Comédie"
+            ]
+        },
+        {
+            "id": "443242",
+            "title": "Kingdom of Heaven",
+            "year": 2005,
+            "authors": [
+                "Ridley Scott"
+            ],
+            "favorite": false,
+            "genres": [
+                "Action",
+                "Aventure",
+                "Historique"
+            ]
+        },
+        {
+            "id": "382869",
+            "title": "Braveheart",
+            "year": 1995,
+            "authors": [
+                "Mel Gibson"
+            ],
+            "favorite": false,
+            "genres": [
+                "Biopic",
+                "Drame",
+                "Historique",
+                "Action",
+                "Guerre"
+            ]
+        },
+        {
+            "id": "454343",
+            "title": "Abyss",
+            "original_title": "The Abyss",
+            "year": 1989,
+            "authors": [
+                "James Cameron"
+            ],
+            "favorite": false,
+            "genres": [
+                "Aventure",
+                "Drame",
+                "Thriller",
+                "Science-Fiction"
+            ]
+        },
+        {
+            "id": "381291",
+            "title": "La Machine à explorer le temps",
+            "original_title": "The Time Machine",
+            "year": 1960,
+            "authors": [
+                "George Pal"
+            ],
+            "favorite": false,
+            "genres": [
+                "Science-Fiction",
+                "Aventure",
+                "Romance",
+                "Fantastique"
+            ]
+        },
+        {
+            "id": "418949",
+            "title": "Le crime était presque parfait",
+            "original_title": "Dial M for Murder",
+            "year": 1954,
+            "authors": [
+                "Alfred Hitchcock"
+            ],
+            "favorite": false,
+            "genres": [
+                "Policier",
+                "Thriller"
+            ]
+        },
+        {
+            "id": "396316",
+            "title": "Les Bêtes du Sud sauvage",
+            "original_title": "Beasts of the Southern Wild",
+            "year": 2012,
+            "authors": [
+                "Benh Zeitlin"
+            ],
+            "favorite": false,
+            "genres": [
+                "Drame"
+            ]
+        },
+        {
+            "id": "439478",
+            "title": "Un après-midi de chien",
+            "original_title": "Dog Day Afternoon",
+            "year": 1975,
+            "authors": [
+                "Sidney Lumet"
+            ],
+            "favorite": false,
+            "genres": [
+                "Drame",
+                "Gangster"
+            ]
+        },
+        {
+            "id": "492158",
+            "title": "L'Impasse",
+            "original_title": "Carlito's Way",
+            "year": 1993,
+            "authors": [
+                "Brian De Palma"
+            ],
+            "favorite": false,
+            "genres": [
+                "Gangster",
+                "Drame"
+            ]
+        },
+        {
+            "id": "13148597",
+            "title": "Taxi Téhéran",
+            "original_title": "Taxi",
+            "year": 2015,
+            "authors": [
+                "Jafar Panahi"
+            ],
+            "favorite": false,
+            "genres": [
+                "Comédie Dramatique"
+            ]
+        },
+        {
+            "id": "466517",
+            "title": "Serpico",
+            "year": 1973,
+            "authors": [
+                "Sidney Lumet"
+            ],
+            "favorite": false,
+            "genres": [
+                "Biopic",
+                "Policier",
+                "Drame"
+            ]
+        },
+        {
+            "id": "477739",
+            "title": "La Balade sauvage",
+            "original_title": "Badlands",
+            "year": 1973,
+            "authors": [
+                "Terrence Malick"
+            ],
+            "favorite": false,
+            "genres": [
+                "Road Movie",
+                "Drame",
+                "Policier"
+            ]
+        },
+        {
+            "id": "450867",
+            "title": "Elephant Man",
+            "original_title": "The Elephant Man",
+            "year": 1980,
+            "authors": [
+                "David Lynch"
+            ],
+            "favorite": false,
+            "genres": [
+                "Biopic",
+                "Drame"
+            ]
+        },
+        {
+            "id": "479445",
+            "title": "Conversation secrète",
+            "original_title": "The Conversation",
+            "year": 1974,
+            "authors": [
+                "Francis Ford Coppola"
+            ],
+            "favorite": false,
+            "genres": [
+                "Drame",
+                "Thriller"
+            ]
+        },
+        {
+            "id": "453593",
+            "title": "Network - Main basse sur la TV",
+            "original_title": "Network",
+            "year": 1976,
+            "authors": [
+                "Sidney Lumet"
+            ],
+            "favorite": false,
+            "genres": [
+                "Drame"
+            ]
+        },
+        {
+            "id": "450318",
+            "title": "Blue Valentine",
+            "year": 2010,
+            "authors": [
+                "Derek Cianfrance"
+            ],
+            "favorite": false,
+            "genres": [
+                "Drame",
+                "Romance"
+            ]
+        },
+        {
+            "id": "455755",
+            "title": "Pique-nique à Hanging Rock",
+            "original_title": "Picnic at Hanging Rock",
+            "year": 1975,
+            "authors": [
+                "Peter Weir"
+            ],
+            "favorite": false,
+            "genres": [
+                "Drame",
+                "Fantastique"
+            ]
+        },
+        {
+            "id": "8131681",
+            "title": "Before Midnight",
+            "year": 2013,
+            "authors": [
+                "Richard Linklater"
+            ],
+            "favorite": false,
+            "genres": [
+                "Drame"
+            ]
+        },
+        {
+            "id": "470061",
+            "title": "Before Sunrise",
+            "year": 1995,
+            "authors": [
+                "Richard Linklater"
+            ],
+            "favorite": false,
+            "genres": [
+                "Romance"
+            ]
+        },
+        {
+            "id": "489496",
+            "title": "Before Sunset",
+            "year": 2004,
+            "authors": [
+                "Richard Linklater"
+            ],
+            "favorite": false,
+            "genres": [
+                "Drame",
+                "Romance"
+            ]
+        },
+        {
+            "id": "480753",
+            "title": "The Fall",
+            "year": 2006,
+            "authors": [
+                "Tarsem Singh"
+            ],
+            "favorite": false,
+            "genres": [
+                "Aventure",
+                "Drame",
+                "Fantastique"
+            ]
+        },
+        {
+            "id": "382537",
+            "title": "La Montagne sacrée",
+            "original_title": "The Holy Mountain",
+            "year": 1973,
+            "authors": [
+                "Alejandro Jodorowsky"
+            ],
+            "favorite": false,
+            "genres": [
+                "Aventure",
+                "Fantastique",
+                "Expérimental"
+            ]
+        },
+        {
+            "id": "22682479",
+            "title": "Voyage of Time: The IMAX Experience",
+            "year": 2016,
+            "authors": [
+                "Terrence Malick"
+            ],
+            "favorite": false
+        },
+        {
+            "id": "392952",
+            "title": "Candy",
+            "year": 2006,
+            "authors": [
+                "Neil Armfield"
+            ],
+            "favorite": false,
+            "genres": [
+                "Drame",
+                "Romance"
+            ]
+        },
+        {
+            "id": "423342",
+            "title": "Innocence : Ghost in the Shell 2",
+            "original_title": "Inosensu",
+            "year": 2004,
+            "authors": [
+                "Mamoru Oshii"
+            ],
+            "favorite": false,
+            "genres": [
+                "Animation",
+                "Drame",
+                "Science-Fiction",
+                "Thriller"
+            ]
+        },
+        {
+            "id": "11177867",
+            "title": "It Follows",
+            "year": 2014,
+            "authors": [
+                "David Robert Mitchell"
+            ],
+            "favorite": false,
+            "genres": [
+                "Épouvante-Horreur"
+            ]
+        },
+        {
+            "id": "10877238",
+            "title": "Il est difficile d'être un dieu",
+            "original_title": "Trydno byt bogom",
+            "year": 2014,
+            "authors": [
+                "Alexei Guerman"
+            ],
+            "favorite": false,
+            "genres": [
+                "Science-Fiction"
+            ]
+        },
+        {
+            "id": "369133",
+            "title": "Le Miroir",
+            "original_title": "Zerkalo",
+            "year": 1975,
+            "authors": [
+                "Andreï Tarkovski"
+            ],
+            "favorite": false,
+            "genres": [
+                "Drame",
+                "Biopic"
+            ]
+        },
+        {
+            "id": "479578",
+            "title": "Les Enfants loups, Ame \u0026 Yuki",
+            "original_title": "Ôkami Kodomo no Ame to Yuki",
+            "year": 2012,
+            "authors": [
+                "Mamoru Hosoda"
+            ],
+            "favorite": false,
+            "genres": [
+                "Animation",
+                "Drame",
+                "Fantastique"
+            ]
+        },
+        {
+            "id": "413035",
+            "title": "Rubber",
+            "year": 2010,
+            "authors": [
+                "Quentin Dupieux (Mr. Oizo)"
+            ],
+            "favorite": false,
+            "genres": [
+                "Comédie",
+                "Épouvante-Horreur"
+            ]
+        },
+        {
+            "id": "385560",
+            "title": "Le Solitaire",
+            "original_title": "Thief",
+            "year": 1981,
+            "authors": [
+                "Michael Mann"
+            ],
+            "favorite": false,
+            "genres": [
+                "Action",
+                "Policier",
+                "Drame",
+                "Thriller",
+                "Film Noir"
+            ]
+        },
+        {
+            "id": "478436",
+            "title": "La Vague",
+            "original_title": "Die Welle",
+            "year": 2008,
+            "authors": [
+                "Dennis Gansel"
+            ],
+            "favorite": false,
+            "genres": [
+                "Drame",
+                "Thriller"
+            ]
+        },
+        {
+            "id": "411421",
+            "title": "Prête à tout",
+            "original_title": "To Die For",
+            "year": 1995,
+            "authors": [
+                "Gus Van Sant"
+            ],
+            "favorite": false,
+            "genres": [
+                "Policier"
+            ]
+        },
+        {
+            "id": "429587",
+            "title": "Incassable",
+            "original_title": "Unbreakable",
+            "year": 2000,
+            "authors": [
+                "M. Night Shyamalan"
+            ],
+            "favorite": false,
+            "genres": [
+                "Fantastique",
+                "Thriller"
+            ]
+        },
+        {
+            "id": "413003",
+            "title": "La Guerre des mondes",
+            "original_title": "War of the Worlds",
+            "year": 2005,
+            "authors": [
+                "Steven Spielberg"
+            ],
+            "favorite": false,
+            "genres": [
+                "Science-Fiction",
+                "Thriller",
+                "Catastrophe"
+            ]
+        },
+        {
+            "id": "374602",
+            "title": "Good Morning England",
+            "original_title": "The Boat That Rocked",
+            "year": 2009,
+            "authors": [
+                "Richard Curtis"
+            ],
+            "favorite": false,
+            "genres": [
+                "Comédie",
+                "Drame",
+                "Comédie Musicale",
+                "Romance"
+            ]
+        },
+        {
+            "id": "383396",
+            "title": "Mémoires de nos pères",
+            "original_title": "Flags of Our Fathers",
+            "year": 2006,
+            "authors": [
+                "Clint Eastwood"
+            ],
+            "favorite": false,
+            "genres": [
+                "Drame",
+                "Historique",
+                "Guerre"
+            ]
+        },
+        {
+            "id": "432416",
+            "title": "Rollerball",
+            "year": 1975,
+            "authors": [
+                "Norman Jewison"
+            ],
+            "favorite": false,
+            "genres": [
+                "Action",
+                "Science-Fiction"
+            ]
+        },
+        {
+            "id": "433306",
+            "title": "RoboCop",
+            "year": 1987,
+            "authors": [
+                "Paul Verhoeven"
+            ],
+            "favorite": false,
+            "genres": [
+                "Action",
+                "Policier",
+                "Science-Fiction"
+            ]
+        },
+        {
+            "id": "438115",
+            "title": "Punishment Park",
+            "year": 1971,
+            "authors": [
+                "Peter Watkins"
+            ],
+            "favorite": false,
+            "genres": [
+                "Drame",
+                "Thriller"
+            ]
+        },
+        {
+            "id": "468521",
+            "title": "Soleil vert",
+            "original_title": "Soylent Green",
+            "year": 1973,
+            "authors": [
+                "Richard Fleischer"
+            ],
+            "favorite": false,
+            "genres": [
+                "Drame",
+                "Science-Fiction",
+                "Thriller"
+            ]
+        },
+        {
+            "id": "369950",
+            "title": "Planète interdite",
+            "original_title": "Forbidden Planet",
+            "year": 1956,
+            "authors": [
+                "Fred M. Wilcox"
+            ],
+            "favorite": false,
+            "genres": [
+                "Action",
+                "Aventure",
+                "Science-Fiction"
+            ]
+        },
+        {
+            "id": "435251",
+            "title": "L'Effet papillon",
+            "original_title": "The Butterfly Effect",
+            "year": 2004,
+            "authors": [
+                "Eric Bress",
+                "J. Mackye Gruber"
+            ],
+            "favorite": false,
+            "genres": [
+                "Science-Fiction",
+                "Thriller",
+                "Drame",
+                "Fantastique"
+            ]
+        },
+        {
+            "id": "445218",
+            "title": "Las Vegas Parano",
+            "original_title": "Fear and Loathing in Las Vegas",
+            "year": 1998,
+            "authors": [
+                "Terry Gilliam"
+            ],
+            "favorite": false,
+            "genres": [
+                "Comédie",
+                "Road Movie"
+            ]
+        },
+        {
+            "id": "431123",
+            "title": "Dark City",
+            "year": 1998,
+            "authors": [
+                "Alex Proyas"
+            ],
+            "favorite": false,
+            "genres": [
+                "Fantastique",
+                "Science-Fiction"
+            ]
+        },
+        {
+            "id": "469717",
+            "title": "Solaris",
+            "original_title": "Solyaris",
+            "year": 1972,
+            "authors": [
+                "Andreï Tarkovski"
+            ],
+            "favorite": false,
+            "genres": [
+                "Drame",
+                "Science-Fiction"
+            ]
+        },
+        {
+            "id": "473182",
+            "title": "Rocky",
+            "year": 1976,
+            "authors": [
+                "John G. Avildsen"
+            ],
+            "favorite": false,
+            "genres": [
+                "Drame",
+                "Sport"
+            ]
+        },
+        {
+            "id": "430042",
+            "title": "Il faut sauver le soldat Ryan",
+            "original_title": "Saving Private Ryan",
+            "year": 1998,
+            "authors": [
+                "Steven Spielberg"
+            ],
+            "favorite": false,
+            "genres": [
+                "Guerre",
+                "Drame"
+            ]
+        },
+        {
+            "id": "461882",
+            "title": "Reviens-moi",
+            "original_title": "Atonement",
+            "year": 2007,
+            "authors": [
+                "Joe Wright"
+            ],
+            "favorite": false,
+            "genres": [
+                "Drame",
+                "Romance",
+                "Guerre"
+            ]
+        },
+        {
+            "id": "482758",
+            "title": "Elephant",
+            "year": 2003,
+            "authors": [
+                "Gus Van Sant"
+            ],
+            "favorite": false,
+            "genres": [
+                "Policier",
+                "Drame",
+                "Thriller"
+            ]
+        },
+        {
+            "id": "446029",
+            "title": "Apollo 13",
+            "year": 1995,
+            "authors": [
+                "Ron Howard"
+            ],
+            "favorite": false,
+            "genres": [
+                "Drame",
+                "Historique",
+                "Catastrophe"
+            ]
+        },
+        {
+            "id": "447958",
+            "title": "Vol au-dessus d'un nid de coucou",
+            "original_title": "One Flew Over the Cuckoo's Nest",
+            "year": 1975,
+            "authors": [
+                "Miloš Forman"
+            ],
+            "favorite": false,
+            "genres": [
+                "Drame",
+                "Comédie Dramatique"
+            ]
+        },
+        {
+            "id": "389930",
+            "title": "L'Étoffe des héros",
+            "original_title": "The Right Stuff",
+            "year": 1983,
+            "authors": [
+                "Philip Kaufman"
+            ],
+            "favorite": false,
+            "genres": [
+                "Aventure",
+                "Biopic",
+                "Drame",
+                "Historique"
+            ]
+        },
+        {
+            "id": "8176466",
+            "title": "Alabama Monroe",
+            "original_title": "The Broken Circle Breakdown",
+            "year": 2012,
+            "authors": [
+                "Felix van Groeningen"
+            ],
+            "favorite": false,
+            "genres": [
+                "Drame"
+            ]
+        },
+        {
+            "id": "389355",
+            "title": "Mr. Nobody",
+            "year": 2009,
+            "authors": [
+                "Jaco van Dormael"
+            ],
+            "favorite": false,
+            "genres": [
+                "Drame",
+                "Fantastique",
+                "Romance",
+                "Science-Fiction"
+            ]
+        },
+        {
+            "id": "414297",
+            "title": "THX 1138",
+            "year": 1971,
+            "authors": [
+                "George Lucas"
+            ],
+            "favorite": false,
+            "genres": [
+                "Science-Fiction"
+            ]
+        },
+        {
+            "id": "412860",
+            "title": "The Constant Gardener",
+            "year": 2005,
+            "authors": [
+                "Fernando Meirelles"
+            ],
+            "favorite": false,
+            "genres": [
+                "Thriller"
+            ]
+        },
+        {
+            "id": "408443",
+            "title": "Le Parrain",
+            "original_title": "The Godfather",
+            "year": 1972,
+            "authors": [
+                "Francis Ford Coppola"
+            ],
+            "favorite": false,
+            "genres": [
+                "Policier",
+                "Drame"
+            ]
+        },
+        {
+            "id": "377216",
+            "title": "La Ligne rouge",
+            "original_title": "The Thin Red Line",
+            "year": 1998,
+            "authors": [
+                "Terrence Malick"
+            ],
+            "favorite": false,
+            "genres": [
+                "Guerre",
+                "Drame"
+            ]
+        },
+        {
+            "id": "390878",
+            "title": "Mad Max 2 : Le Défi",
+            "original_title": "Mad Max 2: The Road Warrior",
+            "year": 1981,
+            "authors": [
+                "George Miller"
+            ],
+            "favorite": false,
+            "genres": [
+                "Action",
+                "Science-Fiction",
+                "Aventure",
+                "Road Movie"
+            ]
+        },
+        {
+            "id": "383519",
+            "title": "Mad Max",
+            "year": 1979,
+            "authors": [
+                "George Miller"
+            ],
+            "favorite": false,
+            "genres": [
+                "Action",
+                "Aventure",
+                "Thriller",
+                "Road Movie"
+            ]
+        },
+        {
+            "id": "459295",
+            "title": "(500) jours ensemble",
+            "original_title": "(500) Days of Summer",
+            "year": 2009,
+            "authors": [
+                "Marc Webb"
+            ],
+            "favorite": false,
+            "genres": [
+                "Comédie Romantique",
+                "Drame"
+            ]
+        },
+        {
+            "id": "8459496",
+            "title": "Drew : The Man Behind the Poster",
+            "year": 2013,
+            "authors": [
+                "Erik Sharkey"
+            ],
+            "favorite": false
+        },
+        {
+            "id": "421250",
+            "title": "Boyhood",
+            "year": 2014,
+            "authors": [
+                "Richard Linklater"
+            ],
+            "favorite": false,
+            "genres": [
+                "Drame"
+            ]
+        },
+        {
+            "id": "376439",
+            "title": "Voyage au bout de l'enfer",
+            "original_title": "The Deer Hunter",
+            "year": 1978,
+            "authors": [
+                "Michael Cimino"
+            ],
+            "favorite": false,
+            "genres": [
+                "Drame",
+                "Guerre"
+            ]
+        },
+        {
+            "id": "496683",
+            "title": "Platoon",
+            "year": 1986,
+            "authors": [
+                "Oliver Stone"
+            ],
+            "favorite": false,
+            "genres": [
+                "Drame",
+                "Guerre"
+            ]
+        },
+        {
+            "id": "397129",
+            "title": "Brazil",
+            "year": 1985,
+            "authors": [
+                "Terry Gilliam"
+            ],
+            "favorite": false,
+            "genres": [
+                "Drame",
+                "Fantastique",
+                "Science-Fiction"
+            ]
+        },
+        {
+            "id": "370124",
+            "title": "Empire du soleil",
+            "original_title": "Empire of the Sun",
+            "year": 1987,
+            "authors": [
+                "Steven Spielberg"
+            ],
+            "favorite": false,
+            "genres": [
+                "Drame",
+                "Historique",
+                "Guerre"
+            ]
+        },
+        {
+            "id": "387853",
+            "title": "Oslo, 31 août",
+            "original_title": "Oslo, 31. august",
+            "year": 2011,
+            "authors": [
+                "Joachim Trier"
+            ],
+            "favorite": false,
+            "genres": [
+                "Drame"
+            ]
+        },
+        {
+            "id": "394878",
+            "title": "The Master",
+            "year": 2012,
+            "authors": [
+                "Paul Thomas Anderson"
+            ],
+            "favorite": false,
+            "genres": [
+                "Drame"
+            ]
+        },
+        {
+            "id": "8175058",
+            "title": "Le Congrès",
+            "original_title": "The Congress",
+            "year": 2013,
+            "authors": [
+                "Ari Folman"
+            ],
+            "favorite": false,
+            "genres": [
+                "Science-Fiction",
+                "Drame",
+                "Animation"
+            ]
+        },
+        {
+            "id": "371989",
+            "title": "The Fountain",
+            "year": 2006,
+            "authors": [
+                "Darren Aronofsky"
+            ],
+            "favorite": false,
+            "genres": [
+                "Drame",
+                "Romance",
+                "Science-Fiction"
+            ]
+        },
+        {
+            "id": "423085",
+            "title": "Fair Game",
+            "year": 2010,
+            "authors": [
+                "Doug Liman"
+            ],
+            "favorite": false,
+            "genres": [
+                "Biopic",
+                "Drame",
+                "Thriller"
+            ]
+        },
+        {
+            "id": "397162",
+            "title": "La Secrétaire",
+            "original_title": "Secretary",
+            "year": 2002,
+            "authors": [
+                "Steven Shainberg"
+            ],
+            "favorite": false,
+            "genres": [
+                "Comédie",
+                "Drame",
+                "Romance"
+            ]
+        },
+        {
+            "id": "498024",
+            "title": "Exilé",
+            "original_title": "Fong juk",
+            "year": 2006,
+            "authors": [
+                "Johnnie To",
+                "Law Wing-cheong"
+            ],
+            "favorite": false,
+            "genres": [
+                "Action",
+                "Thriller",
+                "Policier",
+                "Film Noir",
+                "Gangster"
+            ]
+        },
+        {
+            "id": "374073",
+            "title": "La Nuit nous appartient",
+            "original_title": "We Own the Night",
+            "year": 2007,
+            "authors": [
+                "James Gray"
+            ],
+            "favorite": false,
+            "genres": [
+                "Policier",
+                "Drame",
+                "Thriller",
+                "Film Noir"
+            ]
+        },
+        {
+            "id": "388431",
+            "title": "L'Assassinat de Jesse James par le lâche Robert Ford",
+            "original_title": "The Assassination of Jesse James by the Coward Robert Ford",
+            "year": 2007,
+            "authors": [
+                "Andrew Dominik"
+            ],
+            "favorite": false,
+            "genres": [
+                "Biopic",
+                "Western"
+            ]
+        },
+        {
+            "id": "461381",
+            "title": "Point limite",
+            "original_title": "Fail-Safe",
+            "year": 1964,
+            "authors": [
+                "Sidney Lumet"
+            ],
+            "favorite": false,
+            "genres": [
+                "Drame",
+                "Thriller"
+            ]
+        },
+        {
+            "id": "372529",
+            "title": "Le Discours d'un roi",
+            "original_title": "The King's Speech",
+            "year": 2010,
+            "authors": [
+                "Tom Hooper"
+            ],
+            "favorite": false,
+            "genres": [
+                "Biopic",
+                "Drame",
+                "Historique"
+            ]
+        },
+        {
+            "id": "363491",
+            "title": "Bonnie et Clyde",
+            "original_title": "Bonnie and Clyde",
+            "year": 1967,
+            "authors": [
+                "Arthur Penn"
+            ],
+            "favorite": false,
+            "genres": [
+                "Biopic",
+                "Drame",
+                "Gangster",
+                "Road Movie"
+            ]
+        },
+        {
+            "id": "409688",
+            "title": "Le Roi et l'Oiseau",
+            "year": 1980,
+            "authors": [
+                "Paul Grimault"
+            ],
+            "favorite": false,
+            "genres": [
+                "Fantastique",
+                "Animation",
+                "Romance"
+            ]
+        },
+        {
+            "id": "8315193",
+            "title": "Le vent se lève",
+            "original_title": "Kaze tachinu",
+            "year": 2013,
+            "authors": [
+                "Hayao Miyazaki"
+            ],
+            "favorite": false,
+            "genres": [
+                "Biopic",
+                "Drame",
+                "Historique",
+                "Romance"
+            ]
+        },
+        {
+            "id": "384693",
+            "title": "Le Premier Jour du reste de ta vie",
+            "year": 2008,
+            "authors": [
+                "Rémi Bezançon"
+            ],
+            "favorite": false,
+            "genres": [
+                "Drame"
+            ]
+        },
+        {
+            "id": "484219",
+            "title": "Moonrise Kingdom",
+            "year": 2012,
+            "authors": [
+                "Wes Anderson"
+            ],
+            "favorite": false,
+            "genres": [
+                "Comédie Dramatique",
+                "Romance"
+            ]
+        },
+        {
+            "id": "1367079",
+            "title": "Le Voyage de Chihiro",
+            "original_title": "Sen to Chihiro no Kamikakushi",
+            "year": 2001,
+            "authors": [
+                "Hayao Miyazaki"
+            ],
+            "favorite": false,
+            "genres": [
+                "Animation",
+                "Aventure",
+                "Fantasy"
+            ]
+        },
+        {
+            "id": "422875",
+            "title": "C'est arrivé près de chez vous",
+            "year": 1992,
+            "authors": [
+                "Rémy Belvaux",
+                "André Bonzel",
+                "Benoît Poelvoorde"
+            ],
+            "favorite": false,
+            "genres": [
+                "Comédie",
+                "Policier",
+                "Drame"
+            ]
+        },
+        {
+            "id": "7936847",
+            "title": "La Vie d'Adèle : Chapitres 1 et 2",
+            "year": 2013,
+            "authors": [
+                "Abdellatif Kechiche"
+            ],
+            "favorite": false,
+            "genres": [
+                "Drame",
+                "Romance"
+            ]
+        }
+    ],
+    "category": "films",
+    "filter": "wish",
+    "username": "mlcdf"
+}

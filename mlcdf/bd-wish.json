@@ -1,0 +1,288 @@
+{
+    "entries": [
+        {
+            "id": "25447718",
+            "title": "Edelweiss",
+            "authors": [
+                "Lucy Mazel",
+                "Cédric Mayen"
+            ],
+            "favorite": false
+        },
+        {
+            "id": "27658666",
+            "title": "La Colère de Fantômas : L'Intégrale",
+            "authors": [
+                "Julie Rocheleau",
+                "Olivier Bocquet"
+            ],
+            "favorite": false
+        },
+        {
+            "id": "10376794",
+            "title": "Mauvais genre",
+            "authors": [
+                "Chloé Cruchaudet"
+            ],
+            "favorite": false
+        },
+        {
+            "id": "34659482",
+            "title": "Moi, ce que j'aime, c'est les monstres, tome 1",
+            "original_title": "My Favorite Thing is Monsters",
+            "year": 2017,
+            "authors": [
+                "Emil Ferris"
+            ],
+            "favorite": false
+        },
+        {
+            "id": "28582413",
+            "title": "Fondu au noir",
+            "original_title": "The Fade Out",
+            "authors": [
+                "Sean Phillips (I)",
+                "Ed Brubaker"
+            ],
+            "favorite": false
+        },
+        {
+            "id": "41060293",
+            "title": "La Bombe",
+            "year": 2020,
+            "authors": [
+                "Denis Rodier",
+                "Alcante",
+                "Laurent-Frédéric Bollée"
+            ],
+            "favorite": false
+        },
+        {
+            "id": "382205",
+            "title": "Le Photographe, intégrale",
+            "authors": [
+                "Emmanuel Guibert",
+                "Didier Lefèvre"
+            ],
+            "favorite": false
+        },
+        {
+            "id": "39657584",
+            "title": "Mister Miracle",
+            "year": 2017,
+            "authors": [
+                "Mitch Gerads",
+                "Tom King"
+            ],
+            "favorite": false
+        },
+        {
+            "id": "38800625",
+            "title": "Le Dieu vagabond",
+            "year": 2019,
+            "authors": [
+                "Fabrizio Dori"
+            ],
+            "favorite": false
+        },
+        {
+            "id": "39007495",
+            "title": "Peau de Mille Bêtes",
+            "authors": [
+                "Stéphane Fert"
+            ],
+            "favorite": false
+        },
+        {
+            "id": "442813",
+            "title": "Pilules bleues",
+            "year": 2001,
+            "authors": [
+                "Frederik Peeters"
+            ],
+            "favorite": false
+        },
+        {
+            "id": "225892",
+            "title": "Tout seul",
+            "authors": [
+                "Christophe Chabouté"
+            ],
+            "favorite": false
+        },
+        {
+            "id": "8178684",
+            "title": "Un printemps à Tchernobyl",
+            "authors": [
+                "Emmanuel Lepage"
+            ],
+            "favorite": false
+        },
+        {
+            "id": "38786906",
+            "title": "Dans un rayon de soleil",
+            "original_title": "On a Sunbeam",
+            "authors": [
+                "Tillie Walden"
+            ],
+            "favorite": false
+        },
+        {
+            "id": "263508",
+            "title": "No Man's Land - Y : Le Dernier Homme, tome 1",
+            "original_title": "Y: The Last Man Volume 1: Unmanned",
+            "year": 2003,
+            "authors": [
+                "Pia Guerra",
+                "Paul Chadwick",
+                "Goran Sudzuka"
+            ],
+            "favorite": false
+        },
+        {
+            "id": "465976",
+            "title": "Saga, tome 1",
+            "year": 2012,
+            "authors": [
+                "Fiona Staples",
+                "Brian K. Vaughan"
+            ],
+            "favorite": false
+        },
+        {
+            "id": "8194027",
+            "title": "Sandman : L'Intégrale, tome 1",
+            "original_title": "The Absolute Sandman Volume 1",
+            "authors": [
+                "Sam Keith",
+                "Mike Dringenberg",
+                "Chris Bachalo"
+            ],
+            "favorite": false
+        },
+        {
+            "id": "11034",
+            "title": "Dans mes yeux",
+            "authors": [
+                "Bastien Vivès"
+            ],
+            "favorite": false
+        },
+        {
+            "id": "6154",
+            "title": "L'Incal, intégrale",
+            "authors": [
+                "Jean Giraud (Moebius)",
+                "Alejandro Jodorowsky"
+            ],
+            "favorite": false
+        },
+        {
+            "id": "10228",
+            "title": "L'imparfait du futur - Une épatante aventure de Jules, tome 1",
+            "original_title": "L'imparfait du futur - Jules, tome 1",
+            "authors": [
+                "Émile Bravo"
+            ],
+            "favorite": false
+        },
+        {
+            "id": "365189",
+            "title": "Idées noires, intégrale",
+            "authors": [
+                "André Franquin"
+            ],
+            "favorite": false
+        },
+        {
+            "id": "208110",
+            "title": "Quartier lointain",
+            "original_title": "Haruka-na machi e",
+            "year": 1998,
+            "authors": [
+                "Jirō Taniguchi"
+            ],
+            "favorite": false
+        },
+        {
+            "id": "245955",
+            "title": "Transmetropolitan (1997 - 2002)",
+            "year": 1997,
+            "authors": [
+                "Darick Robertson",
+                "Warren Ellis"
+            ],
+            "favorite": false
+        },
+        {
+            "id": "395039",
+            "title": "Le Combat ordinaire : L'Intégrale",
+            "authors": [
+                "Manu Larcenet"
+            ],
+            "favorite": false
+        },
+        {
+            "id": "416174",
+            "title": "Le bleu est une couleur chaude",
+            "authors": [
+                "Jul' Marot"
+            ],
+            "favorite": false
+        },
+        {
+            "id": "35714",
+            "title": "Nausicaä de la vallée du vent, tome 1",
+            "original_title": "Kaze no Tani no Nausicaa",
+            "year": 1982,
+            "authors": [
+                "Hayao Miyazaki"
+            ],
+            "favorite": false
+        },
+        {
+            "id": "11825558",
+            "title": "De Charybde en Scylla - Black Science, tome 1",
+            "original_title": "Black Science Volume 1: How to Fall Forever",
+            "year": 2014,
+            "authors": [
+                "Matteo Scalera",
+                "Rick Remender"
+            ],
+            "favorite": false
+        },
+        {
+            "id": "126582",
+            "title": "Gunnm",
+            "original_title": "Ganmu",
+            "year": 1991,
+            "authors": [
+                "Yukito Kishiro"
+            ],
+            "favorite": false
+        },
+        {
+            "id": "413038",
+            "title": "Aldébaran, intégrale",
+            "authors": [
+                "Leo"
+            ],
+            "favorite": false
+        },
+        {
+            "id": "226898",
+            "title": "Légendes en exil - Fables, tome 1",
+            "original_title": "Fables Volume 1: Legends in Exile",
+            "year": 2002,
+            "authors": [
+                "Mark Buckingham",
+                "Lan Medina",
+                "Steve Leialoha"
+            ],
+            "favorite": false
+        }
+    ],
+    "category": "bd",
+    "filter": "wish",
+    "username": "mlcdf"
+}

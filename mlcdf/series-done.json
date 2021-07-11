@@ -1,0 +1,3794 @@
+{
+    "entries": [
+        {
+            "id": "168269",
+            "title": "Battlestar Galactica",
+            "year": 2005,
+            "authors": [
+                "Ronald D. Moore"
+            ],
+            "rating": 8,
+            "favorite": false,
+            "genres": [
+                "4 Saisons.",
+                "Science-Fiction"
+            ]
+        },
+        {
+            "id": "29698426",
+            "title": "Sex Education",
+            "year": 2019,
+            "authors": [
+                "Laurie Nunn"
+            ],
+            "rating": 8,
+            "favorite": false,
+            "genres": [
+                "2 Saisons.",
+                "Comédie",
+                "Drame"
+            ]
+        },
+        {
+            "id": "8857680",
+            "title": "Les 100",
+            "original_title": "The 100",
+            "year": 2014,
+            "authors": [
+                "Jason Rothenberg"
+            ],
+            "rating": 4,
+            "favorite": false,
+            "genres": [
+                "7 Saisons.",
+                "Action",
+                "Drame",
+                "Science-Fiction",
+                "Thriller"
+            ]
+        },
+        {
+            "id": "32576517",
+            "title": "Succession",
+            "year": 2018,
+            "authors": [
+                "Jesse Armstrong"
+            ],
+            "rating": 8,
+            "favorite": false,
+            "genres": [
+                "3 Saisons.",
+                "Drame"
+            ]
+        },
+        {
+            "id": "10550",
+            "title": "Kaamelott",
+            "year": 2005,
+            "authors": [
+                "Alexandre Astier"
+            ],
+            "rating": 7,
+            "favorite": false,
+            "genres": [
+                "6 Saisons.",
+                "Aventure",
+                "Comédie",
+                "Fantasy"
+            ]
+        },
+        {
+            "id": "34728723",
+            "title": "The Haunting of Hill House",
+            "year": 2018,
+            "authors": [
+                "Mike Flanagan"
+            ],
+            "rating": 7,
+            "favorite": false,
+            "genres": [
+                "1 Saison.",
+                "Épouvante-Horreur",
+                "Anthologique",
+                "Thriller",
+                "Drame"
+            ]
+        },
+        {
+            "id": "39032081",
+            "title": "Le Jeu de la dame",
+            "original_title": "The Queen’s Gambit",
+            "year": 2020,
+            "authors": [
+                "Scott Frank",
+                "Allan Scott"
+            ],
+            "rating": 6,
+            "favorite": false,
+            "genres": [
+                "1 Saison.",
+                "Mini-Série",
+                "Drame"
+            ]
+        },
+        {
+            "id": "8137943",
+            "title": "The Night Of",
+            "year": 2016,
+            "authors": [
+                "Richard Price",
+                "Steven Zaillian"
+            ],
+            "rating": 9,
+            "favorite": false,
+            "genres": [
+                "1 Saison.",
+                "Drame",
+                "Mini-Série",
+                "Thriller"
+            ]
+        },
+        {
+            "id": "462056",
+            "title": "Luther",
+            "year": 2010,
+            "authors": [
+                "Neil Cross"
+            ],
+            "rating": 8,
+            "done_date": "2014-12-01",
+            "favorite": true,
+            "genres": [
+                "4 Saisons.",
+                "Policier",
+                "Drame"
+            ]
+        },
+        {
+            "id": "7936810",
+            "title": "Peaky Blinders",
+            "year": 2013,
+            "authors": [
+                "Steven Knight"
+            ],
+            "rating": 7,
+            "done_date": "2013-12-02",
+            "favorite": false,
+            "genres": [
+                "5 Saisons.",
+                "Policier",
+                "Drame"
+            ]
+        },
+        {
+            "id": "22976435",
+            "title": "The Deuce",
+            "year": 2017,
+            "authors": [
+                "George P. Pelecanos",
+                "David Simon"
+            ],
+            "rating": 9,
+            "favorite": false,
+            "genres": [
+                "3 Saisons.",
+                "Drame"
+            ]
+        },
+        {
+            "id": "96031",
+            "title": "Pokémon",
+            "original_title": "Pocket Monsters",
+            "year": 1997,
+            "authors": [
+                "Masamitsu Hidaka",
+                "Kunihiko Yuyama",
+                "Satoshi Tajiri"
+            ],
+            "rating": 4,
+            "favorite": false,
+            "genres": [
+                "21 Saisons.",
+                "Action",
+                "Fantasy",
+                "Comédie",
+                "Shōnen"
+            ]
+        },
+        {
+            "id": "360380",
+            "title": "Weeds",
+            "year": 2005,
+            "authors": [
+                "Jenji Kohan"
+            ],
+            "rating": 6,
+            "favorite": false,
+            "genres": [
+                "8 Saisons.",
+                "Comédie",
+                "Policier",
+                "Drame"
+            ]
+        },
+        {
+            "id": "459530",
+            "title": "House of Cards",
+            "year": 2013,
+            "authors": [
+                "Beau Willimon"
+            ],
+            "rating": 8,
+            "done_date": "2013-02-00",
+            "favorite": false,
+            "genres": [
+                "6 Saisons.",
+                "Policier",
+                "Drame"
+            ]
+        },
+        {
+            "id": "25480536",
+            "title": "Watchmen",
+            "year": 2019,
+            "authors": [
+                "Damon Lindelof"
+            ],
+            "rating": 9,
+            "done_date": "2020-01-02",
+            "favorite": false,
+            "genres": [
+                "1 Saison.",
+                "Drame",
+                "Fantastique",
+                "Mini-Série"
+            ]
+        },
+        {
+            "id": "488981",
+            "title": "The Americans",
+            "year": 2013,
+            "authors": [
+                "Joseph Weisberg"
+            ],
+            "rating": 10,
+            "done_date": "2013-01-30",
+            "favorite": true,
+            "genres": [
+                "6 Saisons.",
+                "Thriller",
+                "Policier",
+                "Drame"
+            ]
+        },
+        {
+            "id": "15886571",
+            "title": "Last Week Tonight with John Oliver",
+            "year": 2014,
+            "authors": [
+                "John Oliver"
+            ],
+            "rating": 9,
+            "favorite": false,
+            "genres": [
+                "6 Saisons.",
+                "Comédie"
+            ]
+        },
+        {
+            "id": "17055515",
+            "title": "Marvel's Jessica Jones",
+            "year": 2015,
+            "authors": [
+                "Melissa Rosenberg"
+            ],
+            "rating": 5,
+            "favorite": false,
+            "genres": [
+                "3 Saisons.",
+                "Action",
+                "Drame",
+                "Policier",
+                "Thriller"
+            ]
+        },
+        {
+            "id": "21136254",
+            "title": "Aggretsuko",
+            "original_title": "Aggressive Retsuko",
+            "year": 2018,
+            "authors": [
+                "Rarecho"
+            ],
+            "rating": 6,
+            "favorite": false,
+            "genres": [
+                "1 Saison.",
+                "Comédie",
+                "Animation"
+            ]
+        },
+        {
+            "id": "438579",
+            "title": "Black Mirror",
+            "year": 2011,
+            "authors": [
+                "Charlie Brooker"
+            ],
+            "rating": 9,
+            "done_date": "2013-12-01",
+            "favorite": false,
+            "genres": [
+                "5 Saisons.",
+                "Science-Fiction",
+                "Thriller",
+                "Anthologique",
+                "Drame"
+            ]
+        },
+        {
+            "id": "10481508",
+            "title": "Bloodline",
+            "year": 2015,
+            "authors": [
+                "Glenn Kessler",
+                "Todd A. Kessler",
+                "Daniel Zelman"
+            ],
+            "rating": 8,
+            "done_date": "2015-04-05",
+            "favorite": false,
+            "genres": [
+                "3 Saisons.",
+                "Thriller",
+                "Drame"
+            ]
+        },
+        {
+            "id": "8855887",
+            "title": "Blacklist",
+            "original_title": "The Blacklist",
+            "year": 2013,
+            "authors": [
+                "Jon Bokenkamp"
+            ],
+            "rating": 5,
+            "done_date": "2013-09-00",
+            "favorite": false,
+            "genres": [
+                "6 Saisons.",
+                "Action",
+                "Policier",
+                "Drame"
+            ]
+        },
+        {
+            "id": "12205146",
+            "title": "Love",
+            "year": 2016,
+            "authors": [
+                "Judd Apatow",
+                "Paul Rust",
+                "Lesley Arfin"
+            ],
+            "rating": 7,
+            "favorite": false,
+            "genres": [
+                "2 Saisons.",
+                "Comédie",
+                "Drame"
+            ]
+        },
+        {
+            "id": "16047783",
+            "title": "Westworld",
+            "year": 2016,
+            "authors": [
+                "Jonathan Nolan",
+                "Lisa Joy"
+            ],
+            "rating": 9,
+            "favorite": false,
+            "genres": [
+                "3 Saisons.",
+                "Science-Fiction",
+                "Western",
+                "Thriller",
+                "Drame"
+            ]
+        },
+        {
+            "id": "19049446",
+            "title": "The Crown",
+            "year": 2016,
+            "authors": [
+                "Peter Morgan"
+            ],
+            "rating": 9,
+            "favorite": false,
+            "genres": [
+                "4 Saisons.",
+                "Drame",
+                "Historique"
+            ]
+        },
+        {
+            "id": "8454234",
+            "title": "Orange Is the New Black",
+            "year": 2013,
+            "authors": [
+                "Jenji Kohan"
+            ],
+            "rating": 8,
+            "done_date": "2013-07-00",
+            "favorite": false,
+            "genres": [
+                "7 Saisons.",
+                "Comédie",
+                "Policier",
+                "Drame"
+            ]
+        },
+        {
+            "id": "17019",
+            "title": "24 Heures Chrono",
+            "original_title": "24",
+            "year": 2001,
+            "authors": [
+                "Robert Cochran",
+                "Joel Surnow"
+            ],
+            "rating": 7,
+            "done_date": "2011-00-00",
+            "favorite": false,
+            "genres": [
+                "8 Saisons.",
+                "Thriller",
+                "Policier",
+                "Action",
+                "Aventure",
+                "Drame"
+            ]
+        },
+        {
+            "id": "75730",
+            "title": "Twin Peaks",
+            "year": 1990,
+            "authors": [
+                "David Lynch",
+                "Mark Frost"
+            ],
+            "rating": 9,
+            "favorite": false,
+            "genres": [
+                "3 Saisons.",
+                "Policier",
+                "Drame",
+                "Thriller"
+            ]
+        },
+        {
+            "id": "15825386",
+            "title": "Mr. Robot",
+            "year": 2015,
+            "authors": [
+                "Sam Esmail"
+            ],
+            "rating": 9,
+            "favorite": false,
+            "genres": [
+                "4 Saisons.",
+                "Drame",
+                "Thriller"
+            ]
+        },
+        {
+            "id": "8831048",
+            "title": "Fargo",
+            "year": 2014,
+            "authors": [
+                "Noah Hawley"
+            ],
+            "rating": 9,
+            "done_date": "2014-04-15",
+            "favorite": true,
+            "genres": [
+                "3 Saisons.",
+                "Comédie",
+                "Policier",
+                "Drame",
+                "Thriller",
+                "Anthologique"
+            ]
+        },
+        {
+            "id": "21861253",
+            "title": "Lessons From The Screenplay",
+            "authors": [],
+            "rating": 8,
+            "favorite": false
+        },
+        {
+            "id": "20063745",
+            "title": "Mindhunter",
+            "year": 2017,
+            "authors": [
+                "Joe Penhall"
+            ],
+            "rating": 8,
+            "favorite": false,
+            "genres": [
+                "2 Saisons.",
+                "Thriller",
+                "Policier",
+                "Drame"
+            ]
+        },
+        {
+            "id": "8359081",
+            "title": "Orphan Black",
+            "year": 2013,
+            "authors": [
+                "John Fawcett",
+                "Graeme Manson"
+            ],
+            "rating": 7,
+            "done_date": "2013-06-00",
+            "favorite": false,
+            "genres": [
+                "5 Saisons.",
+                "Drame",
+                "Science-Fiction"
+            ]
+        },
+        {
+            "id": "205354",
+            "title": "Samouraï Jack",
+            "original_title": "Samurai Jack",
+            "year": 2001,
+            "authors": [
+                "Genndy Tartakovsky"
+            ],
+            "rating": 3,
+            "favorite": false,
+            "genres": [
+                "5 Saisons.",
+                "Action",
+                "Animation"
+            ]
+        },
+        {
+            "id": "409960",
+            "title": "The Leftovers",
+            "year": 2014,
+            "authors": [
+                "Damon Lindelof",
+                "Tom Perrotta"
+            ],
+            "rating": 10,
+            "done_date": "2014-06-29",
+            "favorite": true,
+            "genres": [
+                "3 Saisons.",
+                "Drame",
+                "Fantastique"
+            ]
+        },
+        {
+            "id": "399183",
+            "title": "The Good Wife",
+            "year": 2009,
+            "authors": [
+                "Michelle King",
+                "Robert King"
+            ],
+            "rating": 7,
+            "favorite": false,
+            "genres": [
+                "7 Saisons.",
+                "Policier",
+                "Drame"
+            ]
+        },
+        {
+            "id": "17664094",
+            "title": "The Night Manager",
+            "year": 2016,
+            "authors": [
+                "Susanne Bier"
+            ],
+            "rating": 7,
+            "favorite": false,
+            "genres": [
+                "1 Saison.",
+                "Thriller",
+                "Policier",
+                "Drame"
+            ]
+        },
+        {
+            "id": "19011356",
+            "title": "Stranger Things",
+            "year": 2016,
+            "authors": [
+                "Matt Duffer",
+                "Ross Duffer"
+            ],
+            "rating": 8,
+            "favorite": false,
+            "genres": [
+                "4 Saisons.",
+                "Fantastique",
+                "Épouvante-Horreur",
+                "Drame",
+                "Science-Fiction"
+            ]
+        },
+        {
+            "id": "8461970",
+            "title": "Halt and Catch Fire",
+            "year": 2014,
+            "authors": [
+                "Christopher Cantwell",
+                "Christopher C. Rogers"
+            ],
+            "rating": 6,
+            "done_date": "2014-06-01",
+            "favorite": false,
+            "genres": [
+                "4 Saisons.",
+                "Drame"
+            ]
+        },
+        {
+            "id": "10541892",
+            "title": "Marvel's Daredevil",
+            "year": 2015,
+            "authors": [
+                "Drew Goddard"
+            ],
+            "rating": 7,
+            "done_date": "2015-04-14",
+            "favorite": false,
+            "genres": [
+                "3 Saisons.",
+                "Action",
+                "Policier",
+                "Drame",
+                "Fantastique"
+            ]
+        },
+        {
+            "id": "123426",
+            "title": "John from Cincinnati",
+            "year": 2007,
+            "authors": [
+                "David Milch",
+                "Kem Nunn"
+            ],
+            "rating": 8,
+            "done_date": "2016-02-16",
+            "favorite": false,
+            "genres": [
+                "1 Saison.",
+                "Drame",
+                "Fantastique"
+            ]
+        },
+        {
+            "id": "222944",
+            "title": "Il était une fois... L'Homme",
+            "year": 1979,
+            "authors": [
+                "Albert Barillé"
+            ],
+            "rating": 7,
+            "favorite": false,
+            "genres": [
+                "1 Saison.",
+                "Animation",
+                "Jeunesse"
+            ]
+        },
+        {
+            "id": "232859",
+            "title": "Les Malheurs de Sophie",
+            "year": 1998,
+            "authors": [
+                "Bernard Deyriès"
+            ],
+            "rating": 4,
+            "favorite": false,
+            "genres": [
+                "Jeunesse",
+                "Animation"
+            ]
+        },
+        {
+            "id": "484835",
+            "title": "Taz-Mania",
+            "year": 1991,
+            "authors": [
+                "Art Vitello"
+            ],
+            "rating": 5,
+            "favorite": false,
+            "genres": [
+                "1 Saison.",
+                "Animation",
+                "Jeunesse",
+                "Comédie"
+            ]
+        },
+        {
+            "id": "410100",
+            "title": "Arthur",
+            "year": 1996,
+            "authors": [
+                "Marc Brown",
+                "Cookie Jar Group"
+            ],
+            "rating": 3,
+            "favorite": false,
+            "genres": [
+                "14 Saisons.",
+                "Animation",
+                "Jeunesse"
+            ]
+        },
+        {
+            "id": "97825",
+            "title": "Freakazoid!",
+            "year": 1995,
+            "authors": [
+                "Tom Ruegger"
+            ],
+            "rating": 4,
+            "favorite": false,
+            "genres": [
+                "2 Saisons.",
+                "Comédie",
+                "Jeunesse",
+                "Animation"
+            ]
+        },
+        {
+            "id": "11076005",
+            "title": "Grace et Frankie",
+            "original_title": "Grace and Frankie",
+            "year": 2015,
+            "authors": [
+                "Howard J. Morris",
+                "Marta Kauffman"
+            ],
+            "rating": 4,
+            "favorite": false,
+            "genres": [
+                "7 Saisons.",
+                "Comédie",
+                "Drame"
+            ]
+        },
+        {
+            "id": "16530283",
+            "title": "The Expanse",
+            "year": 2015,
+            "authors": [
+                "Hawk Ostby",
+                "Mark Fergus"
+            ],
+            "rating": 7,
+            "favorite": false,
+            "genres": [
+                "4 Saisons.",
+                "Drame",
+                "Science-Fiction",
+                "Thriller"
+            ]
+        },
+        {
+            "id": "8332053",
+            "title": "Rectify",
+            "year": 2013,
+            "authors": [
+                "Ray McKinnon"
+            ],
+            "rating": 8,
+            "done_date": "2013-00-00",
+            "favorite": false,
+            "genres": [
+                "2 Saisons.",
+                "Drame"
+            ]
+        },
+        {
+            "id": "446130",
+            "title": "Homeland",
+            "year": 2011,
+            "authors": [
+                "Alex Gansa",
+                "Howard Gordon"
+            ],
+            "rating": 7,
+            "done_date": "2012-00-00",
+            "favorite": false,
+            "genres": [
+                "8 Saisons.",
+                "Thriller",
+                "Action",
+                "Drame",
+                "Policier"
+            ]
+        },
+        {
+            "id": "14878543",
+            "title": "Master of None",
+            "year": 2015,
+            "authors": [
+                "Alan Yang",
+                "Aziz Ansari"
+            ],
+            "rating": 7,
+            "favorite": false,
+            "genres": [
+                "3 Saisons.",
+                "Comédie"
+            ]
+        },
+        {
+            "id": "16944588",
+            "title": "Show Me a Hero",
+            "year": 2015,
+            "authors": [
+                "David Simon"
+            ],
+            "rating": 8,
+            "done_date": "2015-10-27",
+            "favorite": true,
+            "genres": [
+                "1 Saison.",
+                "Drame",
+                "Mini-Série",
+                "Historique"
+            ]
+        },
+        {
+            "id": "8457821",
+            "title": "Narcos",
+            "year": 2015,
+            "authors": [
+                "Doug Miro",
+                "Carlo Bernard",
+                "Chris Brancato"
+            ],
+            "rating": 7,
+            "favorite": false,
+            "genres": [
+                "3 Saisons.",
+                "Policier",
+                "Drame",
+                "Action"
+            ]
+        },
+        {
+            "id": "10634158",
+            "title": "12 Monkeys",
+            "year": 2015,
+            "authors": [
+                "Terry Matalas",
+                "Travis Fickett"
+            ],
+            "rating": 4,
+            "favorite": false,
+            "genres": [
+                "4 Saisons.",
+                "Action",
+                "Science-Fiction",
+                "Thriller"
+            ]
+        },
+        {
+            "id": "497785",
+            "title": "True Detective",
+            "year": 2014,
+            "authors": [
+                "Nic Pizzolatto"
+            ],
+            "rating": 8,
+            "done_date": "2014-01-00",
+            "favorite": true,
+            "genres": [
+                "3 Saisons.",
+                "Policier",
+                "Drame",
+                "Anthologique"
+            ]
+        },
+        {
+            "id": "368443",
+            "title": "À la Maison Blanche",
+            "original_title": "The West Wing",
+            "year": 1999,
+            "authors": [
+                "Aaron Sorkin"
+            ],
+            "rating": 10,
+            "done_date": "2015-04-25",
+            "favorite": true,
+            "genres": [
+                "7 Saisons.",
+                "Drame"
+            ]
+        },
+        {
+            "id": "13247626",
+            "title": "The Jinx",
+            "original_title": "The Jinx: The Life and Deaths of Robert Durst",
+            "year": 2015,
+            "authors": [
+                "Andrew Jarecki"
+            ],
+            "rating": 8,
+            "favorite": true,
+            "genres": [
+                "1 Saison.",
+                "Policier",
+                "Documentaire"
+            ]
+        },
+        {
+            "id": "126966",
+            "title": "Tic et Tac",
+            "original_title": "Chip and Dale",
+            "year": 1951,
+            "authors": [
+                "Walt Disney"
+            ],
+            "rating": 7,
+            "favorite": false
+        },
+        {
+            "id": "124944",
+            "title": "Terminator - Les Chroniques de Sarah Connor",
+            "original_title": "Terminator : The Sarah Connor Chronicles",
+            "year": 2008,
+            "authors": [
+                "Josh Friedman"
+            ],
+            "rating": 4,
+            "favorite": false,
+            "genres": [
+                "2 Saisons.",
+                "Science-Fiction",
+                "Drame",
+                "Action"
+            ]
+        },
+        {
+            "id": "201035",
+            "title": "Preuve à l'appui",
+            "original_title": "Crossing Jordan",
+            "year": 2001,
+            "authors": [
+                "Tim Kring"
+            ],
+            "rating": 4,
+            "favorite": false,
+            "genres": [
+                "6 Saisons.",
+                "Policier",
+                "Drame",
+                "Thriller"
+            ]
+        },
+        {
+            "id": "225391",
+            "title": "Game of Thrones",
+            "year": 2011,
+            "authors": [
+                "David Benioff",
+                "D.B. Weiss"
+            ],
+            "rating": 7,
+            "done_date": "2012-00-00",
+            "favorite": false,
+            "genres": [
+                "8 Saisons.",
+                "Aventure",
+                "Drame",
+                "Fantasy"
+            ]
+        },
+        {
+            "id": "80396",
+            "title": "Dinotopia : La Série",
+            "original_title": "Dinotopia : The Series",
+            "year": 2002,
+            "authors": [
+                "James Gurney"
+            ],
+            "rating": 5,
+            "favorite": false,
+            "genres": [
+                "1 Saison.",
+                "Fantastique",
+                "Action"
+            ]
+        },
+        {
+            "id": "137346",
+            "title": "Extrême Ghostbusters",
+            "year": 1997,
+            "authors": [
+                "Richard Raynis",
+                "Jeff Kline"
+            ],
+            "rating": 5,
+            "favorite": false,
+            "genres": [
+                "1 Saison.",
+                "Animation",
+                "Jeunesse",
+                "Science-Fiction"
+            ]
+        },
+        {
+            "id": "8467614",
+            "title": "Sense8",
+            "year": 2015,
+            "authors": [
+                "J. Michael Straczynski",
+                "Lilly Wachowski",
+                "Lana Wachowski"
+            ],
+            "rating": 6,
+            "favorite": false,
+            "genres": [
+                "2 Saisons.",
+                "Science-Fiction",
+                "Drame"
+            ]
+        },
+        {
+            "id": "90206",
+            "title": "Tortues Ninja : Les Chevaliers d'écaille",
+            "original_title": "Teenage Mutant Ninja Turtles",
+            "year": 1987,
+            "authors": [
+                "Kevin Eastman",
+                "Peter Laird",
+                "Fred Wolf"
+            ],
+            "rating": 5,
+            "favorite": false,
+            "genres": [
+                "10 Saisons.",
+                "Action",
+                "Animation",
+                "Jeunesse",
+                "Comédie"
+            ]
+        },
+        {
+            "id": "69893",
+            "title": "NCIS : Enquêtes spéciales",
+            "original_title": "NCIS : Naval Criminal Investigative Service",
+            "year": 2003,
+            "authors": [
+                "Donald P. Bellisario",
+                "Don McGill"
+            ],
+            "rating": 5,
+            "favorite": false,
+            "genres": [
+                "11 Saisons.",
+                "Policier",
+                "Drame"
+            ]
+        },
+        {
+            "id": "269481",
+            "title": "Californication",
+            "year": 2007,
+            "authors": [
+                "Tom Kapinos"
+            ],
+            "rating": 7,
+            "done_date": "2013-00-00",
+            "favorite": false,
+            "genres": [
+                "7 Saisons.",
+                "Comédie",
+                "Drame"
+            ]
+        },
+        {
+            "id": "11285700",
+            "title": "Unbreakable Kimmy Schmidt",
+            "year": 2015,
+            "authors": [
+                "Tina Fey",
+                "Robert Carlock"
+            ],
+            "rating": 7,
+            "done_date": "2015-03-13",
+            "favorite": false,
+            "genres": [
+                "4 Saisons.",
+                "Comédie"
+            ]
+        },
+        {
+            "id": "7936833",
+            "title": "Top of the Lake",
+            "year": 2013,
+            "authors": [
+                "Jane Campion"
+            ],
+            "rating": 7,
+            "done_date": "2013-00-00",
+            "favorite": true,
+            "genres": [
+                "2 Saisons.",
+                "Policier",
+                "Drame",
+                "Thriller"
+            ]
+        },
+        {
+            "id": "21782",
+            "title": "Castle",
+            "year": 2009,
+            "authors": [
+                "Andrew W. Marlowe"
+            ],
+            "rating": 6,
+            "done_date": "2009-00-00",
+            "favorite": false,
+            "genres": [
+                "8 Saisons.",
+                "Comédie",
+                "Policier",
+                "Drame"
+            ]
+        },
+        {
+            "id": "408383",
+            "title": "Suits : Avocats sur mesure",
+            "original_title": "Suits",
+            "year": 2011,
+            "authors": [
+                "Aaron Korsh"
+            ],
+            "rating": 6,
+            "done_date": "2013-00-00",
+            "favorite": false,
+            "genres": [
+                "9 Saisons.",
+                "Judiciaire",
+                "Comédie",
+                "Drame"
+            ]
+        },
+        {
+            "id": "155448",
+            "title": "Sur écoute",
+            "original_title": "The Wire",
+            "year": 2002,
+            "authors": [
+                "David Simon"
+            ],
+            "rating": 10,
+            "favorite": false,
+            "genres": [
+                "5 Saisons.",
+                "Policier",
+                "Drame"
+            ]
+        },
+        {
+            "id": "17303491",
+            "title": "Fleming: L'homme qui voulait être James Bond",
+            "original_title": "Fleming",
+            "year": 2014,
+            "authors": [
+                "John Brownlow",
+                "Don MacPherson"
+            ],
+            "rating": 6,
+            "done_date": "2014-10-02",
+            "favorite": false,
+            "genres": [
+                "Mini-Série",
+                "Thriller"
+            ]
+        },
+        {
+            "id": "367908",
+            "title": "Hatfields \u0026 McCoys",
+            "year": 2012,
+            "authors": [
+                "Ted Mann"
+            ],
+            "rating": 7,
+            "done_date": "2013-12-04",
+            "favorite": false,
+            "genres": [
+                "1 Saison.",
+                "Western",
+                "Drame",
+                "Mini-Série"
+            ]
+        },
+        {
+            "id": "113798",
+            "title": "Star Wars : Clone Wars",
+            "year": 2003,
+            "authors": [
+                "Genndy Tartakovsky"
+            ],
+            "rating": 5,
+            "favorite": false,
+            "genres": [
+                "3 Saisons.",
+                "Science-Fiction",
+                "Animation"
+            ]
+        },
+        {
+            "id": "16141602",
+            "title": "Every Frame a Painting",
+            "year": 2014,
+            "authors": [
+                "Tony Zhou"
+            ],
+            "rating": 8,
+            "favorite": true,
+            "genres": [
+                "Documentaire"
+            ]
+        },
+        {
+            "id": "16529264",
+            "title": "Faux Raccord",
+            "year": 2010,
+            "authors": [],
+            "rating": 8,
+            "favorite": false,
+            "genres": [
+                "8 Saisons.",
+                "Comédie",
+                "Documentaire",
+                "Mini-Série"
+            ]
+        },
+        {
+            "id": "148105",
+            "title": "Totally Spies",
+            "year": 2001,
+            "authors": [
+                "Vincent Chalvon-Demersay",
+                "David Michel"
+            ],
+            "rating": 6,
+            "favorite": false,
+            "genres": [
+                "6 Saisons.",
+                "Jeunesse",
+                "Animation"
+            ]
+        },
+        {
+            "id": "401842",
+            "title": "Bref.",
+            "year": 2011,
+            "authors": [
+                "Bruno Muschio",
+                "Kyan Khojandi"
+            ],
+            "rating": 6,
+            "favorite": false,
+            "genres": [
+                "1 Saison.",
+                "Comédie",
+                "Mini-Série"
+            ]
+        },
+        {
+            "id": "60831",
+            "title": "Lucky Luke (US)",
+            "year": 1983,
+            "authors": [
+                "William Hanna",
+                "Joseph Barbera",
+                "Morris"
+            ],
+            "rating": 7,
+            "favorite": false
+        },
+        {
+            "id": "6642",
+            "title": "Les Nouvelles Aventures de Lucky Luke",
+            "year": 2001,
+            "authors": [
+                "Olivier Jean-Marie"
+            ],
+            "rating": 7,
+            "favorite": false,
+            "genres": [
+                "1 Saison.",
+                "Jeunesse",
+                "Animation",
+                "Action"
+            ]
+        },
+        {
+            "id": "276002",
+            "title": "Les Aventures d'une mouche",
+            "year": 1999,
+            "authors": [
+                "Samuel Kaminka",
+                "Lewis Trondheim"
+            ],
+            "rating": 6,
+            "favorite": false,
+            "genres": [
+                "1 Saison.",
+                "Comédie",
+                "Jeunesse",
+                "Animation"
+            ]
+        },
+        {
+            "id": "247935",
+            "title": "Mr. Bean",
+            "year": 1990,
+            "authors": [
+                "Rowan Atkinson",
+                "Richard Curtis"
+            ],
+            "rating": 6,
+            "favorite": false,
+            "genres": [
+                "1 Saison.",
+                "Comédie"
+            ]
+        },
+        {
+            "id": "18806064",
+            "title": "Les Shadoks",
+            "year": 1968,
+            "authors": [
+                "Jacques Rouxel"
+            ],
+            "rating": 7,
+            "favorite": false,
+            "genres": [
+                "4 Saisons.",
+                "Comédie",
+                "Animation"
+            ]
+        },
+        {
+            "id": "151665",
+            "title": "Mais où se cache Carmen Sandiego ?",
+            "original_title": "Where on Earth is Carmen Sandiego ?",
+            "year": 1994,
+            "authors": [
+                "Phil Harnage"
+            ],
+            "rating": 7,
+            "favorite": false,
+            "genres": [
+                "4 Saisons.",
+                "Policier",
+                "Animation",
+                "Action"
+            ]
+        },
+        {
+            "id": "3469",
+            "title": "Men in Black",
+            "original_title": "Men in Black: The Series",
+            "year": 1997,
+            "authors": [
+                "Duane Capizzi",
+                "Jeff Kline",
+                "Richard Raynis"
+            ],
+            "rating": 5,
+            "favorite": false,
+            "genres": [
+                "4 Saisons.",
+                "Animation",
+                "Jeunesse"
+            ]
+        },
+        {
+            "id": "215679",
+            "title": "The Mask, la série animée",
+            "original_title": "The Mask : The Animated Series",
+            "year": 1995,
+            "authors": [
+                "Mark Badger"
+            ],
+            "rating": 4,
+            "favorite": false,
+            "genres": [
+                "3 Saisons.",
+                "Animation",
+                "Jeunesse",
+                "Aventure",
+                "Fantastique"
+            ]
+        },
+        {
+            "id": "185370",
+            "title": "Les Castors allumés",
+            "original_title": "The Angry Beavers",
+            "year": 1997,
+            "authors": [
+                "Mitch Schauer"
+            ],
+            "rating": 4,
+            "favorite": false,
+            "genres": [
+                "6 Saisons.",
+                "Comédie",
+                "Jeunesse",
+                "Animation"
+            ]
+        },
+        {
+            "id": "225128",
+            "title": "Spider-Man, l'homme araignée",
+            "original_title": "Spider-Man The Animated Series",
+            "year": 1994,
+            "authors": [
+                "Steve Ditko",
+                "Stan Lee"
+            ],
+            "rating": 6,
+            "favorite": false,
+            "genres": [
+                "5 Saisons.",
+                "Animation",
+                "Action"
+            ]
+        },
+        {
+            "id": "148632",
+            "title": "Razbitume !",
+            "original_title": "All Grown Up !",
+            "year": 2003,
+            "authors": [
+                "Arlene Klasky",
+                "Gábor Csupó",
+                "Paul Germain"
+            ],
+            "rating": 3,
+            "favorite": false,
+            "genres": [
+                "5 Saisons.",
+                "Comédie",
+                "Drame",
+                "Animation"
+            ]
+        },
+        {
+            "id": "440029",
+            "title": "Pepper Ann",
+            "year": 1997,
+            "authors": [
+                "Sue Rose"
+            ],
+            "rating": 3,
+            "favorite": false,
+            "genres": [
+                "5 Saisons.",
+                "Comédie",
+                "Animation"
+            ]
+        },
+        {
+            "id": "185631",
+            "title": "Les Tiny Toons",
+            "original_title": "Tiny Toon Adventures",
+            "year": 1990,
+            "authors": [
+                "Tom Ruegger"
+            ],
+            "rating": 4,
+            "favorite": false,
+            "genres": [
+                "3 Saisons.",
+                "Comédie",
+                "Animation"
+            ]
+        },
+        {
+            "id": "213197",
+            "title": "Quoi d'neuf Scooby-Doo ?",
+            "original_title": "What's New Scooby-Doo?",
+            "year": 2002,
+            "authors": [
+                "Joe Ruby",
+                "Ken Spears",
+                "Sander Schwartz"
+            ],
+            "rating": 3,
+            "favorite": false,
+            "genres": [
+                "3 Saisons.",
+                "Animation"
+            ]
+        },
+        {
+            "id": "373996",
+            "title": "Arrow",
+            "year": 2012,
+            "authors": [
+                "Greg Berlanti",
+                "Andrew Kreisberg",
+                "Marc Guggenheim"
+            ],
+            "rating": 5,
+            "done_date": "2012-00-00",
+            "favorite": false,
+            "genres": [
+                "8 Saisons.",
+                "Action",
+                "Aventure",
+                "Policier",
+                "Drame"
+            ]
+        },
+        {
+            "id": "422359",
+            "title": "The Newsroom",
+            "year": 2012,
+            "authors": [
+                "Aaron Sorkin"
+            ],
+            "rating": 8,
+            "done_date": "2014-03-00",
+            "favorite": false,
+            "genres": [
+                "3 Saisons.",
+                "Drame"
+            ]
+        },
+        {
+            "id": "7938393",
+            "title": "The Honourable Woman",
+            "year": 2014,
+            "authors": [
+                "Hugo Blick"
+            ],
+            "rating": 8,
+            "favorite": false,
+            "genres": [
+                "1 Saison.",
+                "Thriller",
+                "Drame"
+            ]
+        },
+        {
+            "id": "100113",
+            "title": "Sherlock",
+            "year": 2010,
+            "authors": [
+                "Mark Gatiss",
+                "Steven Moffat"
+            ],
+            "rating": 8,
+            "done_date": "2014-09-19",
+            "favorite": false,
+            "genres": [
+                "4 Saisons.",
+                "Policier",
+                "Drame",
+                "Thriller"
+            ]
+        },
+        {
+            "id": "149118",
+            "title": "Generation Kill",
+            "year": 2008,
+            "authors": [
+                "David Simon",
+                "Ed Burns"
+            ],
+            "rating": 9,
+            "done_date": "2014-05-30",
+            "favorite": true,
+            "genres": [
+                "1 Saison.",
+                "Drame",
+                "Guerre",
+                "Mini-Série"
+            ]
+        },
+        {
+            "id": "117662",
+            "title": "Frères d'armes",
+            "original_title": "Band of Brothers",
+            "year": 2001,
+            "authors": [
+                "Tom Hanks",
+                "Steven Spielberg"
+            ],
+            "rating": 10,
+            "done_date": "2014-08-00",
+            "favorite": false,
+            "genres": [
+                "1 Saison.",
+                "Action",
+                "Aventure",
+                "Drame",
+                "Mini-Série",
+                "Guerre"
+            ]
+        },
+        {
+            "id": "7937926",
+            "title": "Utopia",
+            "year": 2013,
+            "authors": [
+                "Dennis Kelly"
+            ],
+            "rating": 10,
+            "done_date": "2013-09-00",
+            "favorite": true,
+            "genres": [
+                "2 Saisons.",
+                "Science-Fiction",
+                "Thriller",
+                "Drame"
+            ]
+        },
+        {
+            "id": "12944732",
+            "title": "Un Drop dans la Mare",
+            "year": 2013,
+            "authors": [
+                "UnDropDansLaMare"
+            ],
+            "rating": 8,
+            "favorite": false,
+            "genres": [
+                "2 Saisons"
+            ]
+        },
+        {
+            "id": "8464433",
+            "title": "The Daily Show",
+            "year": 1996,
+            "authors": [
+                "Madeleine Smithberg",
+                "Lizz Winstead"
+            ],
+            "rating": 8,
+            "done_date": "2015-02-24",
+            "favorite": false,
+            "genres": [
+                "18 Saisons.",
+                "Comédie",
+                "Talk Show"
+            ]
+        },
+        {
+            "id": "8853524",
+            "title": "The Fall",
+            "year": 2013,
+            "authors": [
+                "Allan Cubitt"
+            ],
+            "rating": 7,
+            "done_date": "2014-02-00",
+            "favorite": false,
+            "genres": [
+                "2 Saisons.",
+                "Thriller",
+                "Drame"
+            ]
+        },
+        {
+            "id": "254266",
+            "title": "New York Police Judiciaire",
+            "original_title": "Law \u0026 Order",
+            "year": 1990,
+            "authors": [
+                "Dick Wolf"
+            ],
+            "rating": 6,
+            "favorite": false,
+            "genres": [
+                "20 Saisons.",
+                "Policier",
+                "Drame"
+            ]
+        },
+        {
+            "id": "11775370",
+            "title": "Ascension",
+            "year": 2014,
+            "authors": [
+                "Philip Levens",
+                "Adrian Cruz"
+            ],
+            "rating": 4,
+            "favorite": false,
+            "genres": [
+                "1 Saison.",
+                "Science-Fiction",
+                "Mini-Série"
+            ]
+        },
+        {
+            "id": "228861",
+            "title": "JAG",
+            "year": 1995,
+            "authors": [
+                "Donald P. Bellisario"
+            ],
+            "rating": 5,
+            "favorite": false,
+            "genres": [
+                "10 Saisons.",
+                "Drame",
+                "Policier"
+            ]
+        },
+        {
+            "id": "487241",
+            "title": "Hannibal",
+            "year": 2013,
+            "authors": [
+                "Bryan Fuller"
+            ],
+            "rating": 5,
+            "done_date": "2014-12-08",
+            "favorite": false,
+            "genres": [
+                "3 Saisons.",
+                "Épouvante-Horreur",
+                "Policier",
+                "Drame"
+            ]
+        },
+        {
+            "id": "234395",
+            "title": "How I Met Your Mother",
+            "year": 2005,
+            "authors": [
+                "Carter Bays",
+                "Craig Thomas"
+            ],
+            "rating": 7,
+            "done_date": "2013-00-00",
+            "favorite": false,
+            "genres": [
+                "9 Saisons.",
+                "Comédie",
+                "Romance"
+            ]
+        },
+        {
+            "id": "173408",
+            "title": "Wakfu",
+            "year": 2008,
+            "authors": [
+                "Anthony Roux"
+            ],
+            "rating": 6,
+            "favorite": false,
+            "genres": [
+                "3 Saisons.",
+                "Fantastique",
+                "Animation",
+                "Action"
+            ]
+        },
+        {
+            "id": "49618",
+            "title": "La Bande à Picsou",
+            "original_title": "DuckTales",
+            "year": 1987,
+            "authors": [
+                "Jymn Magon"
+            ],
+            "rating": 6,
+            "favorite": false,
+            "genres": [
+                "4 Saisons.",
+                "Jeunesse",
+                "Animation"
+            ]
+        },
+        {
+            "id": "155936",
+            "title": "Godzilla, la série",
+            "original_title": "Godzilla : The Series",
+            "year": 1998,
+            "authors": [
+                "Jeff Kline",
+                "Richard Raynis"
+            ],
+            "rating": 6,
+            "favorite": false,
+            "genres": [
+                "Animation"
+            ]
+        },
+        {
+            "id": "7936525",
+            "title": "The Bridge",
+            "year": 2013,
+            "authors": [
+                "Meredith Stiehm",
+                "Björn Stein",
+                "Elwood Reid"
+            ],
+            "rating": 6,
+            "favorite": false,
+            "genres": [
+                "2 Saisons.",
+                "Policier",
+                "Drame"
+            ]
+        },
+        {
+            "id": "15878900",
+            "title": "Tyrant",
+            "year": 2014,
+            "authors": [
+                "Gideon Raff"
+            ],
+            "rating": 6,
+            "favorite": false,
+            "genres": [
+                "1 Saison.",
+                "Drame"
+            ]
+        },
+        {
+            "id": "487910",
+            "title": "Broadchurch",
+            "year": 2013,
+            "authors": [
+                "Chris Chibnall"
+            ],
+            "rating": 6,
+            "done_date": "2014-09-26",
+            "favorite": false,
+            "genres": [
+                "3 Saisons.",
+                "Policier",
+                "Drame",
+                "Aventure"
+            ]
+        },
+        {
+            "id": "32387",
+            "title": "Cédric",
+            "year": 2001,
+            "authors": [
+                "Franck Bourgeron",
+                "Raoul Cauvin",
+                "Tony Laudec"
+            ],
+            "rating": 3,
+            "favorite": false,
+            "genres": [
+                "3 Saisons.",
+                "Animation"
+            ]
+        },
+        {
+            "id": "15944854",
+            "title": "Finding Carter",
+            "year": 2014,
+            "authors": [
+                "Emily Silver"
+            ],
+            "rating": 4,
+            "done_date": "2014-07-00",
+            "favorite": false,
+            "genres": [
+                "2 Saisons.",
+                "Drame"
+            ]
+        },
+        {
+            "id": "397649",
+            "title": "New York Section Criminelle",
+            "original_title": "Law \u0026 Order : Criminal Intent",
+            "year": 2001,
+            "authors": [
+                "Dick Wolf"
+            ],
+            "rating": 6,
+            "favorite": false,
+            "genres": [
+                "10 Saisons.",
+                "Policier",
+                "Drame"
+            ]
+        },
+        {
+            "id": "362767",
+            "title": "Hercule",
+            "original_title": "Hercules : The Legendary Journeys",
+            "year": 1995,
+            "authors": [
+                "Christian Williams"
+            ],
+            "rating": 3,
+            "favorite": false,
+            "genres": [
+                "6 Saisons.",
+                "Fantastique",
+                "Action"
+            ]
+        },
+        {
+            "id": "364213",
+            "title": "Louie",
+            "year": 2010,
+            "authors": [
+                "Louis C.K."
+            ],
+            "rating": 7,
+            "done_date": "2014-08-30",
+            "favorite": false,
+            "genres": [
+                "4 Saisons.",
+                "Comédie",
+                "Drame"
+            ]
+        },
+        {
+            "id": "130247",
+            "title": "Zorro",
+            "year": 1957,
+            "authors": [
+                "Johnston Mcculley",
+                "Norman Foster",
+                "Lewis R. Foster"
+            ],
+            "rating": 5,
+            "favorite": false,
+            "genres": [
+                "3 Saisons.",
+                "Action"
+            ]
+        },
+        {
+            "id": "225129",
+            "title": "Les Aventures de Jimmy Neutron, un garçon génial",
+            "original_title": "The Adventures of Jimmy Neutron: Boy Genius",
+            "year": 2002,
+            "authors": [
+                "John A. Davis"
+            ],
+            "rating": 3,
+            "favorite": false,
+            "genres": [
+                "3 Saisons.",
+                "Science-Fiction",
+                "Comédie",
+                "Jeunesse",
+                "Animation",
+                "Action"
+            ]
+        },
+        {
+            "id": "72169",
+            "title": "Jericho",
+            "year": 2006,
+            "authors": [
+                "Stephen Chbosky",
+                "Josh Schaer",
+                "Jonathan E. Steinberg"
+            ],
+            "rating": 6,
+            "favorite": false,
+            "genres": [
+                "2 Saisons.",
+                "Drame",
+                "Action"
+            ]
+        },
+        {
+            "id": "436543",
+            "title": "Star Wars: The Clone Wars",
+            "year": 2008,
+            "authors": [
+                "George Lucas"
+            ],
+            "rating": 6,
+            "favorite": false,
+            "genres": [
+                "7 Saisons.",
+                "Animation",
+                "Action",
+                "Aventure",
+                "Science-Fiction"
+            ]
+        },
+        {
+            "id": "113800",
+            "title": "Les Minipouss",
+            "original_title": "The Littles",
+            "year": 1983,
+            "authors": [
+                "Jim Schumann",
+                "Heywood Kling"
+            ],
+            "rating": 5,
+            "favorite": false,
+            "genres": [
+                "Animation"
+            ]
+        },
+        {
+            "id": "179258",
+            "title": "Les Mystérieuses Cités d'or",
+            "original_title": "Taiyou no Ko Esteban",
+            "year": 1982,
+            "authors": [
+                "Edouard David",
+                "Bernard Deyriès",
+                "Kenichi Maruyama"
+            ],
+            "rating": 5,
+            "favorite": false,
+            "genres": [
+                "4 Saisons.",
+                "Historique",
+                "Animation",
+                "Science-Fiction",
+                "Aventure"
+            ]
+        },
+        {
+            "id": "74474",
+            "title": "Private Practice",
+            "year": 2007,
+            "authors": [
+                "Shonda Rhimes"
+            ],
+            "rating": 4,
+            "favorite": false,
+            "genres": [
+                "6 Saisons.",
+                "Drame",
+                "Soap"
+            ]
+        },
+        {
+            "id": "10719795",
+            "title": "The Assets",
+            "year": 2014,
+            "authors": [],
+            "rating": 6,
+            "done_date": "2014-01-02",
+            "favorite": false,
+            "genres": [
+                "Mini-Série",
+                "Thriller"
+            ]
+        },
+        {
+            "id": "452821",
+            "title": "Gargoyles : Les Anges de la nuit",
+            "original_title": "Gargoyles",
+            "year": 1994,
+            "authors": [
+                "Greg Weisman"
+            ],
+            "rating": 6,
+            "favorite": false,
+            "genres": [
+                "3 Saisons.",
+                "Policier",
+                "Animation",
+                "Action"
+            ]
+        },
+        {
+            "id": "357342",
+            "title": "Tom et Jerry",
+            "original_title": "Tom and Jerry",
+            "year": 1940,
+            "authors": [
+                "Joseph Barbera",
+                "William Hanna"
+            ],
+            "rating": 8,
+            "favorite": false,
+            "genres": [
+                "Animation",
+                "Jeunesse",
+                "Comédie"
+            ]
+        },
+        {
+            "id": "1367211",
+            "title": "Vikings",
+            "year": 2013,
+            "authors": [
+                "Michael Hirst"
+            ],
+            "rating": 6,
+            "done_date": "2013-00-00",
+            "favorite": false,
+            "genres": [
+                "6 Saisons.",
+                "Action",
+                "Drame",
+                "Historique"
+            ]
+        },
+        {
+            "id": "32022",
+            "title": "Titi et Grosminet mènent l'enquête",
+            "original_title": "Sylvester \u0026 Tweety Mysteries",
+            "year": 1995,
+            "authors": [
+                "Lenord Robinson",
+                "James T. Walker"
+            ],
+            "rating": 6,
+            "favorite": false,
+            "genres": [
+                "5 Saisons.",
+                "Animation"
+            ]
+        },
+        {
+            "id": "221147",
+            "title": "Spirou",
+            "year": 1993,
+            "authors": [
+                "Michel Gauthier",
+                "Pino van Lamsweerde"
+            ],
+            "rating": 5,
+            "favorite": false,
+            "genres": [
+                "2 Saisons.",
+                "Jeunesse",
+                "Action"
+            ]
+        },
+        {
+            "id": "279356",
+            "title": "Winnie l'ourson",
+            "original_title": "The New Adventures of Winnie the Pooh",
+            "year": 1988,
+            "authors": [],
+            "rating": 3,
+            "favorite": false,
+            "genres": [
+                "5 Saisons.",
+                "Comédie",
+                "Jeunesse",
+                "Animation"
+            ]
+        },
+        {
+            "id": "188661",
+            "title": "Foot 2 Rue",
+            "year": 2005,
+            "authors": [
+                "Marco Beretta"
+            ],
+            "rating": 3,
+            "favorite": false,
+            "genres": [
+                "3 Saisons.",
+                "Jeunesse",
+                "Animation"
+            ]
+        },
+        {
+            "id": "270201",
+            "title": "Kyle XY",
+            "year": 2006,
+            "authors": [
+                "Eric Bress",
+                "J. Mackye Gruber"
+            ],
+            "rating": 4,
+            "favorite": false,
+            "genres": [
+                "3 Saisons.",
+                "Science-Fiction",
+                "Drame"
+            ]
+        },
+        {
+            "id": "154691",
+            "title": "Le Laboratoire de Dexter",
+            "original_title": "Dexter's Laboratory",
+            "year": 1996,
+            "authors": [
+                "Genndy Tartakovsky"
+            ],
+            "rating": 3,
+            "favorite": false,
+            "genres": [
+                "4 Saisons.",
+                "Jeunesse",
+                "Animation"
+            ]
+        },
+        {
+            "id": "255028",
+            "title": "Tom Sawyer",
+            "original_title": "Tom Sawyer no Bouken",
+            "year": 1980,
+            "authors": [
+                "Hiroshi Saitô"
+            ],
+            "rating": 4,
+            "favorite": false,
+            "genres": [
+                "1 Saison.",
+                "Aventure",
+                "Jeunesse",
+                "Comédie"
+            ]
+        },
+        {
+            "id": "50828",
+            "title": "Babar",
+            "year": 1989,
+            "authors": [
+                "Nizou",
+                "Dale Schott",
+                "Stéphane Bernasconi"
+            ],
+            "rating": 4,
+            "favorite": false,
+            "genres": [
+                "6 Saisons.",
+                "Jeunesse",
+                "Animation"
+            ]
+        },
+        {
+            "id": "482155",
+            "title": "SAV des émissions",
+            "year": 2005,
+            "authors": [
+                "Fred Testot",
+                "Omar Sy"
+            ],
+            "rating": 6,
+            "favorite": false,
+            "genres": [
+                "4 Saisons.",
+                "Comédie"
+            ]
+        },
+        {
+            "id": "146058",
+            "title": "La Famille Delajungle",
+            "original_title": "The Wild Thornberrys",
+            "year": 1998,
+            "authors": [
+                "Gábor Csupó",
+                "Arlene Klasky",
+                "Steve Pepoon"
+            ],
+            "rating": 3,
+            "favorite": false,
+            "genres": [
+                "4 Saisons.",
+                "Jeunesse",
+                "Animation"
+            ]
+        },
+        {
+            "id": "195751",
+            "title": "Urgences",
+            "original_title": "ER",
+            "year": 1994,
+            "authors": [
+                "Michael Crichton"
+            ],
+            "rating": 4,
+            "favorite": false,
+            "genres": [
+                "15 Saisons.",
+                "Drame",
+                "Médical"
+            ]
+        },
+        {
+            "id": "132698",
+            "title": "Denis La Malice",
+            "original_title": "Dennis The Menace",
+            "year": 1985,
+            "authors": [
+                "Hank Ketcham",
+                "Jean Chalopin"
+            ],
+            "rating": 3,
+            "favorite": false,
+            "genres": [
+                "Comédie",
+                "Animation"
+            ]
+        },
+        {
+            "id": "208714",
+            "title": "Xena la Guerrière",
+            "original_title": "Xena : Warrior Princess",
+            "year": 1995,
+            "authors": [
+                "John Schulian",
+                "Robert G. Tapert"
+            ],
+            "rating": 4,
+            "favorite": false,
+            "genres": [
+                "6 Saisons.",
+                "Fantastique",
+                "Comédie",
+                "Action"
+            ]
+        },
+        {
+            "id": "142005",
+            "title": "Sherlock Holmes au 22ème siècle",
+            "original_title": "Sherlock Holmes in the 22nd Century",
+            "year": 1999,
+            "authors": [
+                "Robert Brousseau",
+                "Scott Heming"
+            ],
+            "rating": 6,
+            "favorite": false,
+            "genres": [
+                "2 Saisons.",
+                "Animation",
+                "Drame"
+            ]
+        },
+        {
+            "id": "202532",
+            "title": "Les histoires du Père Castor",
+            "year": 1993,
+            "authors": [],
+            "rating": 5,
+            "favorite": false,
+            "genres": [
+                "1 Saison.",
+                "Jeunesse",
+                "Animation"
+            ]
+        },
+        {
+            "id": "21394",
+            "title": "Supercopter",
+            "original_title": "Airwolf",
+            "year": 1984,
+            "authors": [
+                "Donald P. Bellisario"
+            ],
+            "rating": 4,
+            "favorite": false,
+            "genres": [
+                "4 Saisons.",
+                "Action"
+            ]
+        },
+        {
+            "id": "135887",
+            "title": "Albert, le 5ème Mousquetaire",
+            "year": 1994,
+            "authors": [
+                "Christophe Izard"
+            ],
+            "rating": 4,
+            "favorite": false,
+            "genres": [
+                "1 Saison.",
+                "Animation"
+            ]
+        },
+        {
+            "id": "105985",
+            "title": "Dragon Ball Z",
+            "original_title": "Doragon Bōru Zetto",
+            "year": 1989,
+            "authors": [
+                "Akira Toriyama",
+                "Daisuke Nishio"
+            ],
+            "rating": 4,
+            "favorite": false,
+            "genres": [
+                "1 Saison.",
+                "Arts Martiaux",
+                "Science-Fiction",
+                "Action",
+                "Animation",
+                "Fantastique"
+            ]
+        },
+        {
+            "id": "95006",
+            "title": "K2000",
+            "original_title": "Knight Rider",
+            "year": 1982,
+            "authors": [
+                "Glen A. Larson"
+            ],
+            "rating": 4,
+            "favorite": false,
+            "genres": [
+                "4 Saisons.",
+                "Action",
+                "Aventure",
+                "Science-Fiction"
+            ]
+        },
+        {
+            "id": "263455",
+            "title": "Kangoo",
+            "year": 1996,
+            "authors": [
+                "Jacqueline Monsigny",
+                "Frank Bertrand",
+                "Thibaut Chatel"
+            ],
+            "rating": 3,
+            "favorite": false,
+            "genres": [
+                "1 Saison.",
+                "Comédie",
+                "Jeunesse",
+                "Animation"
+            ]
+        },
+        {
+            "id": "114556",
+            "title": "Hercule Poirot",
+            "original_title": "Agatha Christie's Poirot",
+            "year": 1989,
+            "authors": [],
+            "rating": 6,
+            "favorite": false,
+            "genres": [
+                "13 Saisons.",
+                "Policier",
+                "Drame",
+                "Aventure",
+                "Thriller"
+            ]
+        },
+        {
+            "id": "131459",
+            "title": "Hercule",
+            "original_title": "Hercules",
+            "year": 1998,
+            "authors": [],
+            "rating": 7,
+            "favorite": false,
+            "genres": [
+                "Jeunesse",
+                "Animation",
+                "Action"
+            ]
+        },
+        {
+            "id": "459307",
+            "title": "Le Bus Magique",
+            "original_title": "The Magic School Bus",
+            "year": 1994,
+            "authors": [
+                "Bruce Degen",
+                "Joanna Cole"
+            ],
+            "rating": 6,
+            "favorite": false,
+            "genres": [
+                "4 Saisons.",
+                "Fantastique",
+                "Jeunesse",
+                "Animation",
+                "Action"
+            ]
+        },
+        {
+            "id": "156480",
+            "title": "Papyrus",
+            "year": 1998,
+            "authors": [
+                "Michel Gauthier"
+            ],
+            "rating": 4,
+            "favorite": false,
+            "genres": [
+                "2 Saisons.",
+                "Jeunesse",
+                "Animation",
+                "Action"
+            ]
+        },
+        {
+            "id": "362002",
+            "title": "Ratz",
+            "year": 2003,
+            "authors": [
+                "Richard Zielenkiewicz",
+                "Monsieur Z"
+            ],
+            "rating": 4,
+            "favorite": false,
+            "genres": [
+                "1 Saison.",
+                "Jeunesse",
+                "Animation"
+            ]
+        },
+        {
+            "id": "116955",
+            "title": "Il était une fois... La Vie",
+            "year": 1987,
+            "authors": [
+                "Jean Barbaud",
+                "Albert Barillé"
+            ],
+            "rating": 7,
+            "favorite": false,
+            "genres": [
+                "1 Saison.",
+                "Animation",
+                "Jeunesse"
+            ]
+        },
+        {
+            "id": "67074",
+            "title": "Tom-Tom et Nana",
+            "year": 1998,
+            "authors": [],
+            "rating": 4,
+            "favorite": false,
+            "genres": [
+                "1 Saison.",
+                "Jeunesse",
+                "Animation"
+            ]
+        },
+        {
+            "id": "94002",
+            "title": "X-Men",
+            "year": 1992,
+            "authors": [
+                "Larry Houston",
+                "Frank Squillace"
+            ],
+            "rating": 7,
+            "favorite": false,
+            "genres": [
+                "5 Saisons.",
+                "Animation",
+                "Action",
+                "Jeunesse"
+            ]
+        },
+        {
+            "id": "161533",
+            "title": "Franklin",
+            "year": 1997,
+            "authors": [
+                "Brenda Clark",
+                "Paulette Bourgeois"
+            ],
+            "rating": 3,
+            "favorite": false,
+            "genres": [
+                "Jeunesse",
+                "Animation"
+            ]
+        },
+        {
+            "id": "370662",
+            "title": "Super Baloo",
+            "original_title": "TaleSpin",
+            "year": 1990,
+            "authors": [
+                "Mark Zaslove",
+                "Jymn Magon"
+            ],
+            "rating": 6,
+            "favorite": false,
+            "genres": [
+                "1 Saison.",
+                "Jeunesse",
+                "Animation"
+            ]
+        },
+        {
+            "id": "404685",
+            "title": "Batman",
+            "original_title": "Batman: The Animated Series",
+            "year": 1992,
+            "authors": [
+                "Paul Dini",
+                "Eric Radomski",
+                "Bruce Timm"
+            ],
+            "rating": 8,
+            "favorite": false,
+            "genres": [
+                "2 Saisons.",
+                "Action",
+                "Aventure",
+                "Animation",
+                "Thriller"
+            ]
+        },
+        {
+            "id": "202531",
+            "title": "Kim Possible",
+            "year": 2002,
+            "authors": [
+                "Mark McCorkle",
+                "Robert Schooley"
+            ],
+            "rating": 5,
+            "favorite": false,
+            "genres": [
+                "4 Saisons.",
+                "Comédie",
+                "Jeunesse",
+                "Animation",
+                "Action"
+            ]
+        },
+        {
+            "id": "285548",
+            "title": "Digimon Adventure",
+            "year": 1999,
+            "authors": [
+                "Yukio Kaizawa",
+                "Hiroyuki Kakudo",
+                "Akiyoshi Hongo"
+            ],
+            "rating": 6,
+            "favorite": false,
+            "genres": [
+                "1 Saison.",
+                "Action",
+                "Animation",
+                "Thriller",
+                "Fantastique",
+                "Aventure"
+            ]
+        },
+        {
+            "id": "2685",
+            "title": "Hé Arnold !",
+            "original_title": "Hey Arnold !",
+            "year": 1996,
+            "authors": [
+                "Craig Bartlett"
+            ],
+            "rating": 3,
+            "favorite": false,
+            "genres": [
+                "5 Saisons.",
+                "Jeunesse",
+                "Animation"
+            ]
+        },
+        {
+            "id": "150910",
+            "title": "Les Animaniacs",
+            "original_title": "Steven Spielberg Presents Animaniacs",
+            "year": 1993,
+            "authors": [
+                "Tom Ruegger"
+            ],
+            "rating": 6,
+            "favorite": false,
+            "genres": [
+                "5 Saisons.",
+                "Animation",
+                "Jeunesse"
+            ]
+        },
+        {
+            "id": "458984",
+            "title": "New York, Unité Spéciale",
+            "original_title": "Law \u0026 Order : Special Victims Unit",
+            "year": 1999,
+            "authors": [
+                "Dick Wolf"
+            ],
+            "rating": 6,
+            "favorite": false,
+            "genres": [
+                "14 Saisons.",
+                "Policier",
+                "Drame"
+            ]
+        },
+        {
+            "id": "156188",
+            "title": "Stargate Atlantis",
+            "year": 2004,
+            "authors": [
+                "Robert C. Cooper",
+                "Brad Wright"
+            ],
+            "rating": 4,
+            "favorite": false,
+            "genres": [
+                "5 Saisons.",
+                "Action",
+                "Aventure",
+                "Science-Fiction"
+            ]
+        },
+        {
+            "id": "124939",
+            "title": "Dragon Ball",
+            "original_title": "Doragon Bôru",
+            "year": 1986,
+            "authors": [
+                "Daisuke Nishio",
+                "Minoru Okazaki"
+            ],
+            "rating": 5,
+            "favorite": false,
+            "genres": [
+                "1 Saison.",
+                "Animation",
+                "Action",
+                "Fantastique",
+                "Thriller"
+            ]
+        },
+        {
+            "id": "222140",
+            "title": "Esprits Criminels",
+            "original_title": "Criminal Minds",
+            "year": 2005,
+            "authors": [
+                "Jeff Davis"
+            ],
+            "rating": 4,
+            "favorite": false,
+            "genres": [
+                "10 Saisons.",
+                "Policier",
+                "Drame",
+                "Thriller"
+            ]
+        },
+        {
+            "id": "240449",
+            "title": "Medium",
+            "year": 2005,
+            "authors": [
+                "Glenn Gordon Caron"
+            ],
+            "rating": 4,
+            "favorite": false,
+            "genres": [
+                "7 Saisons.",
+                "Drame",
+                "Fantasy"
+            ]
+        },
+        {
+            "id": "226101",
+            "title": "Les Razmoket",
+            "original_title": "The Rugrats",
+            "year": 1990,
+            "authors": [
+                "Gábor Csupó",
+                "Paul Germain",
+                "Arlene Klasky"
+            ],
+            "rating": 4,
+            "favorite": false,
+            "genres": [
+                "9 Saisons.",
+                "Animation",
+                "Jeunesse"
+            ]
+        },
+        {
+            "id": "115374",
+            "title": "Arabesque",
+            "original_title": "Murder, She Wrote",
+            "year": 1984,
+            "authors": [
+                "Peter S. Fischer",
+                "Richard Levinson",
+                "William Link"
+            ],
+            "rating": 4,
+            "favorite": false,
+            "genres": [
+                "12 Saisons.",
+                "Policier",
+                "Drame"
+            ]
+        },
+        {
+            "id": "17766422",
+            "title": "Les Pierrafeu",
+            "original_title": "The Flintstones",
+            "year": 1960,
+            "authors": [
+                "William Hanna",
+                "Joseph Barbera"
+            ],
+            "rating": 4,
+            "favorite": false,
+            "genres": [
+                "6 Saisons.",
+                "Comédie",
+                "Animation"
+            ]
+        },
+        {
+            "id": "214665",
+            "title": "Les Supers Nanas",
+            "original_title": "The Powerpuff Girls",
+            "year": 1998,
+            "authors": [
+                "Craig McCracken",
+                "Chris Savino"
+            ],
+            "rating": 2,
+            "favorite": false,
+            "genres": [
+                "6 Saisons.",
+                "Action",
+                "Animation",
+                "Jeunesse",
+                "Comédie"
+            ]
+        },
+        {
+            "id": "105701",
+            "title": "Sailor Moon",
+            "original_title": "Bishoujo Senshi Sailor Moon",
+            "year": 1992,
+            "authors": [
+                "Kunihiko Ikuhara",
+                "Takamura Mukuo",
+                "Kazuko Tadano"
+            ],
+            "rating": 7,
+            "favorite": false,
+            "genres": [
+                "5 Saisons.",
+                "Action",
+                "Animation",
+                "Thriller",
+                "Comédie",
+                "Fantastique"
+            ]
+        },
+        {
+            "id": "42494",
+            "title": "NCIS : Los Angeles",
+            "year": 2009,
+            "authors": [
+                "Shane Brennan"
+            ],
+            "rating": 4,
+            "favorite": false,
+            "genres": [
+                "4 Saisons.",
+                "Action",
+                "Aventure",
+                "Policier",
+                "Drame"
+            ]
+        },
+        {
+            "id": "243429",
+            "title": "Monk",
+            "year": 2002,
+            "authors": [
+                "Andy Breckman"
+            ],
+            "rating": 3,
+            "favorite": false,
+            "genres": [
+                "8 Saisons.",
+                "Comédie",
+                "Policier",
+                "Drame"
+            ]
+        },
+        {
+            "id": "193009",
+            "title": "FBI : Portés disparus",
+            "original_title": "Without a Trace",
+            "year": 2002,
+            "authors": [
+                "Hank Steinberg"
+            ],
+            "rating": 5,
+            "favorite": false,
+            "genres": [
+                "Action",
+                "Aventure",
+                "Policier",
+                "Drame"
+            ]
+        },
+        {
+            "id": "28763",
+            "title": "Le Caméléon",
+            "original_title": "The Pretender",
+            "year": 1996,
+            "authors": [
+                "Steven Long Mitchell",
+                "Craig W. Van Sickle"
+            ],
+            "rating": 6,
+            "favorite": false,
+            "genres": [
+                "4 Saisons.",
+                "Action",
+                "Aventure",
+                "Drame",
+                "Science-Fiction",
+                "Thriller"
+            ]
+        },
+        {
+            "id": "277685",
+            "title": "Grey's Anatomy",
+            "year": 2005,
+            "authors": [
+                "Shonda Rhimes"
+            ],
+            "rating": 3,
+            "favorite": false,
+            "genres": [
+                "16 Saisons.",
+                "Drame",
+                "Romance",
+                "Médical",
+                "Soap"
+            ]
+        },
+        {
+            "id": "228616",
+            "title": "Columbo",
+            "year": 1968,
+            "authors": [
+                "Richard Levinson",
+                "William Link"
+            ],
+            "rating": 3,
+            "favorite": false,
+            "genres": [
+                "18 Saisons.",
+                "Policier",
+                "Drame"
+            ]
+        },
+        {
+            "id": "274725",
+            "title": "MacGyver",
+            "year": 1985,
+            "authors": [
+                "Lee David Zlotoff"
+            ],
+            "rating": 6,
+            "favorite": false,
+            "genres": [
+                "7 Saisons.",
+                "Action"
+            ]
+        },
+        {
+            "id": "156721",
+            "title": "Cold Case : Affaires classées",
+            "original_title": "Cold Case",
+            "year": 2003,
+            "authors": [
+                "Meredith Stiehm"
+            ],
+            "rating": 5,
+            "favorite": false,
+            "genres": [
+                "7 Saisons.",
+                "Policier",
+                "Drame"
+            ]
+        },
+        {
+            "id": "84650",
+            "title": "Walker, Texas Ranger",
+            "year": 1993,
+            "authors": [
+                "Christopher Canaan",
+                "Leslie Greif",
+                "Paul Haggis"
+            ],
+            "rating": 2,
+            "favorite": false,
+            "genres": [
+                "9 Saisons.",
+                "Drame",
+                "Policier"
+            ]
+        },
+        {
+            "id": "396415",
+            "title": "Pingu",
+            "original_title": "Le Pingu Show",
+            "year": 1986,
+            "authors": [
+                "Otmar Gutmann"
+            ],
+            "rating": 5,
+            "favorite": false,
+            "genres": [
+                "6 Saisons.",
+                "Comédie",
+                "Animation"
+            ]
+        },
+        {
+            "id": "234148",
+            "title": "Famille Pirate",
+            "year": 1999,
+            "authors": [
+                "Fabrice Parme",
+                "Stéphane Bernasconi",
+                "Béatrice Marthouret"
+            ],
+            "rating": 4,
+            "favorite": false,
+            "genres": [
+                "1 Saison.",
+                "Jeunesse",
+                "Animation"
+            ]
+        },
+        {
+            "id": "137855",
+            "title": "Malcolm",
+            "original_title": "Malcolm in the Middle",
+            "year": 2000,
+            "authors": [
+                "Linwood Boomer"
+            ],
+            "rating": 5,
+            "favorite": false,
+            "genres": [
+                "7 Saisons.",
+                "Comédie"
+            ]
+        },
+        {
+            "id": "51613",
+            "title": "Inspecteur Barnaby",
+            "original_title": "Midsomer Murders",
+            "year": 1997,
+            "authors": [
+                "Caroline Graham"
+            ],
+            "rating": 3,
+            "favorite": false,
+            "genres": [
+                "14 Saisons.",
+                "Policier",
+                "Drame",
+                "Aventure"
+            ]
+        },
+        {
+            "id": "33946",
+            "title": "Alerte Cobra",
+            "original_title": "Alarm für Cobra 11 - Die Autobahnpolizei",
+            "year": 1996,
+            "authors": [
+                "Claude Cueni",
+                "Hermann Joha"
+            ],
+            "rating": 3,
+            "favorite": false,
+            "genres": [
+                "Policier",
+                "Drame",
+                "Action"
+            ]
+        },
+        {
+            "id": "149619",
+            "title": "Sakura, chasseuse de cartes",
+            "original_title": "Cardcaptor Sakura",
+            "year": 1998,
+            "authors": [
+                "Morio Asaka",
+                "CLAMP"
+            ],
+            "rating": 6,
+            "favorite": false,
+            "genres": [
+                "3 Saisons.",
+                "Action",
+                "Romance",
+                "Shōjo",
+                "Comédie",
+                "Fantasy",
+                "Aventure",
+                "Animation",
+                "Fantastique"
+            ]
+        },
+        {
+            "id": "190728",
+            "title": "Denver, le Dernier Dinosaure",
+            "original_title": "Denver, the Last Dinosaur",
+            "year": 1988,
+            "authors": [
+                "Peter Keefe"
+            ],
+            "rating": 4,
+            "favorite": false,
+            "genres": [
+                "1 Saison.",
+                "Action"
+            ]
+        },
+        {
+            "id": "172873",
+            "title": "Scooby-Doo, où es-tu ?",
+            "original_title": "Scooby-Doo, Where Are You!",
+            "year": 1969,
+            "authors": [
+                "Joe Ruby",
+                "Ken Spears",
+                "Joseph Barbera"
+            ],
+            "rating": 6,
+            "favorite": false,
+            "genres": [
+                "2 Saisons.",
+                "Animation",
+                "Jeunesse"
+            ]
+        },
+        {
+            "id": "256317",
+            "title": "Les Schtroumpfs",
+            "original_title": "The Smurfs",
+            "year": 1981,
+            "authors": [
+                "Peyo"
+            ],
+            "rating": 5,
+            "favorite": false,
+            "genres": [
+                "9 Saisons.",
+                "Jeunesse",
+                "Animation"
+            ]
+        },
+        {
+            "id": "4431",
+            "title": "Mon ami Marsupilami",
+            "year": 2000,
+            "authors": [],
+            "rating": 5,
+            "favorite": false,
+            "genres": [
+                "2 Saisons.",
+                "Animation",
+                "Jeunesse",
+                "Comédie"
+            ]
+        },
+        {
+            "id": "48770",
+            "title": "Jumanji",
+            "year": 1996,
+            "authors": [
+                "Gábor Csupó"
+            ],
+            "rating": 5,
+            "favorite": false,
+            "genres": [
+                "3 Saisons.",
+                "Action",
+                "Aventure",
+                "Animation",
+                "Jeunesse"
+            ]
+        },
+        {
+            "id": "32051027",
+            "title": "SOS Croco",
+            "year": 1998,
+            "authors": [
+                "Jacqueline Monsigny",
+                "Frank Bertrand",
+                "Thibaut Chatel"
+            ],
+            "rating": 6,
+            "favorite": false,
+            "genres": [
+                "1 Saison.",
+                "Jeunesse",
+                "Animation"
+            ]
+        },
+        {
+            "id": "139183",
+            "title": "Yu-Gi-Oh!",
+            "original_title": "Yuu Gi Ou: Duel Monsters",
+            "year": 2000,
+            "authors": [
+                "Kunihisa Sugishima"
+            ],
+            "rating": 4,
+            "favorite": false,
+            "genres": [
+                "1 Saison.",
+                "Action",
+                "Comédie",
+                "Aventure",
+                "Shōnen",
+                "Science-Fiction"
+            ]
+        },
+        {
+            "id": "164508",
+            "title": "Oggy et les Cafards",
+            "year": 1998,
+            "authors": [
+                "Jean-Yves Raimbaud"
+            ],
+            "rating": 3,
+            "favorite": false,
+            "genres": [
+                "7 Saisons.",
+                "Comédie",
+                "Jeunesse",
+                "Animation"
+            ]
+        },
+        {
+            "id": "95267",
+            "title": "Les Zinzins de L'Espace",
+            "year": 1997,
+            "authors": [
+                "Jean-Yves Raimbaud",
+                "Philippe Traversat"
+            ],
+            "rating": 2,
+            "favorite": false,
+            "genres": [
+                "2 Saisons.",
+                "Animation"
+            ]
+        },
+        {
+            "id": "354275",
+            "title": "Un gars, une fille",
+            "year": 1999,
+            "authors": [
+                "Guy A. Lepage"
+            ],
+            "rating": 5,
+            "favorite": false,
+            "genres": [
+                "5 Saisons.",
+                "Comédie"
+            ]
+        },
+        {
+            "id": "266966",
+            "title": "Inspecteur Gadget",
+            "year": 1983,
+            "authors": [
+                "Bruno Bianchi",
+                "Jean Chalopin",
+                "Andy Heyward"
+            ],
+            "rating": 5,
+            "favorite": false,
+            "genres": [
+                "2 Saisons.",
+                "Jeunesse",
+                "Animation"
+            ]
+        },
+        {
+            "id": "185091",
+            "title": "Titi et Grosminet",
+            "original_title": "Tweety \u0026 Sylvester",
+            "year": 1942,
+            "authors": [
+                "Robert Clampett",
+                "Friz Freleng"
+            ],
+            "rating": 5,
+            "favorite": false
+        },
+        {
+            "id": "34510",
+            "title": "X-Men: Evolution",
+            "year": 2000,
+            "authors": [
+                "Craig Kyle",
+                "Greg Johnson"
+            ],
+            "rating": 7,
+            "favorite": false,
+            "genres": [
+                "4 Saisons.",
+                "Science-Fiction",
+                "Jeunesse",
+                "Animation"
+            ]
+        },
+        {
+            "id": "63567",
+            "title": "La Ligue des justiciers",
+            "original_title": "Justice League",
+            "year": 2001,
+            "authors": [
+                "Bruce Timm",
+                "Paul Dini"
+            ],
+            "rating": 8,
+            "favorite": false,
+            "genres": [
+                "5 Saisons.",
+                "Action",
+                "Animation",
+                "Jeunesse",
+                "Policier",
+                "Fantasy"
+            ]
+        },
+        {
+            "id": "444832",
+            "title": "Once Upon a Time",
+            "year": 2011,
+            "authors": [
+                "Adam Horowitz",
+                "Edward Kitsis"
+            ],
+            "rating": 5,
+            "done_date": "2012-00-00",
+            "favorite": false,
+            "genres": [
+                "4 Saisons.",
+                "Aventure",
+                "Drame",
+                "Fantasy",
+                "Romance"
+            ]
+        },
+        {
+            "id": "392519",
+            "title": "Happy Tree Friends",
+            "year": 1999,
+            "authors": [
+                "Clark Bright",
+                "Kenn Navarro",
+                "Rhode Montijo"
+            ],
+            "rating": 6,
+            "favorite": false,
+            "genres": [
+                "4 Saisons.",
+                "Comédie",
+                "Animation"
+            ]
+        },
+        {
+            "id": "204829",
+            "title": "Les Simpson",
+            "original_title": "The Simpsons",
+            "year": 1989,
+            "authors": [
+                "Sam Simon",
+                "James L. Brooks",
+                "Matt Groening"
+            ],
+            "rating": 2,
+            "favorite": false,
+            "genres": [
+                "32 Saisons.",
+                "Animation",
+                "Comédie"
+            ]
+        },
+        {
+            "id": "174430",
+            "title": "Bip Bip et Coyote",
+            "original_title": "Road Runner \u0026 Wile E. Coyote",
+            "year": 1949,
+            "authors": [
+                "Chuck Jones"
+            ],
+            "rating": 8,
+            "favorite": false,
+            "genres": [
+                "Animation"
+            ]
+        },
+        {
+            "id": "10842767",
+            "title": "Inside No. 9",
+            "year": 2014,
+            "authors": [
+                "Steve Pemberton",
+                "Reece Shearsmith"
+            ],
+            "rating": 5,
+            "done_date": "2014-00-00",
+            "favorite": false,
+            "genres": [
+                "5 Saisons.",
+                "Comédie",
+                "Drame",
+                "Anthologique"
+            ]
+        },
+        {
+            "id": "8460053",
+            "title": "Looney Tunes",
+            "year": 1929,
+            "authors": [
+                "Tex Avery",
+                "Robert Clampett",
+                "Friz Freleng"
+            ],
+            "rating": 7,
+            "favorite": false,
+            "genres": [
+                "39 Saisons.",
+                "Animation",
+                "Jeunesse",
+                "Comédie"
+            ]
+        },
+        {
+            "id": "449458",
+            "title": "Continuum",
+            "year": 2012,
+            "authors": [
+                "Simon Barry"
+            ],
+            "rating": 6,
+            "done_date": "2013-00-00",
+            "favorite": false,
+            "genres": [
+                "2 Saisons.",
+                "Science-Fiction",
+                "Thriller",
+                "Drame",
+                "Action"
+            ]
+        },
+        {
+            "id": "161270",
+            "title": "Heroes",
+            "year": 2006,
+            "authors": [
+                "Tim Kring"
+            ],
+            "rating": 5,
+            "favorite": false,
+            "genres": [
+                "4 Saisons.",
+                "Science-Fiction",
+                "Fantastique",
+                "Thriller",
+                "Drame"
+            ]
+        },
+        {
+            "id": "20258",
+            "title": "South Park",
+            "year": 1997,
+            "authors": [
+                "Matt Stone",
+                "Trey Parker"
+            ],
+            "rating": 2,
+            "favorite": false,
+            "genres": [
+                "24 Saisons.",
+                "Animation",
+                "Comédie"
+            ]
+        },
+        {
+            "id": "434052",
+            "title": "Masters of Sex",
+            "year": 2013,
+            "authors": [
+                "Michelle Ashford"
+            ],
+            "rating": 6,
+            "done_date": "2013-09-29",
+            "favorite": false,
+            "genres": [
+                "2 Saisons.",
+                "Romance",
+                "Drame"
+            ]
+        },
+        {
+            "id": "88444",
+            "title": "Futurama",
+            "year": 1999,
+            "authors": [
+                "David X. Cohen",
+                "Matt Groening"
+            ],
+            "rating": 3,
+            "favorite": false,
+            "genres": [
+                "7 Saisons.",
+                "Animation",
+                "Comédie",
+                "Science-Fiction"
+            ]
+        },
+        {
+            "id": "393800",
+            "title": "Last Resort",
+            "year": 2012,
+            "authors": [
+                "Shawn Ryan",
+                "Karl Gajdusek"
+            ],
+            "rating": 3,
+            "favorite": false,
+            "genres": [
+                "1 Saison.",
+                "Action",
+                "Guerre",
+                "Drame"
+            ]
+        },
+        {
+            "id": "192261",
+            "title": "Life",
+            "year": 2007,
+            "authors": [
+                "Rand Ravich"
+            ],
+            "rating": 6,
+            "favorite": false,
+            "genres": [
+                "2 Saisons.",
+                "Policier",
+                "Drame"
+            ]
+        },
+        {
+            "id": "7938819",
+            "title": "Marvel : Les Agents du S.H.I.E.L.D.",
+            "original_title": "Marvel's Agents of S.H.I.E.L.D.",
+            "year": 2013,
+            "authors": [
+                "Joss Whedon",
+                "Jed Whedon",
+                "Maurissa Tancharoen"
+            ],
+            "rating": 5,
+            "done_date": "2013-09-24",
+            "favorite": false,
+            "genres": [
+                "7 Saisons.",
+                "Action",
+                "Drame",
+                "Science-Fiction",
+                "Thriller"
+            ]
+        },
+        {
+            "id": "203818",
+            "title": "Blue Mountain State",
+            "year": 2010,
+            "authors": [
+                "Eric Falconer",
+                "Chris Romano"
+            ],
+            "rating": 6,
+            "done_date": "2014-00-00",
+            "favorite": false,
+            "genres": [
+                "3 Saisons.",
+                "Comédie",
+                "Sport"
+            ]
+        },
+        {
+            "id": "257309",
+            "title": "La Linea",
+            "year": 1971,
+            "authors": [
+                "Osvaldo Cavandoli"
+            ],
+            "rating": 7,
+            "favorite": false,
+            "genres": [
+                "1 Saison.",
+                "Comédie",
+                "Jeunesse",
+                "Animation"
+            ]
+        },
+        {
+            "id": "4770",
+            "title": "Plus belle la vie",
+            "year": 2004,
+            "authors": [
+                "Hubert Besson"
+            ],
+            "rating": 2,
+            "favorite": false,
+            "genres": [
+                "6 Saisons.",
+                "Drame",
+                "Soap"
+            ]
+        },
+        {
+            "id": "269970",
+            "title": "Les Experts",
+            "original_title": "CSI: Crime Scene Investigation",
+            "year": 2000,
+            "authors": [
+                "Anthony E. Zuiker"
+            ],
+            "rating": 4,
+            "favorite": false,
+            "genres": [
+                "15 Saisons.",
+                "Policier",
+                "Drame"
+            ]
+        },
+        {
+            "id": "414225",
+            "title": "The Walking Dead",
+            "year": 2010,
+            "authors": [
+                "Frank Darabont"
+            ],
+            "rating": 5,
+            "done_date": "2013-00-00",
+            "favorite": false,
+            "genres": [
+                "10 Saisons.",
+                "Épouvante-Horreur",
+                "Drame"
+            ]
+        },
+        {
+            "id": "127965",
+            "title": "Les Experts : Manhattan",
+            "original_title": "CSI: NY",
+            "year": 2004,
+            "authors": [
+                "Ann Donahue",
+                "Carol Mendelsohn",
+                "Anthony E. Zuiker"
+            ],
+            "rating": 5,
+            "favorite": false,
+            "genres": [
+                "9 Saisons.",
+                "Policier",
+                "Drame"
+            ]
+        },
+        {
+            "id": "82613",
+            "title": "Desperate Housewives",
+            "year": 2004,
+            "authors": [
+                "Marc Cherry"
+            ],
+            "rating": 5,
+            "favorite": false,
+            "genres": [
+                "8 Saisons.",
+                "Comédie",
+                "Drame",
+                "Soap"
+            ]
+        },
+        {
+            "id": "174182",
+            "title": "Dr House",
+            "original_title": "House M.D.",
+            "year": 2004,
+            "authors": [
+                "David Shore"
+            ],
+            "rating": 6,
+            "favorite": false,
+            "genres": [
+                "8 Saisons.",
+                "Drame",
+                "Médical"
+            ]
+        },
+        {
+            "id": "65587",
+            "title": "Bones",
+            "year": 2005,
+            "authors": [
+                "Hart Hanson"
+            ],
+            "rating": 5,
+            "favorite": false,
+            "genres": [
+                "12 Saisons.",
+                "Policier",
+                "Drame",
+                "Comédie"
+            ]
+        },
+        {
+            "id": "37441",
+            "title": "Les Experts : Miami",
+            "original_title": "CSI : Miami",
+            "year": 2002,
+            "authors": [
+                "Ann Donahue",
+                "Carol Mendelsohn",
+                "Anthony E. Zuiker"
+            ],
+            "rating": 5,
+            "favorite": false,
+            "genres": [
+                "10 Saisons.",
+                "Action",
+                "Policier",
+                "Drame"
+            ]
+        },
+        {
+            "id": "275206",
+            "title": "Mentalist",
+            "original_title": "The Mentalist",
+            "year": 2008,
+            "authors": [
+                "Bruno Heller"
+            ],
+            "rating": 6,
+            "done_date": "2009-00-00",
+            "favorite": false,
+            "genres": [
+                "7 Saisons.",
+                "Policier",
+                "Drame"
+            ]
+        }
+    ],
+    "category": "series",
+    "filter": "done",
+    "username": "mlcdf"
+}

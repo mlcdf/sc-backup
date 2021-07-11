@@ -1,0 +1,536 @@
+{
+    "entries": [
+        {
+            "id": "39710589",
+            "title": "No Man's Land",
+            "year": 2020,
+            "authors": [
+                "Maria Feldman",
+                "Amit Cohen",
+                "Eitan Mansuri"
+            ],
+            "favorite": false,
+            "genres": [
+                "1 Saison.",
+                "Drame"
+            ]
+        },
+        {
+            "id": "39659682",
+            "title": "Normal People",
+            "year": 2020,
+            "authors": [
+                "Lenny Abrahamson"
+            ],
+            "favorite": false,
+            "genres": [
+                "1 Saison.",
+                "Comédie Dramatique",
+                "Romance"
+            ]
+        },
+        {
+            "id": "24786239",
+            "title": "Babylon Berlin",
+            "year": 2017,
+            "authors": [
+                "Achim von Borries",
+                "Tom Tykwer"
+            ],
+            "favorite": false,
+            "genres": [
+                "2 Saisons.",
+                "Policier",
+                "Drame",
+                "Thriller"
+            ]
+        },
+        {
+            "id": "26472646",
+            "title": "Chernobyl",
+            "year": 2019,
+            "authors": [
+                "Craig Mazin"
+            ],
+            "favorite": false,
+            "genres": [
+                "1 Saison.",
+                "Drame",
+                "Historique",
+                "Mini-Série"
+            ]
+        },
+        {
+            "id": "38236976",
+            "title": "The Good Lord Bird",
+            "year": 2020,
+            "authors": [
+                "Mark Richard",
+                "Ethan Hawke"
+            ],
+            "favorite": false,
+            "genres": [
+                "1 Saison.",
+                "Drame",
+                "Historique",
+                "Mini-Série"
+            ]
+        },
+        {
+            "id": "31452621",
+            "title": "Devs",
+            "year": 2020,
+            "authors": [
+                "Alex Garland"
+            ],
+            "favorite": false,
+            "genres": [
+                "1 Saison.",
+                "Thriller",
+                "Science-Fiction"
+            ]
+        },
+        {
+            "id": "23204662",
+            "title": "The Young Pope",
+            "year": 2016,
+            "authors": [
+                "Paolo Sorrentino"
+            ],
+            "favorite": false,
+            "genres": [
+                "1 Saison.",
+                "Drame",
+                "Mini-Série"
+            ]
+        },
+        {
+            "id": "22336740",
+            "title": "Fleabag",
+            "year": 2016,
+            "authors": [
+                "Phoebe Waller-Bridge"
+            ],
+            "favorite": false,
+            "genres": [
+                "2 Saisons.",
+                "Comédie",
+                "Drame"
+            ]
+        },
+        {
+            "id": "38861759",
+            "title": "Undone",
+            "year": 2019,
+            "authors": [
+                "Kate Purdy",
+                "Raphael Bob-Waksberg"
+            ],
+            "favorite": false,
+            "genres": [
+                "2 Saisons.",
+                "Animation",
+                "Drame",
+                "Fantastique",
+                "Comédie"
+            ]
+        },
+        {
+            "id": "32114878",
+            "title": "Pose",
+            "year": 2018,
+            "authors": [
+                "Steven Canals",
+                "Brad Falchuk",
+                "Ryan Murphy"
+            ],
+            "favorite": false,
+            "genres": [
+                "3 Saisons.",
+                "Drame"
+            ]
+        },
+        {
+            "id": "149369",
+            "title": "Mad Men",
+            "year": 2007,
+            "authors": [
+                "Matthew Weiner"
+            ],
+            "favorite": false,
+            "genres": [
+                "7 Saisons.",
+                "Drame"
+            ]
+        },
+        {
+            "id": "24009587",
+            "title": "The OA",
+            "year": 2016,
+            "authors": [
+                "Zal Batmanglij",
+                "Brit Marling"
+            ],
+            "favorite": false,
+            "genres": [
+                "2 Saisons.",
+                "Science-Fiction",
+                "Drame",
+                "Fantastique",
+                "Thriller"
+            ]
+        },
+        {
+            "id": "417261",
+            "title": "Planète Terre",
+            "original_title": "Planet Earth",
+            "year": 2006,
+            "authors": [
+                "Alastair Fothergill"
+            ],
+            "favorite": false,
+            "genres": [
+                "1 Saison.",
+                "Documentaire"
+            ]
+        },
+        {
+            "id": "8461970",
+            "title": "Halt and Catch Fire",
+            "year": 2014,
+            "authors": [
+                "Christopher Cantwell",
+                "Christopher C. Rogers"
+            ],
+            "rating": 6,
+            "favorite": false,
+            "genres": [
+                "4 Saisons.",
+                "Drame"
+            ]
+        },
+        {
+            "id": "179528",
+            "title": "Gilmore Girls",
+            "year": 2000,
+            "authors": [
+                "Amy Sherman-Palladino"
+            ],
+            "favorite": false,
+            "genres": [
+                "7 Saisons.",
+                "Comédie",
+                "Drame"
+            ]
+        },
+        {
+            "id": "12646050",
+            "title": "La Forêt de l'Étrange",
+            "original_title": "Over The Garden Wall",
+            "year": 2014,
+            "authors": [
+                "Patrick McHale"
+            ],
+            "favorite": false,
+            "genres": [
+                "1 Saison.",
+                "Fantastique",
+                "Animation"
+            ]
+        },
+        {
+            "id": "462414",
+            "title": "Lupin III : Une femme nommée Fujiko Mine",
+            "original_title": "Rupan Sansei : Mine Fujiko to iu onna",
+            "year": 2012,
+            "authors": [
+                "Sayo Yamamoto"
+            ],
+            "favorite": false,
+            "genres": [
+                "1 Saison.",
+                "Animation",
+                "Thriller",
+                "Policier",
+                "Action"
+            ]
+        },
+        {
+            "id": "53044",
+            "title": "Les Allumés",
+            "original_title": "Spaced",
+            "year": 1999,
+            "authors": [
+                "Simon Pegg",
+                "Jessica Stevenson",
+                "Edgar Wright"
+            ],
+            "favorite": false,
+            "genres": [
+                "2 Saisons.",
+                "Comédie"
+            ]
+        },
+        {
+            "id": "142006",
+            "title": "Cowboy Bebop",
+            "original_title": "Kaubōi Bibappu",
+            "year": 1998,
+            "authors": [
+                "Shinichirô Watanabe",
+                "Hajime Yatate"
+            ],
+            "favorite": false,
+            "genres": [
+                "1 Saison.",
+                "Romance",
+                "Science-Fiction",
+                "Seinen",
+                "Action",
+                "Fantasy",
+                "Musique",
+                "Thriller",
+                "Arts Martiaux",
+                "Comédie",
+                "Aventure",
+                "Policier",
+                "Animation"
+            ]
+        },
+        {
+            "id": "219411",
+            "title": "Freaks and Geeks",
+            "year": 1999,
+            "authors": [
+                "Paul Feig"
+            ],
+            "favorite": false,
+            "genres": [
+                "1 Saison.",
+                "Comédie",
+                "Drame"
+            ]
+        },
+        {
+            "id": "104926",
+            "title": "Angels in America",
+            "year": 2003,
+            "authors": [
+                "Tony Kushner",
+                "Mike Nichols"
+            ],
+            "favorite": false,
+            "genres": [
+                "1 Saison.",
+                "Drame",
+                "Mini-Série"
+            ]
+        },
+        {
+            "id": "13025035",
+            "title": "Le Bureau des Légendes",
+            "year": 2015,
+            "authors": [
+                "Eric Rochant"
+            ],
+            "favorite": false,
+            "genres": [
+                "5 Saisons.",
+                "Thriller",
+                "Drame"
+            ]
+        },
+        {
+            "id": "38202752",
+            "title": "Notre planète",
+            "original_title": "Our Planet",
+            "year": 2019,
+            "authors": [
+                "Alastair Fothergill",
+                "Keith Scholey"
+            ],
+            "favorite": false,
+            "genres": [
+                "1 Saison.",
+                "Mini-Série",
+                "Documentaire"
+            ]
+        },
+        {
+            "id": "271673",
+            "title": "Rome",
+            "year": 2005,
+            "authors": [
+                "Bruno Heller"
+            ],
+            "favorite": false,
+            "genres": [
+                "2 Saisons.",
+                "Action",
+                "Aventure",
+                "Drame",
+                "Historique"
+            ]
+        },
+        {
+            "id": "163987",
+            "title": "Six pieds sous terre",
+            "original_title": "Six Feet Under",
+            "year": 2001,
+            "authors": [
+                "Alan Ball"
+            ],
+            "favorite": false,
+            "genres": [
+                "5 Saisons.",
+                "Comédie Dramatique"
+            ]
+        },
+        {
+            "id": "392661",
+            "title": "Rubicon",
+            "year": 2010,
+            "authors": [
+                "Jason Horwitch"
+            ],
+            "favorite": false,
+            "genres": [
+                "1 Saison.",
+                "Thriller",
+                "Policier",
+                "Drame"
+            ]
+        },
+        {
+            "id": "264461",
+            "title": "Jeux de pouvoir",
+            "original_title": "State of Play",
+            "year": 2003,
+            "authors": [
+                "Paul Abbott"
+            ],
+            "favorite": false,
+            "genres": [
+                "1 Saison.",
+                "Thriller",
+                "Policier",
+                "Drame"
+            ]
+        },
+        {
+            "id": "198281",
+            "title": "Oz",
+            "year": 1997,
+            "authors": [
+                "Tom Fontana"
+            ],
+            "favorite": false,
+            "genres": [
+                "6 Saisons.",
+                "Drame",
+                "Thriller"
+            ]
+        },
+        {
+            "id": "12480",
+            "title": "Friday Night Lights",
+            "year": 2006,
+            "authors": [
+                "Peter Berg"
+            ],
+            "favorite": false,
+            "genres": [
+                "5 Saisons.",
+                "Drame",
+                "Sport"
+            ]
+        },
+        {
+            "id": "121905",
+            "title": "Firefly",
+            "year": 2002,
+            "authors": [
+                "Joss Whedon"
+            ],
+            "favorite": false,
+            "genres": [
+                "1 Saison.",
+                "Science-Fiction",
+                "Aventure",
+                "Drame"
+            ]
+        },
+        {
+            "id": "449240",
+            "title": "Justified",
+            "year": 2010,
+            "authors": [
+                "Graham Yost"
+            ],
+            "favorite": false,
+            "genres": [
+                "6 Saisons.",
+                "Policier",
+                "Drame",
+                "Action"
+            ]
+        },
+        {
+            "id": "70412",
+            "title": "Treme",
+            "year": 2010,
+            "authors": [
+                "David Simon",
+                "Eric Overmyer"
+            ],
+            "favorite": false,
+            "genres": [
+                "4 Saisons.",
+                "Drame"
+            ]
+        },
+        {
+            "id": "396088",
+            "title": "Community",
+            "year": 2009,
+            "authors": [
+                "Dan Harmon"
+            ],
+            "favorite": false,
+            "genres": [
+                "6 Saisons.",
+                "Comédie"
+            ]
+        },
+        {
+            "id": "375894",
+            "title": "The Hour",
+            "year": 2011,
+            "authors": [
+                "Abi Morgan"
+            ],
+            "favorite": false,
+            "genres": [
+                "2 Saisons.",
+                "Drame"
+            ]
+        },
+        {
+            "id": "389848",
+            "title": "Borgen, une femme au pouvoir",
+            "original_title": "Borgen",
+            "year": 2010,
+            "authors": [
+                "Adam Price"
+            ],
+            "favorite": false,
+            "genres": [
+                "3 Saisons.",
+                "Drame"
+            ]
+        }
+    ],
+    "category": "series",
+    "filter": "wish",
+    "username": "mlcdf"
+}
