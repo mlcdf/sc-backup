@@ -102,6 +102,10 @@ func TestBackupList(t *testing.T) {
 		t.Errorf("entry.Genre is too long %v", entry.Genres)
 	}
 
+	if len(entry.Genres) == 0 {
+		t.Fatalf("entry.Genre is empty %v", entry.Genres)
+	}
+
 	if entry.Genres[0] != "Aventure" {
 		t.Errorf("entry.Genre[0] is not Aventure %v", entry.Genres)
 	}

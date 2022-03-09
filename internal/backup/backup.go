@@ -90,14 +90,14 @@ func parseGenre(s *goquery.Selection) ([]string, error) {
 	filterWeirdGenre := func(genres []string) []string {
 		out := make([]string, 0)
 		for _, genre := range genres {
-			if genre != "sketches" && genre != "" {
+			if genre != "sketches" && genre != "" && !strings.Contains(genre, "(France).") {
 				out = append(out, strings.Title(genre))
 			}
 		}
 		return out
 	}
 
-	result := strings.Split(strings.TrimSpace(parsedGenre), "</time>.")
+	result := strings.Split(strings.TrimSpace(parsedGenre), "</time>")
 
 	splitWord := func(word string) []string {
 		word = strings.Trim(strings.TrimSpace(word), ".")
