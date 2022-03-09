@@ -1,0 +1,1095 @@
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>backend: Go Coverage Report</title>
+		<style>
+			body {
+				background: black;
+				color: rgb(80, 80, 80);
+			}
+			body, pre, #legend span {
+				font-family: Menlo, monospace;
+				font-weight: bold;
+			}
+			#topbar {
+				background: black;
+				position: fixed;
+				top: 0; left: 0; right: 0;
+				height: 42px;
+				border-bottom: 1px solid rgb(80, 80, 80);
+			}
+			#content {
+				margin-top: 50px;
+			}
+			#nav, #legend {
+				float: left;
+				margin-left: 10px;
+			}
+			#legend {
+				margin-top: 12px;
+			}
+			#nav {
+				margin-top: 10px;
+			}
+			#legend span {
+				margin: 0 5px;
+			}
+			.cov0 { color: rgb(192, 0, 0) }
+.cov1 { color: rgb(128, 128, 128) }
+.cov2 { color: rgb(116, 140, 131) }
+.cov3 { color: rgb(104, 152, 134) }
+.cov4 { color: rgb(92, 164, 137) }
+.cov5 { color: rgb(80, 176, 140) }
+.cov6 { color: rgb(68, 188, 143) }
+.cov7 { color: rgb(56, 200, 146) }
+.cov8 { color: rgb(44, 212, 149) }
+.cov9 { color: rgb(32, 224, 152) }
+.cov10 { color: rgb(20, 236, 155) }
+
+		</style>
+	</head>
+	<body>
+		<div id="topbar">
+			<div id="nav">
+				<select id="files">
+				
+				<option value="file0">go.mlcdf.fr/sc-backup/internal/backend/fs.go (0.0%)</option>
+				
+				<option value="file1">go.mlcdf.fr/sc-backup/internal/backup/backup.go (82.6%)</option>
+				
+				<option value="file2">go.mlcdf.fr/sc-backup/internal/domain/entry.go (50.0%)</option>
+				
+				<option value="file3">go.mlcdf.fr/sc-backup/internal/format/csv.go (0.0%)</option>
+				
+				<option value="file4">go.mlcdf.fr/sc-backup/internal/format/json.go (0.0%)</option>
+				
+				<option value="file5">go.mlcdf.fr/sc-backup/internal/logging/logging.go (50.0%)</option>
+				
+				<option value="file6">go.mlcdf.fr/sc-backup/internal/pool/pool.go (90.5%)</option>
+				
+				<option value="file7">go.mlcdf.fr/sc-backup/main.go (0.0%)</option>
+				
+				</select>
+			</div>
+			<div id="legend">
+				<span>not tracked</span>
+			
+				<span class="cov0">no coverage</span>
+				<span class="cov1">low coverage</span>
+				<span class="cov2">*</span>
+				<span class="cov3">*</span>
+				<span class="cov4">*</span>
+				<span class="cov5">*</span>
+				<span class="cov6">*</span>
+				<span class="cov7">*</span>
+				<span class="cov8">*</span>
+				<span class="cov9">*</span>
+				<span class="cov10">high coverage</span>
+			
+			</div>
+		</div>
+		<div id="content">
+		
+		<pre class="file" id="file0" style="display: none">package backend
+
+import (
+        "os"
+        "path"
+
+        "go.mlcdf.fr/sc-backup/internal/domain"
+)
+
+// https://github.com/uber-go/guide/blob/master/style.md#verify-interface-compliance
+var _ domain.Backend = (*fs)(nil)
+
+type fs struct {
+        location  string
+        formatter domain.Formatter
+}
+
+func NewFS(location string, format domain.Formatter) *fs <span class="cov0" title="0">{
+        return &amp;fs{location, format}
+}</span>
+
+func (f *fs) Create() error <span class="cov0" title="0">{
+        os.MkdirAll(f.location, os.ModePerm)
+        return nil
+}</span>
+
+func (f *fs) Location() string <span class="cov0" title="0">{
+        return f.location
+}</span>
+
+func (f *fs) Save(data domain.Serializable) error <span class="cov0" title="0">{
+        p := path.Join(f.location, data.Slug()+f.formatter.Ext())
+
+        fd, err := os.Create(p)
+        if err != nil </span><span class="cov0" title="0">{
+                return err
+        }</span>
+
+        <span class="cov0" title="0">return f.formatter.Format(data, fd)</span>
+}
+</pre>
+		
+		<pre class="file" id="file1" style="display: none">package backup
+
+import (
+        "fmt"
+        "log"
+        "math"
+        "net/http"
+        "regexp"
+        "strconv"
+        "strings"
+        "time"
+
+        "github.com/PuerkitoBio/goquery"
+        "github.com/pkg/errors"
+        "go.mlcdf.fr/sc-backup/internal/domain"
+        "go.mlcdf.fr/sc-backup/internal/logging"
+        "go.mlcdf.fr/sc-backup/internal/pool"
+)
+
+const URL = "https://www.senscritique.com"
+
+var Categories = []string{"films", "series", "bd", "livres", "albums", "morceaux"}
+var Filters = []string{"done", "wish"}
+
+type parseFunc func(document *goquery.Document) ([]*domain.Entry, error)
+
+var client = &amp;http.Client{
+        Timeout: time.Second * 20,
+        CheckRedirect: func(req *http.Request, via []*http.Request) error <span class="cov1" title="1">{
+                return http.ErrUseLastResponse
+        }</span>,
+}
+
+func request(url string) (*http.Response, error) <span class="cov4" title="183">{
+        logging.Debug("GET %s", url)
+        res, err := client.Get(url)
+
+        // check for response error
+        if err != nil </span><span class="cov0" title="0">{
+                return nil, errors.Wrapf(err, "failed to GET %s", url)
+        }</span>
+
+        <span class="cov4" title="183">if res.StatusCode &gt; 400 </span><span class="cov0" title="0">{
+                return nil, fmt.Errorf("error: http %d for url %s", res.StatusCode, res.Request.URL)
+        }</span>
+
+        <span class="cov4" title="183">return res, nil</span>
+}
+
+func makeCollectionURL(username string, category string, filter string) string <span class="cov2" title="12">{
+        return fmt.Sprintf("%s/%s/collection/%s/%s/all/all/all/all/all/all/all/page-", URL, username, filter, category)
+}</span>
+
+func makeListURL(url string, index int) string <span class="cov2" title="9">{
+        if strings.Contains(url, "page-") </span><span class="cov1" title="3">{
+                re := regexp.MustCompile(`page-(.*)`)
+                url = re.ReplaceAllString(url, "page-"+strconv.Itoa(index))
+        }</span> else<span class="cov2" title="6"> {
+                if i := strings.LastIndex(url, "/"); i != -1 </span><span class="cov2" title="6">{
+                        url = url + "/"
+                }</span>
+                <span class="cov2" title="6">url = url + "page-" + strconv.Itoa(index)</span>
+        }
+        <span class="cov2" title="9">return url</span>
+}
+
+func validateUser(username string) error <span class="cov1" title="3">{
+        res, err := request(URL + "/" + username)
+
+        if err != nil </span><span class="cov0" title="0">{
+                return errors.Wrap(err, "failed to validate user")
+        }</span>
+
+        <span class="cov1" title="3">if res.StatusCode == 301 </span><span class="cov1" title="1">{
+                return fmt.Errorf("username %s does not exist or has a limited profil", username)
+        }</span>
+        <span class="cov1" title="2">return nil</span>
+}
+
+func isList(document *goquery.Document) bool <span class="cov6" title="1890">{
+        return document.Find(".elme-listTitle").Length() == 1
+}</span>
+
+func parseGenre(s *goquery.Selection) ([]string, error) <span class="cov6" title="1890">{
+        parsedGenre, err := s.Find("p.elco-baseline.elco-options").Html()
+        if err != nil </span><span class="cov0" title="0">{
+                return nil, err
+        }</span>
+
+        <span class="cov6" title="1890">filterWeirdGenre := func(genres []string) []string </span><span class="cov5" title="1746">{
+                out := make([]string, 0)
+                for _, genre := range genres </span><span class="cov6" title="6346">{
+                        if genre != "sketches" &amp;&amp; genre != "" &amp;&amp; !strings.Contains(genre, "(France).") </span><span class="cov6" title="4716">{
+                                out = append(out, strings.Title(genre))
+                        }</span>
+                }
+                <span class="cov5" title="1746">return out</span>
+        }
+
+        <span class="cov6" title="1890">result := strings.Split(strings.TrimSpace(parsedGenre), "&lt;/time&gt;")
+
+        splitWord := func(word string) []string </span><span class="cov5" title="1746">{
+                word = strings.Trim(strings.TrimSpace(word), ".")
+                array := regexp.MustCompile(`[\,\s]+et[\s]+|\,[\s]+|\s{2,}`).Split(word, -1)
+                return array
+        }</span>
+
+        <span class="cov6" title="1890">if len(result) &gt; 1 </span><span class="cov5" title="1746">{
+                return filterWeirdGenre(splitWord(result[1])), nil
+        }</span>
+
+        <span class="cov4" title="144">matches := regexp.MustCompile(`[.*\s]*Sortie : .*\.[\s]*(.*)[.\s]*`).FindStringSubmatch(result[0])
+        if len(matches) != 2 </span><span class="cov4" title="144">{
+                return nil, nil
+        }</span>
+
+        <span class="cov0" title="0">genres := matches[1]
+        return filterWeirdGenre(splitWord(genres)), nil</span>
+}
+
+func parseDocument(document *goquery.Document) ([]*domain.Entry, error) <span class="cov4" title="110">{
+        entries := make([]*domain.Entry, 0)
+        document.Find(".elco-collection-item, .elli-item").Each(func(i int, s *goquery.Selection) </span><span class="cov6" title="1890">{
+                id, _ := s.Find(".elco-collection-content &gt; .elco-collection-poster, .elli-media figure").Attr("data-sc-product-id")
+                title := strings.TrimSpace(s.Find(".elco-title a").Text())
+                originalTitle := strings.TrimSpace(s.Find(".elco-original-title").Text())
+
+                var entry = &amp;domain.Entry{
+                        ID:            id,
+                        Title:         title,
+                        OriginalTitle: originalTitle,
+                }
+
+                entry.Authors = make([]string, 0, 5)
+                s.Find(".elco-product-detail a.elco-baseline-a, .elli-content a.elco-baseline-a").Each(func(i int, s *goquery.Selection) </span><span class="cov6" title="2304">{
+                        author := strings.TrimSpace(s.Text())
+                        entry.Authors = append(entry.Authors, author)
+                }</span>)
+
+                <span class="cov6" title="1890">parsedDate := strings.TrimSpace(s.Find(".elco-date").Text())
+                // some works don't have year, for example Œdipe Roi
+                // https://www.senscritique.com/mlcdf/collection/done/livres/all/all/all/all/all/all/list/page-1
+                if parsedDate != "" </span><span class="cov5" title="1793">{
+                        year, err := strconv.Atoi(parsedDate[1 : len(parsedDate)-1])
+                        if err != nil </span><span class="cov0" title="0">{
+                                log.Fatal(err)
+                        }</span>
+                        <span class="cov5" title="1793">entry.Year = year</span>
+                }
+
+                <span class="cov6" title="1890">var err error
+                entry.Genres, err = parseGenre(s)
+                if err != nil </span><span class="cov0" title="0">{
+                        log.Fatal(err)
+                }</span>
+
+                <span class="cov6" title="1890">entry.Comment = strings.TrimSpace(s.Find(".elli-annotation-content").Text())
+
+                entry.Favorite = s.Find(".eins-user-recommend").Length() != 0
+
+                var ratingString string
+                if isList(document) </span><span class="cov4" title="144">{
+                        ratingString = strings.TrimSpace(s.Find(".elrua-useraction-inner").Text())
+                }</span> else<span class="cov5" title="1746"> {
+                        ratingString = strings.TrimSpace(s.Find(".elco-collection-rating.user &gt; a &gt; div &gt; span").Text())
+                }</span>
+
+                <span class="cov6" title="1890">if ratingString != "" </span><span class="cov5" title="1376">{
+                        rating, err := strconv.Atoi(ratingString)
+                        if err != nil </span><span class="cov0" title="0">{
+                                log.Fatal(err)
+                        }</span>
+                        <span class="cov5" title="1376">entry.Rating = rating</span>
+                }
+                <span class="cov6" title="1890">entries = append(entries, entry)</span>
+        })
+
+        <span class="cov4" title="110">return entries, nil</span>
+}
+
+func collectionSize(document *goquery.Document, filter string) (int, error) <span class="cov2" title="12">{
+        _nbOfEntries := strings.TrimSpace(document.Find(fmt.Sprintf("[data-sc-collection-filter=%s] span span", filter)).Text())
+
+        if _nbOfEntries == "" </span><span class="cov1" title="4">{
+                if document.Find(".elco-collection-item-empty").Length() &gt; 0 </span><span class="cov1" title="4">{
+                        return 0, nil
+                }</span>
+
+                <span class="cov0" title="0">return 0, fmt.Errorf("error: failed to parsed nbOfEntries")</span>
+        }
+        <span class="cov2" title="8">nbOfEntries, err := strconv.Atoi(_nbOfEntries[1 : len(_nbOfEntries)-1])
+        if err != nil </span><span class="cov0" title="0">{
+                return 0, err
+        }</span>
+        <span class="cov2" title="8">return nbOfEntries, nil</span>
+}
+
+func listSize(document *goquery.Document) (int, error) <span class="cov1" title="1">{
+        sizeString := strings.TrimSpace(document.Find("[data-rel=list-products-count]").Text())
+        if sizeString == "" </span><span class="cov0" title="0">{
+                return 0, nil
+        }</span>
+
+        <span class="cov1" title="1">size, err := strconv.Atoi(sizeString)
+        if err != nil </span><span class="cov0" title="0">{
+                return 0, err
+        }</span>
+        <span class="cov1" title="1">return size, nil</span>
+}
+
+func listTitle(document *goquery.Document) (string, error) <span class="cov1" title="1">{
+        title := strings.TrimSpace(document.Find(".d-heading1.elme-listTitle").Text())
+
+        if title == "" </span><span class="cov0" title="0">{
+                return "", fmt.Errorf("title cannot be empty")
+        }</span>
+        <span class="cov1" title="1">return title, nil</span>
+}
+
+func listDescription(document *goquery.Document) string <span class="cov1" title="1">{
+        return strings.TrimSpace(document.Find("[data-rel=list-description]").Text())
+}</span>
+
+func extractPage(url string, parseF parseFunc) ([]*domain.Entry, error) <span class="cov4" title="166">{
+        res, err := request(url)
+        if err != nil </span><span class="cov0" title="0">{
+                return nil, err
+        }</span>
+
+        <span class="cov4" title="166">document, err := goquery.NewDocumentFromResponse(res)
+        if err != nil </span><span class="cov0" title="0">{
+                return nil, err
+        }</span>
+
+        <span class="cov4" title="166">entries, err := parseF(document)
+        if err != nil </span><span class="cov0" title="0">{
+                return nil, err
+        }</span>
+        <span class="cov4" title="166">return entries, nil</span>
+}
+
+// List backs up a list
+func List(url string, back domain.Backend) error <span class="cov1" title="1">{
+        res, err := request(url)
+        if err != nil </span><span class="cov0" title="0">{
+                return err
+        }</span>
+
+        <span class="cov1" title="1">err = back.Create()
+        if err != nil </span><span class="cov0" title="0">{
+                return err
+        }</span>
+
+        <span class="cov1" title="1">document, err := goquery.NewDocumentFromResponse(res)
+        if err != nil </span><span class="cov0" title="0">{
+                return err
+        }</span>
+
+        <span class="cov1" title="1">size, err := listSize(document)
+        if err != nil </span><span class="cov0" title="0">{
+                return errors.Wrapf(err, "%s", url)
+        }</span>
+
+        <span class="cov1" title="1">title, err := listTitle(document)
+        if err != nil </span><span class="cov0" title="0">{
+                return errors.Wrapf(err, "%s", url)
+        }</span>
+
+        <span class="cov1" title="1">entries, err := parseDocument(document)
+        if err != nil </span><span class="cov0" title="0">{
+                return err
+        }</span>
+
+        <span class="cov1" title="1">list := domain.NewList(entries, title, listDescription(document))
+
+        nbOfPages := math.Ceil(float64(size) / 30)
+
+        if nbOfPages &gt; 1 </span><span class="cov1" title="1">{
+                tasks := []*pool.Task{}
+
+                for i := 2; i &lt;= int(nbOfPages); i++ </span><span class="cov1" title="4">{
+                        i := i
+                        tasks = append(tasks, pool.NewTask(func() (interface{}, error) </span><span class="cov1" title="4">{
+                                entries, err := extractPage(makeListURL(url, i), parseDocument)
+                                if err != nil </span><span class="cov0" title="0">{
+                                        return nil, err
+                                }</span>
+                                <span class="cov1" title="4">return entries, nil</span>
+                        }))
+                }
+
+                <span class="cov1" title="1">p := pool.NewPool(tasks, 20)
+                p.Run()
+
+                list.Entries, err = p.Merge(list.Entries)
+                if err != nil </span><span class="cov0" title="0">{
+                        return err
+                }</span>
+        }
+
+        <span class="cov1" title="1">if nbEntries := len(list.Entries); nbEntries != size </span><span class="cov0" title="0">{
+                return fmt.Errorf("the list '%s' has %d entries, but only %d were found", title, size, nbEntries)
+        }</span>
+
+        <span class="cov1" title="1">err = back.Save(list)
+        if err != nil </span><span class="cov0" title="0">{
+                return err
+        }</span>
+
+        <span class="cov1" title="1">return nil</span>
+}
+
+// Collection backs up a user collection
+func Collection(username string, back domain.Backend) error <span class="cov1" title="1">{
+        err := validateUser(username)
+        if err != nil </span><span class="cov0" title="0">{
+                return err
+        }</span>
+
+        <span class="cov1" title="1">logging.Info("Backing up collection for user %s", username)
+        back.Create()
+
+        dates, err := journal(username)
+        if err != nil </span><span class="cov0" title="0">{
+                return err
+        }</span>
+
+        <span class="cov1" title="1">for _, category := range Categories </span><span class="cov2" title="6">{
+                for _, filter := range Filters </span><span class="cov2" title="12">{
+
+                        url := makeCollectionURL(username, category, filter)
+                        res, err := request(url)
+                        if err != nil </span><span class="cov0" title="0">{
+                                return err
+                        }</span>
+
+                        <span class="cov2" title="12">document, err := goquery.NewDocumentFromResponse(res)
+                        if err != nil </span><span class="cov0" title="0">{
+                                return err
+                        }</span>
+
+                        <span class="cov2" title="12">size, err := collectionSize(document, filter)
+                        if err != nil </span><span class="cov0" title="0">{
+                                return errors.Wrapf(err, "%s", url)
+                        }</span>
+
+                        <span class="cov2" title="12">entries, err := parseDocument(document)
+                        if err != nil </span><span class="cov0" title="0">{
+                                return err
+                        }</span>
+
+                        <span class="cov2" title="12">collection := domain.NewCollection(entries, category, filter, username)
+
+                        nbOfPages := math.Ceil(float64(size) / 18)
+                        if nbOfPages &gt; 1 </span><span class="cov2" title="8">{
+                                tasks := []*pool.Task{}
+
+                                for i := 2; i &lt;= int(nbOfPages); i++ </span><span class="cov4" title="93">{
+                                        i := i
+                                        tasks = append(tasks, pool.NewTask(func() (interface{}, error) </span><span class="cov4" title="93">{
+                                                entries, err := extractPage(url+strconv.Itoa(i), parseDocument)
+                                                if err != nil </span><span class="cov0" title="0">{
+                                                        return nil, err
+                                                }</span>
+                                                <span class="cov4" title="93">return entries, nil</span>
+                                        }))
+                                }
+
+                                <span class="cov2" title="8">p := pool.NewPool(tasks, 20)
+                                p.Run()
+
+                                collection.Entries, err = p.Merge(collection.Entries)
+                                if err != nil </span><span class="cov0" title="0">{
+                                        return err
+                                }</span>
+                        }
+
+                        <span class="cov2" title="12">if filter == "done" </span><span class="cov2" title="6">{
+                                for _, entry := range collection.Entries </span><span class="cov5" title="1241">{
+                                        for _, d := range dates </span><span class="cov10" title="738395">{
+                                                if entry.ID == d.ID </span><span class="cov5" title="559">{
+                                                        entry.DoneDate = d.DoneDate
+                                                }</span>
+                                        }
+                                }
+                        }
+
+                        <span class="cov2" title="12">err = back.Save(collection)
+                        if err != nil </span><span class="cov0" title="0">{
+                                return err
+                        }</span>
+                }
+        }
+
+        <span class="cov1" title="1">return nil</span>
+}
+
+// journal parse a user journal and extract done dates
+func journal(username string) ([]*domain.Entry, error) <span class="cov1" title="1">{
+        url := URL + "/" + username + "/journal/all/all"
+        res, err := request(url)
+        if err != nil </span><span class="cov0" title="0">{
+                return nil, err
+        }</span>
+
+        <span class="cov1" title="1">document, err := goquery.NewDocumentFromResponse(res)
+        if err != nil </span><span class="cov0" title="0">{
+                return nil, err
+        }</span>
+
+        <span class="cov1" title="1">size, err := journalSize(document)
+        if err != nil </span><span class="cov0" title="0">{
+                return nil, err
+        }</span>
+
+        <span class="cov1" title="1">entries, err := extractDoneDate(document)
+        if err != nil </span><span class="cov0" title="0">{
+                return nil, err
+        }</span>
+
+        <span class="cov1" title="1">nbOfPages := math.Ceil(float64(size) / 20)
+        if nbOfPages &gt; 1 </span><span class="cov1" title="1">{
+                tasks := []*pool.Task{}
+
+                for i := 2; i &lt;= int(nbOfPages); i++ </span><span class="cov3" title="69">{
+                        i := i
+                        tasks = append(tasks, pool.NewTask(func() (interface{}, error) </span><span class="cov3" title="69">{
+                                entries, err := extractPage(URL+"/"+username+"/journal/all/all/all/page-"+strconv.Itoa(i)+".ajax", extractDoneDate)
+                                if err != nil </span><span class="cov0" title="0">{
+                                        return nil, err
+                                }</span>
+                                <span class="cov3" title="69">return entries, nil</span>
+                        }))
+                }
+
+                <span class="cov1" title="1">p := pool.NewPool(tasks, 20)
+                p.Run()
+
+                entries, err = p.Merge(entries)
+                if err != nil </span><span class="cov0" title="0">{
+                        return nil, err
+                }</span>
+        }
+
+        <span class="cov1" title="1">return entries, nil</span>
+}
+
+func extractDoneDate(document *goquery.Document) ([]*domain.Entry, error) <span class="cov3" title="70">{
+        entries := make([]*domain.Entry, 0)
+
+        document.Find(".eldi-list-item").Each(func(i int, s *goquery.Selection) </span><span class="cov5" title="1006">{
+                date, exists := s.Attr("data-sc-datedone")
+                if !exists </span><span class="cov4" title="270">{
+                        // ce n'est pas une oeuvre, mais un titre année ou mois
+                        // on les ignore
+                        return
+                }</span>
+
+                <span class="cov5" title="736">s.Find(".eldi-collection-container").Each(func(i int, s *goquery.Selection) </span><span class="cov5" title="1381">{
+                        parsedId, exists := s.Find(".eldi-collection-poster").Attr("data-sc-product-id")
+                        if !exists </span><span class="cov5" title="786">{
+                                // pour les épisodes de série, on arrive ici par exemple.
+                                // on les ignore
+                                return
+                        }</span>
+                        <span class="cov5" title="595">id := strings.TrimSpace(parsedId)
+                        e := &amp;domain.Entry{
+                                ID:       id,
+                                DoneDate: date,
+                        }
+                        entries = append(entries, e)</span>
+                })
+        })
+        <span class="cov3" title="70">return entries, nil</span>
+}
+
+func journalSize(document *goquery.Document) (int, error) <span class="cov1" title="1">{
+        size := 0
+        document.Find(".elco-collection-count").Each(func(i int, s *goquery.Selection) </span><span class="cov2" title="14">{
+                parsedValue := strings.TrimSpace(s.Text())
+                if parsedValue != "" </span><span class="cov2" title="14">{
+                        nb, err := strconv.Atoi(parsedValue[1 : len(parsedValue)-1])
+                        if err != nil </span><span class="cov0" title="0">{
+                                log.Fatal(err)
+                        }</span>
+                        <span class="cov2" title="14">size += nb</span>
+                }
+        })
+        <span class="cov1" title="1">return size, nil</span>
+}
+</pre>
+		
+		<pre class="file" id="file2" style="display: none">package domain
+
+import (
+        "fmt"
+
+        "github.com/metal3d/go-slugify"
+)
+
+// Entry represents an entry in a collection or list : a movie, series, books, etc...
+type Entry struct {
+        ID            string   `json:"id"`
+        Title         string   `json:"title"`
+        OriginalTitle string   `json:"original_title,omitempty"`
+        Year          int      `json:"year,omitempty"`
+        Authors       []string `json:"authors"`
+        Rating        int      `json:"rating,omitempty"`
+        DoneDate      string   `json:"done_date,omitempty"`
+        Comment       string   `json:"comment,omitempty"`
+        Favorite      bool     `json:"favorite"`
+        Genres        []string `json:"genres,omitempty"`
+}
+
+var _ Serializable = (*Collection)(nil)
+
+type Collection struct {
+        Entries  []*Entry `json:"entries"`
+        Category string   `json:"category"`
+        Filter   string   `json:"filter"`
+        Username string   `json:"username"`
+}
+
+func NewCollection(entries []*Entry, Category, Filter, Username string) *Collection <span class="cov10" title="12">{
+        return &amp;Collection{
+                Entries:  entries,
+                Category: Category,
+                Filter:   Filter,
+                Username: Username,
+        }
+}</span>
+
+func (c *Collection) Slug() string <span class="cov10" title="12">{
+        return fmt.Sprintf("%s-%s", c.Category, c.Filter)
+}</span>
+
+func (c *Collection) CSV() []*Entry <span class="cov0" title="0">{
+        return c.Entries
+}</span>
+
+func (c *Collection) JSON() interface{} <span class="cov0" title="0">{
+        return c
+}</span>
+
+var _ Serializable = (*List)(nil)
+
+type List struct {
+        Entries     []*Entry `json:"entries"`
+        Title       string   `json:"title"`
+        Description string   `json:"description,omitempty"`
+}
+
+func NewList(entries []*Entry, Title, Description string) *List <span class="cov1" title="1">{
+        return &amp;List{
+                Entries:     entries,
+                Title:       Title,
+                Description: Description,
+        }
+}</span>
+
+func (l *List) Slug() string <span class="cov1" title="1">{
+        return slugify.Marshal(l.Title, true)
+}</span>
+
+func (l *List) CSV() []*Entry <span class="cov0" title="0">{
+        return l.Entries
+}</span>
+
+func (l *List) JSON() interface{} <span class="cov0" title="0">{
+        return l
+}</span>
+</pre>
+		
+		<pre class="file" id="file3" style="display: none">package format
+
+import (
+        "encoding/csv"
+        "io"
+        "strconv"
+        "strings"
+
+        "go.mlcdf.fr/sc-backup/internal/domain"
+)
+
+var _ domain.Formatter = (*CSV)(nil)
+
+type CSV struct{}
+
+func (f *CSV) Ext() string <span class="cov0" title="0">{
+        return ".csv"
+}</span>
+
+func (f *CSV) Format(data domain.Serializable, writer io.Writer) error <span class="cov0" title="0">{
+        mapMapString := make([][]string, 0, len(data.CSV()))
+
+        w := csv.NewWriter(writer)
+        for _, entry := range data.CSV() </span><span class="cov0" title="0">{
+                mapString := []string{
+                        entry.ID,
+                        entry.Title,
+                        entry.OriginalTitle,
+                        strconv.Itoa(entry.Year),
+                        strings.Join(entry.Authors, ";"),
+                        strconv.Itoa(entry.Rating),
+                }
+                mapMapString = append(mapMapString, mapString)
+        }</span>
+
+        <span class="cov0" title="0">err := w.WriteAll(mapMapString)
+        return err</span>
+}
+</pre>
+		
+		<pre class="file" id="file4" style="display: none">package format
+
+import (
+        "encoding/json"
+        "io"
+
+        "go.mlcdf.fr/sc-backup/internal/domain"
+)
+
+var _ domain.Formatter = (*JSON)(nil)
+
+type JSON struct {
+        pretty bool
+}
+
+func NewJSON(pretty bool) *JSON <span class="cov0" title="0">{
+        return &amp;JSON{pretty}
+}</span>
+
+func (f *JSON) Ext() string <span class="cov0" title="0">{
+        return ".json"
+}</span>
+
+func (f *JSON) Format(data domain.Serializable, writer io.Writer) error <span class="cov0" title="0">{
+        var formatted []byte
+        var err error
+
+        if f.pretty </span><span class="cov0" title="0">{
+                formatted, err = json.MarshalIndent(data.JSON(), "", "    ")
+        }</span> else<span class="cov0" title="0"> {
+                formatted, err = json.Marshal(data.JSON())
+        }</span>
+        <span class="cov0" title="0">if err != nil </span><span class="cov0" title="0">{
+                return err
+        }</span>
+
+        <span class="cov0" title="0">_, err = writer.Write(formatted)
+        return err</span>
+}
+</pre>
+		
+		<pre class="file" id="file5" style="display: none">package logging
+
+import (
+        "fmt"
+        "os"
+)
+
+var isVerbose bool
+
+// EnableVerboseOutput enables debug logging
+func EnableVerboseOutput() <span class="cov0" title="0">{
+        isVerbose = true
+}</span>
+
+// Info prints an info to stderr
+// Most message should be log at this level
+func Info(format string, v ...interface{}) <span class="cov1" title="1">{
+        fmt.Fprintf(os.Stderr, format+"\n", v...)
+}</span>
+
+// Debug prints an debug to stderr in verbose mode
+func Debug(format string, v ...interface{}) <span class="cov10" title="183">{
+        if isVerbose </span><span class="cov0" title="0">{
+                fmt.Fprintf(os.Stderr, format+"\n", v...)
+        }</span>
+}
+</pre>
+		
+		<pre class="file" id="file6" style="display: none">package pool
+
+import (
+        "fmt"
+        "sync"
+
+        "go.mlcdf.fr/sc-backup/internal/domain"
+)
+
+type RunFunc func() (interface{}, error)
+
+// Task encapsulates a work item that should go in a work
+// pool.
+type Task struct {
+        // Err holds an error that occurred during a task. Its
+        // result is only meaningful after Run has been called
+        // for the pool that holds it.
+        Err  error
+        Out  interface{}
+        Func RunFunc
+}
+
+// NewTask initializes a new task based on a given work
+// function.
+func NewTask(f RunFunc) *Task <span class="cov9" title="166">{
+        return &amp;Task{Func: f}
+}</span>
+
+// Run runs a Task and does appropriate accounting via a
+// given sync.WorkGroup.
+func (t *Task) Run(wg *sync.WaitGroup) <span class="cov9" title="166">{
+        t.Out, t.Err = t.Func()
+        wg.Done()
+}</span>
+
+// Pool is a worker group that runs a number of tasks at a
+// configured concurrency.
+type Pool struct {
+        Tasks []*Task
+
+        concurrency int
+        tasksChan   chan *Task
+        wg          sync.WaitGroup
+}
+
+// NewPool initializes a new pool with the given tasks and
+// at the given concurrency.
+func NewPool(tasks []*Task, concurrency int) *Pool <span class="cov4" title="10">{
+        return &amp;Pool{
+                Tasks:       tasks,
+                concurrency: concurrency,
+                tasksChan:   make(chan *Task),
+        }
+}</span>
+
+// Run runs all work within the pool and blocks until it's
+// finished.
+func (p *Pool) Run() <span class="cov4" title="10">{
+        for i := 0; i &lt; p.concurrency; i++ </span><span class="cov10" title="200">{
+                go p.work()
+        }</span>
+
+        <span class="cov4" title="10">p.wg.Add(len(p.Tasks))
+        for _, task := range p.Tasks </span><span class="cov9" title="166">{
+                p.tasksChan &lt;- task
+        }</span>
+
+        // all workers return
+        <span class="cov4" title="10">close(p.tasksChan)
+
+        p.wg.Wait()</span>
+}
+
+// The work loop for any single goroutine.
+func (p *Pool) work() <span class="cov10" title="200">{
+        for task := range p.tasksChan </span><span class="cov9" title="166">{
+                task.Run(&amp;p.wg)
+        }</span>
+}
+
+// Merge the tasks result
+func (p *Pool) Merge(entries []*domain.Entry) ([]*domain.Entry, error) <span class="cov4" title="10">{
+        for _, task := range p.Tasks </span><span class="cov9" title="166">{
+                if task.Err != nil </span><span class="cov0" title="0">{
+                        return nil, task.Err
+                }</span>
+
+                <span class="cov9" title="166">_out, ok := task.Out.([]*domain.Entry)
+                if !ok </span><span class="cov0" title="0">{
+                        return nil, fmt.Errorf("critical: failed to cast to []*Entry. Please open a bug report at https://go.mlcdf.fr/sc-backup")
+                }</span>
+                <span class="cov9" title="166">entries = append(entries, _out...)</span>
+        }
+        <span class="cov4" title="10">return entries, nil</span>
+}
+</pre>
+		
+		<pre class="file" id="file7" style="display: none">package main
+
+import (
+        "flag"
+        "fmt"
+        "log"
+        "os"
+        "path/filepath"
+        "runtime/debug"
+        "time"
+
+        "go.mlcdf.fr/sc-backup/internal/backend"
+        "go.mlcdf.fr/sc-backup/internal/backup"
+        "go.mlcdf.fr/sc-backup/internal/domain"
+        "go.mlcdf.fr/sc-backup/internal/format"
+        "go.mlcdf.fr/sc-backup/internal/logging"
+)
+
+const usage = `Usage:
+    sc-backup --collection [USERNAME]
+    sc-backup --list [URL]
+
+Options:
+    -c, --collection USERNAME   Backup a user's collection
+    -l, --list URL              Backup a list
+    -o, --output PATH           Directory at which to backup the data. Defaults to ./output
+    -f, --format json|csv       Export format. Defaults to json
+    -p, --pretty                Prettify the JSON exports
+    -v, --verbose               Print verbose output
+    -V, --version               Print version
+
+Examples:
+    sc-backup --collection mlcdf
+    sc-backup --list https://www.senscritique.com/liste/Vu_au_cinema/363578
+`
+
+// Version can be set at link time to override debug.BuildInfo.Main.Version,
+// which is "(devel)" when building from within the module. See
+// golang.org/issue/29814 and golang.org/issue/29228.
+var Version string
+
+func main() <span class="cov0" title="0">{
+        log.SetFlags(0)
+        flag.Usage = func() </span><span class="cov0" title="0">{ fmt.Fprintf(os.Stderr, usage) }</span>
+
+        <span class="cov0" title="0">if len(os.Args) == 1 </span><span class="cov0" title="0">{
+                flag.Usage()
+                os.Exit(0)
+        }</span>
+
+        <span class="cov0" title="0">var (
+                isVerboseFlag  bool
+                listFlag       string
+                collectionFlag string
+                outputFlag     string = "output"
+                formatFlag     string = "json"
+                prettyFlag     bool
+                versionFlag    bool
+        )
+
+        flag.BoolVar(&amp;versionFlag, "version", versionFlag, "print the version")
+        flag.BoolVar(&amp;versionFlag, "V", versionFlag, "print the version")
+
+        flag.BoolVar(&amp;isVerboseFlag, "verbose", isVerboseFlag, "enable verbose output")
+        flag.BoolVar(&amp;isVerboseFlag, "v", isVerboseFlag, "enable verbose output")
+
+        flag.StringVar(&amp;listFlag, "list", listFlag, "Download list")
+        flag.StringVar(&amp;listFlag, "l", listFlag, "Download list")
+
+        flag.StringVar(&amp;collectionFlag, "collection", collectionFlag, "Download user collection")
+        flag.StringVar(&amp;collectionFlag, "c", collectionFlag, "Download user collection")
+
+        flag.StringVar(&amp;outputFlag, "output", outputFlag, "Output directory")
+        flag.StringVar(&amp;outputFlag, "o", outputFlag, "Output directory")
+
+        flag.StringVar(&amp;formatFlag, "format", formatFlag, "Output format. Either json or csv. Default to json.")
+        flag.StringVar(&amp;formatFlag, "f", formatFlag, "Output format. Either json or csv. Default to json.")
+
+        flag.BoolVar(&amp;prettyFlag, "pretty", prettyFlag, "Pretty output")
+        flag.BoolVar(&amp;prettyFlag, "p", prettyFlag, "Pretty output")
+
+        flag.Parse()
+
+        if versionFlag </span><span class="cov0" title="0">{
+                if Version != "" </span><span class="cov0" title="0">{
+                        fmt.Println(Version)
+                        return
+                }</span>
+                <span class="cov0" title="0">if buildInfo, ok := debug.ReadBuildInfo(); ok </span><span class="cov0" title="0">{
+                        fmt.Println(buildInfo.Main.Version)
+                        return
+                }</span>
+                <span class="cov0" title="0">fmt.Println("(unknown)")
+                return</span>
+        }
+
+        <span class="cov0" title="0">start := time.Now()
+
+        if collectionFlag != "" &amp;&amp; listFlag != "" </span><span class="cov0" title="0">{
+                log.Fatalln("error: you can't set --list and --collection at the same time")
+        }</span>
+
+        <span class="cov0" title="0">if collectionFlag == "" &amp;&amp; listFlag == "" </span><span class="cov0" title="0">{
+                log.Fatalln("error: at least one of --list or --collection is required")
+        }</span>
+
+        <span class="cov0" title="0">if formatFlag == "csv" &amp;&amp; prettyFlag </span><span class="cov0" title="0">{
+                logging.Info("warning: -p/--pretty is useless with -f/--format csv. CSV won't be prettified.")
+        }</span>
+
+        <span class="cov0" title="0">if isVerboseFlag </span><span class="cov0" title="0">{
+                logging.EnableVerboseOutput()
+        }</span>
+
+        <span class="cov0" title="0">var back domain.Backend
+        var err error
+
+        var formatter domain.Formatter
+
+        switch formatFlag </span>{
+        case "json":<span class="cov0" title="0">
+                formatter = format.NewJSON(prettyFlag)</span>
+        case "csv":<span class="cov0" title="0">
+                formatter = &amp;format.CSV{}</span>
+        default:<span class="cov0" title="0">
+                log.Fatalf("invalid format %s: it should be json|csv|html", formatFlag)</span>
+        }
+
+        <span class="cov0" title="0">if collectionFlag != "" </span><span class="cov0" title="0">{
+                back = backend.NewFS(filepath.Join(outputFlag, collectionFlag), formatter)
+                err = backup.Collection(collectionFlag, back)
+        }</span>
+
+        <span class="cov0" title="0">if listFlag != "" </span><span class="cov0" title="0">{
+                back = backend.NewFS(outputFlag, formatter)
+                err = backup.List(listFlag, back)
+        }</span>
+
+        <span class="cov0" title="0">if err != nil </span><span class="cov0" title="0">{
+                log.Fatalf("error: %s", err)
+        }</span>
+
+        <span class="cov0" title="0">to, err := filepath.Abs(back.Location())
+        if err != nil </span><span class="cov0" title="0">{
+                to = back.Location()
+        }</span>
+        <span class="cov0" title="0">logging.Info("Saved to %s in %s", to, time.Since(start).Round(time.Millisecond).String())</span>
+}
+</pre>
+		
+		</div>
+	</body>
+	<script>
+	(function() {
+		var files = document.getElementById('files');
+		var visible;
+		files.addEventListener('change', onChange, false);
+		function select(part) {
+			if (visible)
+				visible.style.display = 'none';
+			visible = document.getElementById(part);
+			if (!visible)
+				return;
+			files.value = part;
+			visible.style.display = 'block';
+			location.hash = part;
+		}
+		function onChange() {
+			select(files.value);
+			window.scrollTo(0, 0);
+		}
+		if (location.hash != "") {
+			select(location.hash.substr(1));
+		}
+		if (!visible) {
+			select("file0");
+		}
+	})();
+	</script>
+</html>
