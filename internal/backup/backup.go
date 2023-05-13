@@ -17,7 +17,7 @@ import (
 	"go.mlcdf.fr/sc-backup/internal/pool"
 )
 
-const URL = "https://www.senscritique.com"
+const URL = "https://old.senscritique.com"
 
 var Categories = []string{"films", "series", "bd", "livres", "albums", "morceaux"}
 var Filters = []string{"done", "wish"}
