@@ -4,6 +4,8 @@
 
 /!\ I since changed the URL to old.senscritique.com, so this will actually work (as long as old.senscritique.com refers to the old server-side-rendered website)
 
+/!\ For some time now, even old.senscritique.com refers to the new client-side rendered website. So this program won't work anymore.
+
 [![test](https://github.com/mlcdf/sc-backup/actions/workflows/test.yml/badge.svg?branch=main)](https://github.com/mlcdf/sc-backup/actions/workflows/test.yml)
 [![coverage](https://mlcdf.github.io/sc-backup/badge.svg)](https://mlcdf.github.io/sc-backup/report.html)
 
